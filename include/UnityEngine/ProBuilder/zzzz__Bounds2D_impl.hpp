@@ -1,0 +1,603 @@
+#pragma once
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Bounds2D_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Edge_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D.get_size
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::ProBuilder::Bounds2D::*)()>(&::UnityEngine::ProBuilder::Bounds2D::get_size)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2b38594;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "get_size",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D.set_size
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Bounds2D::*)(::UnityEngine::Vector2)>(&::UnityEngine::ProBuilder::Bounds2D::set_size)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x2b3859c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "set_size",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D.get_extents
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::ProBuilder::Bounds2D::*)()>(&::UnityEngine::ProBuilder::Bounds2D::get_extents)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2b385b4;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "get_extents",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D.get_corners
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*> (::UnityEngine::ProBuilder::Bounds2D::*)()>(&::UnityEngine::ProBuilder::Bounds2D::get_corners)> {
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x2b385bc;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "get_corners",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Bounds2D::*)()>(&::UnityEngine::ProBuilder::Bounds2D::_ctor)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x2b38684;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Bounds2D::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&::UnityEngine::ProBuilder::Bounds2D::_ctor)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x2b386f4;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Bounds2D::*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*)>(&::UnityEngine::ProBuilder::Bounds2D::_ctor)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x2b387a0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Bounds2D::*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<int32_t>*)>(&::UnityEngine::ProBuilder::Bounds2D::_ctor)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x2b38b10;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<int32_t>*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Bounds2D::*)(::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>, ::ArrayW<::UnityEngine::ProBuilder::Edge,::Array<::UnityEngine::ProBuilder::Edge>*>)>(&::UnityEngine::ProBuilder::Bounds2D::_ctor)> {
+  constexpr static std::size_t size = 0x1c4;
+  constexpr static std::size_t addrs = 0x2b39100;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::ProBuilder::Edge,::Array<::UnityEngine::ProBuilder::Edge>*>>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Bounds2D::*)(::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>, int32_t)>(&::UnityEngine::ProBuilder::Bounds2D::_ctor)> {
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x2b392c4;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D.ContainsPoint
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Bounds2D::*)(::UnityEngine::Vector2)>(&::UnityEngine::ProBuilder::Bounds2D::ContainsPoint)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x2b39410;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "ContainsPoint",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D.IntersectsLineSegment
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Bounds2D::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&::UnityEngine::ProBuilder::Bounds2D::IntersectsLineSegment)> {
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x2b39464;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "IntersectsLineSegment",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D.Intersects
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Bounds2D::*)(::UnityEngine::ProBuilder::Bounds2D*)>(&::UnityEngine::ProBuilder::Bounds2D::Intersects)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x2b39674;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "Intersects",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Bounds2D*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D.Intersects
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Bounds2D::*)(::UnityEngine::Rect)>(&::UnityEngine::ProBuilder::Bounds2D::Intersects)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x2b396d8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "Intersects",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D.SetWithPoints
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Bounds2D::*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*)>(&::UnityEngine::ProBuilder::Bounds2D::SetWithPoints)> {
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x2b38820;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "SetWithPoints",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D.SetWithPoints
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Bounds2D::*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<int32_t>*)>(&::UnityEngine::ProBuilder::Bounds2D::SetWithPoints)> {
+  constexpr static std::size_t size = 0x560;
+  constexpr static std::size_t addrs = 0x2b38ba0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "SetWithPoints",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<int32_t>*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D.Center
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*)>(&::UnityEngine::ProBuilder::Bounds2D::Center)> {
+  constexpr static std::size_t size = 0x2b4;
+  constexpr static std::size_t addrs = 0x2b39768;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "Center",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D.Center
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<int32_t>*)>(&::UnityEngine::ProBuilder::Bounds2D::Center)> {
+  constexpr static std::size_t size = 0x458;
+  constexpr static std::size_t addrs = 0x2b39a1c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "Center",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<int32_t>*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D.Size
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<int32_t>*)>(&::UnityEngine::ProBuilder::Bounds2D::Size)> {
+  constexpr static std::size_t size = 0x44c;
+  constexpr static std::size_t addrs = 0x2b39e74;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "Size",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<int32_t>*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D.Center
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector4>*, ::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::UnityEngine::ProBuilder::Bounds2D::Center)> {
+  constexpr static std::size_t size = 0x540;
+  constexpr static std::size_t addrs = 0x2b3a2c0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "Center",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector4>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<int32_t>*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Bounds2D.ToString
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::Bounds2D::*)()>(&::UnityEngine::ProBuilder::Bounds2D::ToString)> {
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x2b3a800;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                                  3
+                                ));
+    return ___internal_method;
+  }
+};
+constexpr void UnityEngine::ProBuilder::Bounds2D::__set_center(::UnityEngine::Vector2  value)  {
+::cordl_internals::setInstanceField<::UnityEngine::Vector2, 0x10>(this, std::forward<::UnityEngine::Vector2>(value));
+}
+constexpr ::UnityEngine::Vector2& UnityEngine::ProBuilder::Bounds2D::__get_center()  {
+return ::cordl_internals::getInstanceField<::UnityEngine::Vector2, 0x10>(this);
+}
+constexpr ::UnityEngine::Vector2 const& UnityEngine::ProBuilder::Bounds2D::__get_center() const {
+return ::cordl_internals::getInstanceField<::UnityEngine::Vector2, 0x10>(this);
+}
+constexpr void UnityEngine::ProBuilder::Bounds2D::__set_m_Size(::UnityEngine::Vector2  value)  {
+::cordl_internals::setInstanceField<::UnityEngine::Vector2, 0x18>(this, std::forward<::UnityEngine::Vector2>(value));
+}
+constexpr ::UnityEngine::Vector2& UnityEngine::ProBuilder::Bounds2D::__get_m_Size()  {
+return ::cordl_internals::getInstanceField<::UnityEngine::Vector2, 0x18>(this);
+}
+constexpr ::UnityEngine::Vector2 const& UnityEngine::ProBuilder::Bounds2D::__get_m_Size() const {
+return ::cordl_internals::getInstanceField<::UnityEngine::Vector2, 0x18>(this);
+}
+constexpr void UnityEngine::ProBuilder::Bounds2D::__set_m_Extents(::UnityEngine::Vector2  value)  {
+::cordl_internals::setInstanceField<::UnityEngine::Vector2, 0x20>(this, std::forward<::UnityEngine::Vector2>(value));
+}
+constexpr ::UnityEngine::Vector2& UnityEngine::ProBuilder::Bounds2D::__get_m_Extents()  {
+return ::cordl_internals::getInstanceField<::UnityEngine::Vector2, 0x20>(this);
+}
+constexpr ::UnityEngine::Vector2 const& UnityEngine::ProBuilder::Bounds2D::__get_m_Extents() const {
+return ::cordl_internals::getInstanceField<::UnityEngine::Vector2, 0x20>(this);
+}
+inline ::UnityEngine::Vector2 UnityEngine::ProBuilder::Bounds2D::get_size()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "get_size",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(*this, ___internal_method);
+}
+inline void UnityEngine::ProBuilder::Bounds2D::set_size(::UnityEngine::Vector2  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "set_size",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline ::UnityEngine::Vector2 UnityEngine::ProBuilder::Bounds2D::get_extents()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "get_extents",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(*this, ___internal_method);
+}
+inline ::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*> UnityEngine::ProBuilder::Bounds2D::get_corners()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "get_corners",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>, false>(*this, ___internal_method);
+}
+inline ::UnityEngine::ProBuilder::Bounds2D* UnityEngine::ProBuilder::Bounds2D::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::ProBuilder::Bounds2D*>());
+}
+inline void UnityEngine::ProBuilder::Bounds2D::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline ::UnityEngine::ProBuilder::Bounds2D* UnityEngine::ProBuilder::Bounds2D::New_ctor(::UnityEngine::Vector2  center, ::UnityEngine::Vector2  size)  {
+return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::ProBuilder::Bounds2D*>(center, size));
+}
+inline void UnityEngine::ProBuilder::Bounds2D::_ctor(::UnityEngine::Vector2  center, ::UnityEngine::Vector2  size)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, center, size);
+}
+inline ::UnityEngine::ProBuilder::Bounds2D* UnityEngine::ProBuilder::Bounds2D::New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*  points)  {
+return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::ProBuilder::Bounds2D*>(points));
+}
+inline void UnityEngine::ProBuilder::Bounds2D::_ctor(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*  points)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, points);
+}
+inline ::UnityEngine::ProBuilder::Bounds2D* UnityEngine::ProBuilder::Bounds2D::New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*  points, ::System::Collections::Generic::IList_1<int32_t>*  indexes)  {
+return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::ProBuilder::Bounds2D*>(points, indexes));
+}
+inline void UnityEngine::ProBuilder::Bounds2D::_ctor(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*  points, ::System::Collections::Generic::IList_1<int32_t>*  indexes)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<int32_t>*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, points, indexes);
+}
+inline ::UnityEngine::ProBuilder::Bounds2D* UnityEngine::ProBuilder::Bounds2D::New_ctor(::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  points, ::ArrayW<::UnityEngine::ProBuilder::Edge,::Array<::UnityEngine::ProBuilder::Edge>*>  edges)  {
+return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::ProBuilder::Bounds2D*>(points, edges));
+}
+inline void UnityEngine::ProBuilder::Bounds2D::_ctor(::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  points, ::ArrayW<::UnityEngine::ProBuilder::Edge,::Array<::UnityEngine::ProBuilder::Edge>*>  edges)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::ProBuilder::Edge,::Array<::UnityEngine::ProBuilder::Edge>*>>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, points, edges);
+}
+inline ::UnityEngine::ProBuilder::Bounds2D* UnityEngine::ProBuilder::Bounds2D::New_ctor(::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>  points, int32_t  length)  {
+return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::ProBuilder::Bounds2D*>(points, length));
+}
+inline void UnityEngine::ProBuilder::Bounds2D::_ctor(::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>  points, int32_t  length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, points, length);
+}
+inline bool UnityEngine::ProBuilder::Bounds2D::ContainsPoint(::UnityEngine::Vector2  point)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "ContainsPoint",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method, point);
+}
+inline bool UnityEngine::ProBuilder::Bounds2D::IntersectsLineSegment(::UnityEngine::Vector2  lineStart, ::UnityEngine::Vector2  lineEnd)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "IntersectsLineSegment",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method, lineStart, lineEnd);
+}
+inline bool UnityEngine::ProBuilder::Bounds2D::Intersects(::UnityEngine::ProBuilder::Bounds2D*  bounds)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "Intersects",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Bounds2D*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method, bounds);
+}
+inline bool UnityEngine::ProBuilder::Bounds2D::Intersects(::UnityEngine::Rect  rect)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "Intersects",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method, rect);
+}
+inline void UnityEngine::ProBuilder::Bounds2D::SetWithPoints(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*  points)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "SetWithPoints",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, points);
+}
+inline void UnityEngine::ProBuilder::Bounds2D::SetWithPoints(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*  points, ::System::Collections::Generic::IList_1<int32_t>*  indexes)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "SetWithPoints",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<int32_t>*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, points, indexes);
+}
+inline ::UnityEngine::Vector2 UnityEngine::ProBuilder::Bounds2D::Center(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*  points)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "Center",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(nullptr, ___internal_method, points);
+}
+inline ::UnityEngine::Vector2 UnityEngine::ProBuilder::Bounds2D::Center(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*  points, ::System::Collections::Generic::IList_1<int32_t>*  indexes)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "Center",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<int32_t>*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(nullptr, ___internal_method, points, indexes);
+}
+inline ::UnityEngine::Vector2 UnityEngine::ProBuilder::Bounds2D::Size(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*  points, ::System::Collections::Generic::IList_1<int32_t>*  indexes)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "Size",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<int32_t>*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(nullptr, ___internal_method, points, indexes);
+}
+inline ::UnityEngine::Vector2 UnityEngine::ProBuilder::Bounds2D::Center(::System::Collections::Generic::IList_1<::UnityEngine::Vector4>*  points, ::System::Collections::Generic::IEnumerable_1<int32_t>*  indexes)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "Center",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector4>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<int32_t>*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(nullptr, ___internal_method, points, indexes);
+}
+inline ::StringW UnityEngine::ProBuilder::Bounds2D::ToString()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Bounds2D*>::get(),
+                            "ToString",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(*this, ___internal_method);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

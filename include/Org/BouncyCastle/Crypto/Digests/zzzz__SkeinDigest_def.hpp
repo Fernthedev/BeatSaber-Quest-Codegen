@@ -1,0 +1,139 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(SkeinDigest)
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
+namespace Org::BouncyCastle::Utilities {
+class IMemoable;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class SkeinParameters;
+}
+namespace Org::BouncyCastle::Crypto::Digests {
+class SkeinEngine;
+}
+// Forward declare root types
+namespace Org::BouncyCastle::Crypto::Digests {
+class SkeinDigest;
+}
+// Write type traits
+MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::SkeinDigest);
+// Type: Org.BouncyCastle.Crypto.Digests::SkeinDigest
+namespace Org::BouncyCastle::Crypto::Digests {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(776))
+// CS Name: ::Org.BouncyCastle.Crypto.Digests::SkeinDigest*
+class CORDL_TYPE SkeinDigest : public ::System::Object {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x18};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x18 - sizeof(::System::Object)]{};
+
+/// @brief Field SKEIN_256 offset 0x0
+static constexpr int32_t  SKEIN_256{static_cast<int32_t>(0x100)};
+
+/// @brief Field SKEIN_512 offset 0x0
+static constexpr int32_t  SKEIN_512{static_cast<int32_t>(0x200)};
+
+/// @brief Field SKEIN_1024 offset 0x0
+static constexpr int32_t  SKEIN_1024{static_cast<int32_t>(0x400)};
+
+/// @brief Field engine offset 0x10
+ __declspec(property(get=__get_engine, put=__set_engine)) ::Org::BouncyCastle::Crypto::Digests::SkeinEngine*  engine;
+
+ __declspec(property(get=get_AlgorithmName)) ::StringW  AlgorithmName;
+
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
+constexpr operator  ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
+
+/// @brief Convert operator to "::Org::BouncyCastle::Utilities::IMemoable"
+constexpr operator  ::Org::BouncyCastle::Utilities::IMemoable*() noexcept;
+
+constexpr void __set_engine(::Org::BouncyCastle::Crypto::Digests::SkeinEngine*  value) ;
+
+constexpr ::Org::BouncyCastle::Crypto::Digests::SkeinEngine* __get_engine() ;
+
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Digests::SkeinEngine*> __get_engine() const;
+
+static inline ::Org::BouncyCastle::Crypto::Digests::SkeinDigest* New_ctor(int32_t  stateSizeBits, int32_t  digestSizeBits) ;
+
+/// @brief Method .ctor addr 0xea6070 size 0x88 virtual false final false
+inline void _ctor(int32_t  stateSizeBits, int32_t  digestSizeBits) ;
+
+static inline ::Org::BouncyCastle::Crypto::Digests::SkeinDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::SkeinDigest*  digest) ;
+
+/// @brief Method .ctor addr 0xea62a0 size 0x78 virtual false final false
+inline void _ctor(::Org::BouncyCastle::Crypto::Digests::SkeinDigest*  digest) ;
+
+/// @brief Method Reset addr 0xea6370 size 0x8c virtual true final true
+inline void Reset(::Org::BouncyCastle::Utilities::IMemoable*  other) ;
+
+/// @brief Method Copy addr 0xea6520 size 0x60 virtual true final true
+inline ::Org::BouncyCastle::Utilities::IMemoable* Copy() ;
+
+/// @brief Method get_AlgorithmName addr 0xea6580 size 0x1c4 virtual true final true
+inline ::StringW get_AlgorithmName() ;
+
+/// @brief Method GetDigestSize addr 0xea6768 size 0x1c virtual true final true
+inline int32_t GetDigestSize() ;
+
+/// @brief Method GetByteLength addr 0xea6784 size 0x2c virtual true final true
+inline int32_t GetByteLength() ;
+
+/// @brief Method Init addr 0xea6288 size 0x18 virtual false final false
+inline void Init(::Org::BouncyCastle::Crypto::Parameters::SkeinParameters*  parameters) ;
+
+/// @brief Method Reset addr 0xea6868 size 0x18 virtual true final true
+inline void Reset() ;
+
+/// @brief Method Update addr 0xea68c0 size 0x18 virtual true final true
+inline void Update(uint8_t  inByte) ;
+
+/// @brief Method BlockUpdate addr 0xea690c size 0x18 virtual true final true
+inline void BlockUpdate(::ArrayW<uint8_t,::Array<uint8_t>*>  inBytes, int32_t  inOff, int32_t  len) ;
+
+/// @brief Method DoFinal addr 0xea6970 size 0x18 virtual true final true
+inline int32_t DoFinal(::ArrayW<uint8_t,::Array<uint8_t>*>  outBytes, int32_t  outOff) ;
+
+// Ctor Parameters [CppParam { name: "", ty: "SkeinDigest", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SkeinDigest(SkeinDigest && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "SkeinDigest", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SkeinDigest(SkeinDigest const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ SkeinDigest()  = default;
+public:
+
+
+// Fields
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Digests::SkeinDigest, 0x18>, "Size mismatch!");
+
+} // namespace end def Org::BouncyCastle::Crypto::Digests
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::SkeinDigest);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::SkeinDigest*, "Org.BouncyCastle.Crypto.Digests", "SkeinDigest");

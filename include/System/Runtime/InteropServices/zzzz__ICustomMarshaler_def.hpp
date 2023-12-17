@@ -1,0 +1,56 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include <cstdint>
+CORDL_MODULE_EXPORT(ICustomMarshaler)
+namespace System {
+class Object;
+}
+// Forward declare root types
+namespace System::Runtime::InteropServices {
+class ICustomMarshaler;
+}
+// Write type traits
+MARK_REF_PTR_T(::System::Runtime::InteropServices::ICustomMarshaler);
+// Type: System.Runtime.InteropServices::ICustomMarshaler
+namespace System::Runtime::InteropServices {
+// Is value type: false
+// Dependencies: {}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3312))
+// CS Name: ::System.Runtime.InteropServices::ICustomMarshaler*
+class CORDL_TYPE ICustomMarshaler {
+public:
+// Declarations
+/// @brief Method MarshalNativeToManaged addr 0x0 size 0xffffffffffffffff virtual true final false
+inline ::System::Object* MarshalNativeToManaged(::cordl_internals::intptr_t  pNativeData) ;
+
+/// @brief Method MarshalManagedToNative addr 0x0 size 0xffffffffffffffff virtual true final false
+inline ::cordl_internals::intptr_t MarshalManagedToNative(::System::Object*  ManagedObj) ;
+
+/// @brief Method CleanUpNativeData addr 0x0 size 0xffffffffffffffff virtual true final false
+inline void CleanUpNativeData(::cordl_internals::intptr_t  pNativeData) ;
+
+/// @brief Method CleanUpManagedData addr 0x0 size 0xffffffffffffffff virtual true final false
+inline void CleanUpManagedData(::System::Object*  ManagedObj) ;
+
+/// @brief Method GetNativeDataSize addr 0x0 size 0xffffffffffffffff virtual true final false
+inline int32_t GetNativeDataSize() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "ICustomMarshaler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ICustomMarshaler(ICustomMarshaler && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ICustomMarshaler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ICustomMarshaler(ICustomMarshaler const& ) = delete;
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def System::Runtime::InteropServices
+NEED_NO_BOX(::System::Runtime::InteropServices::ICustomMarshaler);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::ICustomMarshaler*, "System.Runtime.InteropServices", "ICustomMarshaler");

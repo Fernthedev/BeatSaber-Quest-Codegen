@@ -1,0 +1,116 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+CORDL_MODULE_EXPORT(GuestNameButtonsListItem)
+namespace UnityEngine::UI {
+class Button;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace System {
+class Action;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+class GuestNameButtonsListItem;
+}
+// Write type traits
+MARK_REF_PTR_T(::GlobalNamespace::GuestNameButtonsListItem);
+// Type: ::GuestNameButtonsListItem
+namespace GlobalNamespace {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5531))
+// CS Name: ::GuestNameButtonsListItem*
+class CORDL_TYPE GuestNameButtonsListItem : public ::UnityEngine::MonoBehaviour {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x30};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x30 - sizeof(::UnityEngine::MonoBehaviour)]{};
+
+/// @brief Field _nameText offset 0x18
+ __declspec(property(get=__get__nameText, put=__set__nameText)) ::TMPro::TextMeshProUGUI*  _nameText;
+
+/// @brief Field _button offset 0x20
+ __declspec(property(get=__get__button, put=__set__button)) ::UnityEngine::UI::Button*  _button;
+
+/// @brief Field _buttonPressed offset 0x28
+ __declspec(property(get=__get__buttonPressed, put=__set__buttonPressed)) ::System::Action*  _buttonPressed;
+
+ __declspec(property(put=set_nameText)) ::StringW  nameText;
+
+ __declspec(property(put=set_buttonPressed)) ::System::Action*  buttonPressed;
+
+constexpr void __set__nameText(::TMPro::TextMeshProUGUI*  value) ;
+
+constexpr ::TMPro::TextMeshProUGUI* __get__nameText() ;
+
+constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> __get__nameText() const;
+
+constexpr void __set__button(::UnityEngine::UI::Button*  value) ;
+
+constexpr ::UnityEngine::UI::Button* __get__button() ;
+
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> __get__button() const;
+
+constexpr void __set__buttonPressed(::System::Action*  value) ;
+
+constexpr ::System::Action* __get__buttonPressed() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> __get__buttonPressed() const;
+
+/// @brief Method set_nameText addr 0x229e540 size 0x24 virtual false final false
+inline void set_nameText(::StringW  value) ;
+
+/// @brief Method set_buttonPressed addr 0x229e564 size 0x8 virtual false final false
+inline void set_buttonPressed(::System::Action*  value) ;
+
+/// @brief Method Awake addr 0x229e56c size 0x94 virtual false final false
+inline void Awake() ;
+
+static inline ::GlobalNamespace::GuestNameButtonsListItem* New_ctor() ;
+
+/// @brief Method .ctor addr 0x229e600 size 0x8 virtual false final false
+inline void _ctor() ;
+
+/// @brief Method <Awake>b__7_0 addr 0x229e608 size 0x1c virtual false final false
+inline void _Awake_b__7_0() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "GuestNameButtonsListItem", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GuestNameButtonsListItem(GuestNameButtonsListItem && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "GuestNameButtonsListItem", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GuestNameButtonsListItem(GuestNameButtonsListItem const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ GuestNameButtonsListItem()  = default;
+public:
+
+
+// Fields
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GuestNameButtonsListItem, 0x30>, "Size mismatch!");
+
+} // namespace end def GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::GuestNameButtonsListItem);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GuestNameButtonsListItem*, "", "GuestNameButtonsListItem");

@@ -1,0 +1,49 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Collections/zzzz__ReadOnlyCollectionBase_def.hpp"
+CORDL_MODULE_EXPORT(ProcessModuleCollection)
+// Forward declare root types
+namespace System::Diagnostics {
+class ProcessModuleCollection;
+}
+// Write type traits
+MARK_REF_PTR_T(::System::Diagnostics::ProcessModuleCollection);
+// Type: System.Diagnostics::ProcessModuleCollection
+namespace System::Diagnostics {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3777))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8954))
+// CS Name: ::System.Diagnostics::ProcessModuleCollection*
+class CORDL_TYPE ProcessModuleCollection : public ::System::Collections::ReadOnlyCollectionBase {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x18};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x18 - sizeof(::System::Collections::ReadOnlyCollectionBase)]{};
+
+// Ctor Parameters [CppParam { name: "", ty: "ProcessModuleCollection", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ProcessModuleCollection(ProcessModuleCollection && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ProcessModuleCollection", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ProcessModuleCollection(ProcessModuleCollection const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ ProcessModuleCollection()  = default;
+public:
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::System::Diagnostics::ProcessModuleCollection, 0x18>, "Size mismatch!");
+
+} // namespace end def System::Diagnostics
+NEED_NO_BOX(::System::Diagnostics::ProcessModuleCollection);
+DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::ProcessModuleCollection*, "System.Diagnostics", "ProcessModuleCollection");

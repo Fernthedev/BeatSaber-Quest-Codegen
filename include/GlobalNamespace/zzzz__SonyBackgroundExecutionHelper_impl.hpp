@@ -1,0 +1,223 @@
+#pragma once
+#include "System/zzzz__Object_impl.hpp"
+#include "GlobalNamespace/zzzz__SonyBackgroundExecutionHelper_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "Zenject/zzzz__ITickable_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::SonyBackgroundExecutionHelper.add_didGoToBackgroundExecutionEvent
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyBackgroundExecutionHelper::*)(::System::Action*)>(&::GlobalNamespace::SonyBackgroundExecutionHelper::add_didGoToBackgroundExecutionEvent)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x2368df4;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(),
+                            "add_didGoToBackgroundExecutionEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SonyBackgroundExecutionHelper.remove_didGoToBackgroundExecutionEvent
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyBackgroundExecutionHelper::*)(::System::Action*)>(&::GlobalNamespace::SonyBackgroundExecutionHelper::remove_didGoToBackgroundExecutionEvent)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x2368e90;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(),
+                            "remove_didGoToBackgroundExecutionEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SonyBackgroundExecutionHelper.add_didGoToForegroundExecutionEvent
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyBackgroundExecutionHelper::*)(::System::Action*)>(&::GlobalNamespace::SonyBackgroundExecutionHelper::add_didGoToForegroundExecutionEvent)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x2368f2c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(),
+                            "add_didGoToForegroundExecutionEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SonyBackgroundExecutionHelper.remove_didGoToForegroundExecutionEvent
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyBackgroundExecutionHelper::*)(::System::Action*)>(&::GlobalNamespace::SonyBackgroundExecutionHelper::remove_didGoToForegroundExecutionEvent)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x2368fc8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(),
+                            "remove_didGoToForegroundExecutionEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SonyBackgroundExecutionHelper.get_isInBackgroundExecution
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SonyBackgroundExecutionHelper::*)()>(&::GlobalNamespace::SonyBackgroundExecutionHelper::get_isInBackgroundExecution)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2369064;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(),
+                            "get_isInBackgroundExecution",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SonyBackgroundExecutionHelper.Tick
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyBackgroundExecutionHelper::*)()>(&::GlobalNamespace::SonyBackgroundExecutionHelper::Tick)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x236906c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(),
+                            "Tick",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SonyBackgroundExecutionHelper._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyBackgroundExecutionHelper::*)()>(&::GlobalNamespace::SonyBackgroundExecutionHelper::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2369094;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to "::Zenject::ITickable"
+constexpr  GlobalNamespace::SonyBackgroundExecutionHelper::operator ::Zenject::ITickable*() noexcept {
+return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
+}
+constexpr void GlobalNamespace::SonyBackgroundExecutionHelper::__set_didGoToBackgroundExecutionEvent(::System::Action*  value)  {
+::cordl_internals::setInstanceField<::System::Action*, 0x10>(this, std::forward<::System::Action*>(value));
+}
+constexpr ::System::Action* GlobalNamespace::SonyBackgroundExecutionHelper::__get_didGoToBackgroundExecutionEvent()  {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x10>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> GlobalNamespace::SonyBackgroundExecutionHelper::__get_didGoToBackgroundExecutionEvent() const {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x10>(this);
+}
+constexpr void GlobalNamespace::SonyBackgroundExecutionHelper::__set_didGoToForegroundExecutionEvent(::System::Action*  value)  {
+::cordl_internals::setInstanceField<::System::Action*, 0x18>(this, std::forward<::System::Action*>(value));
+}
+constexpr ::System::Action* GlobalNamespace::SonyBackgroundExecutionHelper::__get_didGoToForegroundExecutionEvent()  {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x18>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> GlobalNamespace::SonyBackgroundExecutionHelper::__get_didGoToForegroundExecutionEvent() const {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x18>(this);
+}
+constexpr void GlobalNamespace::SonyBackgroundExecutionHelper::__set__isInBackgroundExecution(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x20>(this, std::forward<bool>(value));
+}
+constexpr bool& GlobalNamespace::SonyBackgroundExecutionHelper::__get__isInBackgroundExecution()  {
+return ::cordl_internals::getInstanceField<bool, 0x20>(this);
+}
+constexpr bool const& GlobalNamespace::SonyBackgroundExecutionHelper::__get__isInBackgroundExecution() const {
+return ::cordl_internals::getInstanceField<bool, 0x20>(this);
+}
+inline void GlobalNamespace::SonyBackgroundExecutionHelper::add_didGoToBackgroundExecutionEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(),
+                            "add_didGoToBackgroundExecutionEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline void GlobalNamespace::SonyBackgroundExecutionHelper::remove_didGoToBackgroundExecutionEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(),
+                            "remove_didGoToBackgroundExecutionEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline void GlobalNamespace::SonyBackgroundExecutionHelper::add_didGoToForegroundExecutionEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(),
+                            "add_didGoToForegroundExecutionEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline void GlobalNamespace::SonyBackgroundExecutionHelper::remove_didGoToForegroundExecutionEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(),
+                            "remove_didGoToForegroundExecutionEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::SonyBackgroundExecutionHelper::get_isInBackgroundExecution()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(),
+                            "get_isInBackgroundExecution",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::SonyBackgroundExecutionHelper::Tick()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(),
+                            "Tick",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline ::GlobalNamespace::SonyBackgroundExecutionHelper* GlobalNamespace::SonyBackgroundExecutionHelper::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::SonyBackgroundExecutionHelper*>());
+}
+inline void GlobalNamespace::SonyBackgroundExecutionHelper::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

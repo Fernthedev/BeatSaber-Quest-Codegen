@@ -1,0 +1,100 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(FormattableString)
+namespace System {
+class IFormattable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class IFormatProvider;
+}
+// Forward declare root types
+namespace System {
+class FormattableString;
+}
+// Write type traits
+MARK_REF_PTR_T(::System::FormattableString);
+// Type: System::FormattableString
+namespace System {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2383))
+// CS Name: ::System::FormattableString*
+class CORDL_TYPE FormattableString : public ::System::Object {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x10};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x10 - sizeof(::System::Object)]{};
+
+ __declspec(property(get=get_Format)) ::StringW  Format;
+
+ __declspec(property(get=get_ArgumentCount)) int32_t  ArgumentCount;
+
+/// @brief Convert operator to "::System::IFormattable"
+constexpr operator  ::System::IFormattable*() noexcept;
+
+/// @brief Method get_Format addr 0x0 size 0xffffffffffffffff virtual true final false
+inline ::StringW get_Format() ;
+
+/// @brief Method GetArguments addr 0x0 size 0xffffffffffffffff virtual true final false
+inline ::ArrayW<::System::Object*,::Array<::System::Object*>*> GetArguments() ;
+
+/// @brief Method get_ArgumentCount addr 0x0 size 0xffffffffffffffff virtual true final false
+inline int32_t get_ArgumentCount() ;
+
+/// @brief Method GetArgument addr 0x0 size 0xffffffffffffffff virtual true final false
+inline ::System::Object* GetArgument(int32_t  index) ;
+
+/// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+inline ::StringW ToString(::System::IFormatProvider*  formatProvider) ;
+
+/// @brief Method System.IFormattable.ToString addr 0x25972e4 size 0x14 virtual true final true
+inline ::StringW System_IFormattable_ToString(::StringW  ignored, ::System::IFormatProvider*  formatProvider) ;
+
+/// @brief Method ToString addr 0x25972f8 size 0x68 virtual true final false
+inline ::StringW ToString() ;
+
+static inline ::System::FormattableString* New_ctor() ;
+
+/// @brief Method .ctor addr 0x2597360 size 0x8 virtual false final false
+inline void _ctor() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "FormattableString", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FormattableString(FormattableString && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "FormattableString", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FormattableString(FormattableString const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ FormattableString()  = default;
+public:
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::System::FormattableString, 0x10>, "Size mismatch!");
+
+} // namespace end def System
+NEED_NO_BOX(::System::FormattableString);
+DEFINE_IL2CPP_ARG_TYPE(::System::FormattableString*, "System", "FormattableString");

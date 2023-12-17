@@ -1,0 +1,104 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+CORDL_MODULE_EXPORT(TargetInformation)
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class Target;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class Targets;
+}
+// Forward declare root types
+namespace Org::BouncyCastle::Asn1::X509 {
+class TargetInformation;
+}
+// Write type traits
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::TargetInformation);
+// Type: Org.BouncyCastle.Asn1.X509::TargetInformation
+namespace Org::BouncyCastle::Asn1::X509 {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(387))
+// CS Name: ::Org.BouncyCastle.Asn1.X509::TargetInformation*
+class CORDL_TYPE TargetInformation : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x18};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x18 - sizeof(::Org::BouncyCastle::Asn1::Asn1Encodable)]{};
+
+/// @brief Field targets offset 0x10
+ __declspec(property(get=__get_targets, put=__set_targets)) ::Org::BouncyCastle::Asn1::Asn1Sequence*  targets;
+
+constexpr void __set_targets(::Org::BouncyCastle::Asn1::Asn1Sequence*  value) ;
+
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* __get_targets() ;
+
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> __get_targets() const;
+
+/// @brief Method GetInstance addr 0x1197e8c size 0x18c virtual false final false
+static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* GetInstance(::System::Object*  obj) ;
+
+static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  targets) ;
+
+/// @brief Method .ctor addr 0x1198018 size 0x28 virtual false final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  targets) ;
+
+/// @brief Method GetTargetsObjects addr 0x1198040 size 0x110 virtual true final false
+inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::Targets*,::Array<::Org::BouncyCastle::Asn1::X509::Targets*>*> GetTargetsObjects() ;
+
+static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* New_ctor(::Org::BouncyCastle::Asn1::X509::Targets*  targets) ;
+
+/// @brief Method .ctor addr 0x11982dc size 0x7c virtual false final false
+inline void _ctor(::Org::BouncyCastle::Asn1::X509::Targets*  targets) ;
+
+static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*,::Array<::Org::BouncyCastle::Asn1::X509::Target*>*>  targets) ;
+
+/// @brief Method .ctor addr 0x1198358 size 0x70 virtual false final false
+inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*,::Array<::Org::BouncyCastle::Asn1::X509::Target*>*>  targets) ;
+
+/// @brief Method ToAsn1Object addr 0x1198444 size 0x8 virtual true final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "TargetInformation", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TargetInformation(TargetInformation && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "TargetInformation", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TargetInformation(TargetInformation const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ TargetInformation()  = default;
+public:
+
+
+// Fields
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::TargetInformation, 0x18>, "Size mismatch!");
+
+} // namespace end def Org::BouncyCastle::Asn1::X509
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::TargetInformation);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::TargetInformation*, "Org.BouncyCastle.Asn1.X509", "TargetInformation");

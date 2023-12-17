@@ -1,0 +1,361 @@
+#pragma once
+#include "UnityEngine/UIElements/zzzz__Manipulator_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__KeyboardNavigationManipulator_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__NavigationCancelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__KeyboardNavigationManipulator_def.hpp"
+#include "UnityEngine/UIElements/zzzz__KeyboardNavigationOperation_def.hpp"
+#include "UnityEngine/UIElements/zzzz__NavigationSubmitEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__NavigationMoveEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+constexpr void UnityEngine::UIElements::__KeyboardNavigationManipulator____c__DisplayClass5_0::__set_evt(::UnityEngine::UIElements::KeyDownEvent*  value)  {
+::cordl_internals::setInstanceField<::UnityEngine::UIElements::KeyDownEvent*, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance, std::forward<::UnityEngine::UIElements::KeyDownEvent*>(value));
+}
+constexpr ::UnityEngine::UIElements::KeyDownEvent* UnityEngine::UIElements::__KeyboardNavigationManipulator____c__DisplayClass5_0::__get_evt()  {
+return ::cordl_internals::getInstanceField<::UnityEngine::UIElements::KeyDownEvent*, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::KeyDownEvent*> UnityEngine::UIElements::__KeyboardNavigationManipulator____c__DisplayClass5_0::__get_evt() const {
+return ::cordl_internals::getInstanceField<::UnityEngine::UIElements::KeyDownEvent*, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+// Ctor Parameters [CppParam { name: "evt", ty: "::UnityEngine::UIElements::KeyDownEvent*", modifiers: "", def_value: Some("csnull") }]
+constexpr ::UnityEngine::UIElements::__KeyboardNavigationManipulator____c__DisplayClass5_0::__KeyboardNavigationManipulator____c__DisplayClass5_0(::UnityEngine::UIElements::KeyDownEvent*  evt) noexcept : ::bs_hook::ValueTypeWrapper<0x8>() {this->evt = evt;
+}
+constexpr void UnityEngine::UIElements::__KeyboardNavigationManipulator____c__DisplayClass6_0::__set_evt(::UnityEngine::UIElements::KeyDownEvent*  value)  {
+::cordl_internals::setInstanceField<::UnityEngine::UIElements::KeyDownEvent*, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance, std::forward<::UnityEngine::UIElements::KeyDownEvent*>(value));
+}
+constexpr ::UnityEngine::UIElements::KeyDownEvent* UnityEngine::UIElements::__KeyboardNavigationManipulator____c__DisplayClass6_0::__get_evt()  {
+return ::cordl_internals::getInstanceField<::UnityEngine::UIElements::KeyDownEvent*, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::KeyDownEvent*> UnityEngine::UIElements::__KeyboardNavigationManipulator____c__DisplayClass6_0::__get_evt() const {
+return ::cordl_internals::getInstanceField<::UnityEngine::UIElements::KeyDownEvent*, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+// Ctor Parameters [CppParam { name: "evt", ty: "::UnityEngine::UIElements::KeyDownEvent*", modifiers: "", def_value: Some("csnull") }]
+constexpr ::UnityEngine::UIElements::__KeyboardNavigationManipulator____c__DisplayClass6_0::__KeyboardNavigationManipulator____c__DisplayClass6_0(::UnityEngine::UIElements::KeyDownEvent*  evt) noexcept : ::bs_hook::ValueTypeWrapper<0x8>() {this->evt = evt;
+}
+//  Writing Method size for method: ::UnityEngine::UIElements::KeyboardNavigationManipulator._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardNavigationManipulator::*)(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>*)>(&::UnityEngine::UIElements::KeyboardNavigationManipulator::_ctor)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x2dc3a74;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::KeyboardNavigationManipulator.RegisterCallbacksOnTarget
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardNavigationManipulator::*)()>(&::UnityEngine::UIElements::KeyboardNavigationManipulator::RegisterCallbacksOnTarget)> {
+  constexpr static std::size_t size = 0x254;
+  constexpr static std::size_t addrs = 0x2dc3a9c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                                  5
+                                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::KeyboardNavigationManipulator.UnregisterCallbacksFromTarget
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardNavigationManipulator::*)()>(&::UnityEngine::UIElements::KeyboardNavigationManipulator::UnregisterCallbacksFromTarget)> {
+  constexpr static std::size_t size = 0x254;
+  constexpr static std::size_t addrs = 0x2dc3cf0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                                  6
+                                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::KeyboardNavigationManipulator.OnKeyDown
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardNavigationManipulator::*)(::UnityEngine::UIElements::KeyDownEvent*)>(&::UnityEngine::UIElements::KeyboardNavigationManipulator::OnKeyDown)> {
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x2dc3f44;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "OnKeyDown",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::KeyDownEvent*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::KeyboardNavigationManipulator.OnRuntimeKeyDown
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardNavigationManipulator::*)(::UnityEngine::UIElements::KeyDownEvent*)>(&::UnityEngine::UIElements::KeyboardNavigationManipulator::OnRuntimeKeyDown)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2dc4078;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "OnRuntimeKeyDown",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::KeyDownEvent*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::KeyboardNavigationManipulator.OnEditorKeyDown
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardNavigationManipulator::*)(::UnityEngine::UIElements::KeyDownEvent*)>(&::UnityEngine::UIElements::KeyboardNavigationManipulator::OnEditorKeyDown)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2dc402c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "OnEditorKeyDown",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::KeyDownEvent*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::KeyboardNavigationManipulator.OnNavigationCancel
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardNavigationManipulator::*)(::UnityEngine::UIElements::NavigationCancelEvent*)>(&::UnityEngine::UIElements::KeyboardNavigationManipulator::OnNavigationCancel)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x2dc4294;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "OnNavigationCancel",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::NavigationCancelEvent*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::KeyboardNavigationManipulator.OnNavigationSubmit
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardNavigationManipulator::*)(::UnityEngine::UIElements::NavigationSubmitEvent*)>(&::UnityEngine::UIElements::KeyboardNavigationManipulator::OnNavigationSubmit)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x2dc42b8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "OnNavigationSubmit",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::NavigationSubmitEvent*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::KeyboardNavigationManipulator.OnNavigationMove
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardNavigationManipulator::*)(::UnityEngine::UIElements::NavigationMoveEvent*)>(&::UnityEngine::UIElements::KeyboardNavigationManipulator::OnNavigationMove)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x2dc42dc;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "OnNavigationMove",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::NavigationMoveEvent*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::KeyboardNavigationManipulator.Invoke
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardNavigationManipulator::*)(::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::KeyboardNavigationManipulator::Invoke)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x2dc4180;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::KeyboardNavigationOperation>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::KeyboardNavigationManipulator._OnRuntimeKeyDown_g__GetOperation_5_0
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::KeyboardNavigationOperation (*)(ByRef<::UnityEngine::UIElements::__KeyboardNavigationManipulator____c__DisplayClass5_0>)>(&::UnityEngine::UIElements::KeyboardNavigationManipulator::_OnRuntimeKeyDown_g__GetOperation_5_0)> {
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x2dc40c4;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "<OnRuntimeKeyDown>g__GetOperation|5_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::UIElements::__KeyboardNavigationManipulator____c__DisplayClass5_0>>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::KeyboardNavigationManipulator._OnEditorKeyDown_g__GetOperation_6_0
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::KeyboardNavigationOperation (*)(ByRef<::UnityEngine::UIElements::__KeyboardNavigationManipulator____c__DisplayClass6_0>)>(&::UnityEngine::UIElements::KeyboardNavigationManipulator::_OnEditorKeyDown_g__GetOperation_6_0)> {
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x2dc41a0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "<OnEditorKeyDown>g__GetOperation|6_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::UIElements::__KeyboardNavigationManipulator____c__DisplayClass6_0>>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+constexpr void UnityEngine::UIElements::KeyboardNavigationManipulator::__set_m_Action(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>*  value)  {
+::cordl_internals::setInstanceField<::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>*, 0x18>(this, std::forward<::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>*>(value));
+}
+constexpr ::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>* UnityEngine::UIElements::KeyboardNavigationManipulator::__get_m_Action()  {
+return ::cordl_internals::getInstanceField<::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>*, 0x18>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>*> UnityEngine::UIElements::KeyboardNavigationManipulator::__get_m_Action() const {
+return ::cordl_internals::getInstanceField<::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>*, 0x18>(this);
+}
+inline ::UnityEngine::UIElements::KeyboardNavigationManipulator* UnityEngine::UIElements::KeyboardNavigationManipulator::New_ctor(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>*  action)  {
+return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::UIElements::KeyboardNavigationManipulator*>(action));
+}
+inline void UnityEngine::UIElements::KeyboardNavigationManipulator::_ctor(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>*  action)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, action);
+}
+inline void UnityEngine::UIElements::KeyboardNavigationManipulator::RegisterCallbacksOnTarget()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "RegisterCallbacksOnTarget",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline void UnityEngine::UIElements::KeyboardNavigationManipulator::UnregisterCallbacksFromTarget()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "UnregisterCallbacksFromTarget",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline void UnityEngine::UIElements::KeyboardNavigationManipulator::OnKeyDown(::UnityEngine::UIElements::KeyDownEvent*  evt)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "OnKeyDown",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::KeyDownEvent*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::KeyboardNavigationManipulator::OnRuntimeKeyDown(::UnityEngine::UIElements::KeyDownEvent*  evt)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "OnRuntimeKeyDown",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::KeyDownEvent*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::KeyboardNavigationManipulator::OnEditorKeyDown(::UnityEngine::UIElements::KeyDownEvent*  evt)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "OnEditorKeyDown",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::KeyDownEvent*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::KeyboardNavigationManipulator::OnNavigationCancel(::UnityEngine::UIElements::NavigationCancelEvent*  evt)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "OnNavigationCancel",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::NavigationCancelEvent*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::KeyboardNavigationManipulator::OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent*  evt)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "OnNavigationSubmit",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::NavigationSubmitEvent*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::KeyboardNavigationManipulator::OnNavigationMove(::UnityEngine::UIElements::NavigationMoveEvent*  evt)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "OnNavigationMove",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::NavigationMoveEvent*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::KeyboardNavigationManipulator::Invoke(::UnityEngine::UIElements::KeyboardNavigationOperation  operation, ::UnityEngine::UIElements::EventBase*  evt)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::KeyboardNavigationOperation>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, operation, evt);
+}
+inline ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIElements::KeyboardNavigationManipulator::_OnRuntimeKeyDown_g__GetOperation_5_0(ByRef<::UnityEngine::UIElements::__KeyboardNavigationManipulator____c__DisplayClass5_0>  _cordl_fixed_empty_name_whitespace)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "<OnRuntimeKeyDown>g__GetOperation|5_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::UIElements::__KeyboardNavigationManipulator____c__DisplayClass5_0>>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::KeyboardNavigationOperation, false>(nullptr, ___internal_method, _cordl_fixed_empty_name_whitespace);
+}
+inline ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIElements::KeyboardNavigationManipulator::_OnEditorKeyDown_g__GetOperation_6_0(ByRef<::UnityEngine::UIElements::__KeyboardNavigationManipulator____c__DisplayClass6_0>  _cordl_fixed_empty_name_whitespace)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardNavigationManipulator*>::get(),
+                            "<OnEditorKeyDown>g__GetOperation|6_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::UIElements::__KeyboardNavigationManipulator____c__DisplayClass6_0>>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::KeyboardNavigationOperation, false>(nullptr, ___internal_method, _cordl_fixed_empty_name_whitespace);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

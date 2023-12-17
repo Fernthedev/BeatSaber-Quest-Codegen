@@ -1,0 +1,85 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Xml/Schema/zzzz__Datatype_integer_def.hpp"
+CORDL_MODULE_EXPORT(Datatype_nonNegativeInteger)
+namespace System::Xml::Schema {
+class FacetsChecker;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
+}
+// Forward declare root types
+namespace System::Xml::Schema {
+class Datatype_nonNegativeInteger;
+}
+// Write type traits
+MARK_REF_PTR_T(::System::Xml::Schema::Datatype_nonNegativeInteger);
+// Type: System.Xml.Schema::Datatype_nonNegativeInteger
+namespace System::Xml::Schema {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11664))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11671))
+// CS Name: ::System.Xml.Schema::Datatype_nonNegativeInteger*
+class CORDL_TYPE Datatype_nonNegativeInteger : public ::System::Xml::Schema::Datatype_integer {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x38};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x38 - sizeof(::System::Xml::Schema::Datatype_integer)]{};
+
+ __declspec(property(get=get_FacetsChecker)) ::System::Xml::Schema::FacetsChecker*  FacetsChecker;
+
+ __declspec(property(get=get_TypeCode)) ::System::Xml::Schema::XmlTypeCode  TypeCode;
+
+static inline void setStaticF_numeric10FacetsChecker(::System::Xml::Schema::FacetsChecker*  value) ;
+
+static inline ::System::Xml::Schema::FacetsChecker* getStaticF_numeric10FacetsChecker() ;
+
+/// @brief Method get_FacetsChecker addr 0x28bd378 size 0x58 virtual true final false
+inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker() ;
+
+/// @brief Method get_TypeCode addr 0x28bd3d0 size 0x8 virtual true final false
+inline ::System::Xml::Schema::XmlTypeCode get_TypeCode() ;
+
+static inline ::System::Xml::Schema::Datatype_nonNegativeInteger* New_ctor() ;
+
+/// @brief Method .ctor addr 0x28bd3d8 size 0x4 virtual false final false
+inline void _ctor() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "Datatype_nonNegativeInteger", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Datatype_nonNegativeInteger(Datatype_nonNegativeInteger && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "Datatype_nonNegativeInteger", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Datatype_nonNegativeInteger(Datatype_nonNegativeInteger const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ Datatype_nonNegativeInteger()  = default;
+public:
+
+
+// Fields
+
+// Static field numeric10FacetsChecker
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::Datatype_nonNegativeInteger, 0x38>, "Size mismatch!");
+
+} // namespace end def System::Xml::Schema
+NEED_NO_BOX(::System::Xml::Schema::Datatype_nonNegativeInteger);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_nonNegativeInteger*, "System.Xml.Schema", "Datatype_nonNegativeInteger");

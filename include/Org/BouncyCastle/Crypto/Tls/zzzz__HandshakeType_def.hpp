@@ -1,0 +1,106 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(HandshakeType)
+// Forward declare root types
+namespace Org::BouncyCastle::Crypto::Tls {
+class HandshakeType;
+}
+// Write type traits
+MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::HandshakeType);
+// Type: Org.BouncyCastle.Crypto.Tls::HandshakeType
+namespace Org::BouncyCastle::Crypto::Tls {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(1245))
+// CS Name: ::Org.BouncyCastle.Crypto.Tls::HandshakeType*
+class CORDL_TYPE HandshakeType : public ::System::Object {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x10};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x10 - sizeof(::System::Object)]{};
+
+/// @brief Field hello_request offset 0x0
+static constexpr uint8_t  hello_request{static_cast<uint8_t>(0x0u)};
+
+/// @brief Field client_hello offset 0x0
+static constexpr uint8_t  client_hello{static_cast<uint8_t>(0x1u)};
+
+/// @brief Field server_hello offset 0x0
+static constexpr uint8_t  server_hello{static_cast<uint8_t>(0x2u)};
+
+/// @brief Field certificate offset 0x0
+static constexpr uint8_t  certificate{static_cast<uint8_t>(0xbu)};
+
+/// @brief Field server_key_exchange offset 0x0
+static constexpr uint8_t  server_key_exchange{static_cast<uint8_t>(0xcu)};
+
+/// @brief Field certificate_request offset 0x0
+static constexpr uint8_t  certificate_request{static_cast<uint8_t>(0xdu)};
+
+/// @brief Field server_hello_done offset 0x0
+static constexpr uint8_t  server_hello_done{static_cast<uint8_t>(0xeu)};
+
+/// @brief Field certificate_verify offset 0x0
+static constexpr uint8_t  certificate_verify{static_cast<uint8_t>(0xfu)};
+
+/// @brief Field client_key_exchange offset 0x0
+static constexpr uint8_t  client_key_exchange{static_cast<uint8_t>(0x10u)};
+
+/// @brief Field finished offset 0x0
+static constexpr uint8_t  finished{static_cast<uint8_t>(0x14u)};
+
+/// @brief Field certificate_url offset 0x0
+static constexpr uint8_t  certificate_url{static_cast<uint8_t>(0x15u)};
+
+/// @brief Field certificate_status offset 0x0
+static constexpr uint8_t  certificate_status{static_cast<uint8_t>(0x16u)};
+
+/// @brief Field hello_verify_request offset 0x0
+static constexpr uint8_t  hello_verify_request{static_cast<uint8_t>(0x3u)};
+
+/// @brief Field supplemental_data offset 0x0
+static constexpr uint8_t  supplemental_data{static_cast<uint8_t>(0x17u)};
+
+/// @brief Field session_ticket offset 0x0
+static constexpr uint8_t  session_ticket{static_cast<uint8_t>(0x4u)};
+
+static inline ::Org::BouncyCastle::Crypto::Tls::HandshakeType* New_ctor() ;
+
+/// @brief Method .ctor addr 0xf91470 size 0x8 virtual false final false
+inline void _ctor() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "HandshakeType", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HandshakeType(HandshakeType && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "HandshakeType", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HandshakeType(HandshakeType const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ HandshakeType()  = default;
+public:
+
+
+// Fields
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::HandshakeType, 0x10>, "Size mismatch!");
+
+} // namespace end def Org::BouncyCastle::Crypto::Tls
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::HandshakeType);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::HandshakeType*, "Org.BouncyCastle.Crypto.Tls", "HandshakeType");

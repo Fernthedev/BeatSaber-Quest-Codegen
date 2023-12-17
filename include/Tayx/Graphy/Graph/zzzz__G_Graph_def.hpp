@@ -1,0 +1,63 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+CORDL_MODULE_EXPORT(G_Graph)
+// Forward declare root types
+namespace Tayx::Graphy::Graph {
+class G_Graph;
+}
+// Write type traits
+MARK_REF_PTR_T(::Tayx::Graphy::Graph::G_Graph);
+// Type: Tayx.Graphy.Graph::G_Graph
+namespace Tayx::Graphy::Graph {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15080))
+// CS Name: ::Tayx.Graphy.Graph::G_Graph*
+class CORDL_TYPE G_Graph : public ::UnityEngine::MonoBehaviour {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x18};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x18 - sizeof(::UnityEngine::MonoBehaviour)]{};
+
+/// @brief Method UpdateGraph addr 0x0 size 0xffffffffffffffff virtual true final false
+inline void UpdateGraph() ;
+
+/// @brief Method CreatePoints addr 0x0 size 0xffffffffffffffff virtual true final false
+inline void CreatePoints() ;
+
+static inline ::Tayx::Graphy::Graph::G_Graph* New_ctor() ;
+
+/// @brief Method .ctor addr 0x2a07f7c size 0x8 virtual false final false
+inline void _ctor() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "G_Graph", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+G_Graph(G_Graph && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "G_Graph", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+G_Graph(G_Graph const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ G_Graph()  = default;
+public:
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Graph::G_Graph, 0x18>, "Size mismatch!");
+
+} // namespace end def Tayx::Graphy::Graph
+NEED_NO_BOX(::Tayx::Graphy::Graph::G_Graph);
+DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::Graph::G_Graph*, "Tayx.Graphy.Graph", "G_Graph");

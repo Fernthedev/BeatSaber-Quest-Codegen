@@ -1,0 +1,113 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(StreamBlockCipher)
+namespace Org::BouncyCastle::Crypto {
+class IStreamCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
+}
+// Forward declare root types
+namespace Org::BouncyCastle::Crypto {
+class StreamBlockCipher;
+}
+// Write type traits
+MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::StreamBlockCipher);
+// Type: Org.BouncyCastle.Crypto::StreamBlockCipher
+namespace Org::BouncyCastle::Crypto {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(1355))
+// CS Name: ::Org.BouncyCastle.Crypto::StreamBlockCipher*
+class CORDL_TYPE StreamBlockCipher : public ::System::Object {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x20};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x20 - sizeof(::System::Object)]{};
+
+/// @brief Field cipher offset 0x10
+ __declspec(property(get=__get_cipher, put=__set_cipher)) ::Org::BouncyCastle::Crypto::IBlockCipher*  cipher;
+
+/// @brief Field oneByte offset 0x18
+ __declspec(property(get=__get_oneByte, put=__set_oneByte)) ::ArrayW<uint8_t,::Array<uint8_t>*>  oneByte;
+
+ __declspec(property(get=get_AlgorithmName)) ::StringW  AlgorithmName;
+
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCipher"
+constexpr operator  ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept;
+
+constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher*  value) ;
+
+constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* __get_cipher() ;
+
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> __get_cipher() const;
+
+constexpr void __set_oneByte(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __get_oneByte() ;
+
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __get_oneByte() const;
+
+static inline ::Org::BouncyCastle::Crypto::StreamBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher*  cipher) ;
+
+/// @brief Method .ctor addr 0xfc6088 size 0x180 virtual false final false
+inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher*  cipher) ;
+
+/// @brief Method Init addr 0xfc6208 size 0xbc virtual true final true
+inline void Init(bool  forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters*  parameters) ;
+
+/// @brief Method get_AlgorithmName addr 0xfc62c4 size 0xa0 virtual true final true
+inline ::StringW get_AlgorithmName() ;
+
+/// @brief Method ReturnByte addr 0xfc6364 size 0xec virtual true final true
+inline uint8_t ReturnByte(uint8_t  input) ;
+
+/// @brief Method ProcessBytes addr 0xfc6450 size 0x164 virtual true final true
+inline void ProcessBytes(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff, int32_t  length, ::ArrayW<uint8_t,::Array<uint8_t>*>  output, int32_t  outOff) ;
+
+/// @brief Method Reset addr 0xfc65b4 size 0xa4 virtual true final true
+inline void Reset() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "StreamBlockCipher", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StreamBlockCipher(StreamBlockCipher && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "StreamBlockCipher", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StreamBlockCipher(StreamBlockCipher const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ StreamBlockCipher()  = default;
+public:
+
+
+// Fields
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::StreamBlockCipher, 0x20>, "Size mismatch!");
+
+} // namespace end def Org::BouncyCastle::Crypto
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::StreamBlockCipher);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::StreamBlockCipher*, "Org.BouncyCastle.Crypto", "StreamBlockCipher");

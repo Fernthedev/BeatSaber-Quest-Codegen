@@ -1,0 +1,89 @@
+#pragma once
+#include "GlobalNamespace/zzzz__ColorSO_impl.hpp"
+#include "GlobalNamespace/zzzz__MultipliedAndAddedColorSO_def.hpp"
+#include "GlobalNamespace/zzzz__SimpleColorSO_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::MultipliedAndAddedColorSO.get_color
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::MultipliedAndAddedColorSO::*)()>(&::GlobalNamespace::MultipliedAndAddedColorSO::get_color)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x122d8d8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultipliedAndAddedColorSO*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultipliedAndAddedColorSO*>::get(),
+                                  5
+                                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MultipliedAndAddedColorSO._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultipliedAndAddedColorSO::*)()>(&::GlobalNamespace::MultipliedAndAddedColorSO::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x122d940;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultipliedAndAddedColorSO*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+constexpr void GlobalNamespace::MultipliedAndAddedColorSO::__set__baseColor(::GlobalNamespace::SimpleColorSO*  value)  {
+::cordl_internals::setInstanceField<::GlobalNamespace::SimpleColorSO*, 0x18>(this, std::forward<::GlobalNamespace::SimpleColorSO*>(value));
+}
+constexpr ::GlobalNamespace::SimpleColorSO* GlobalNamespace::MultipliedAndAddedColorSO::__get__baseColor()  {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::SimpleColorSO*, 0x18>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SimpleColorSO*> GlobalNamespace::MultipliedAndAddedColorSO::__get__baseColor() const {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::SimpleColorSO*, 0x18>(this);
+}
+constexpr void GlobalNamespace::MultipliedAndAddedColorSO::__set__multiplierColor(::UnityEngine::Color  value)  {
+::cordl_internals::setInstanceField<::UnityEngine::Color, 0x20>(this, std::forward<::UnityEngine::Color>(value));
+}
+constexpr ::UnityEngine::Color& GlobalNamespace::MultipliedAndAddedColorSO::__get__multiplierColor()  {
+return ::cordl_internals::getInstanceField<::UnityEngine::Color, 0x20>(this);
+}
+constexpr ::UnityEngine::Color const& GlobalNamespace::MultipliedAndAddedColorSO::__get__multiplierColor() const {
+return ::cordl_internals::getInstanceField<::UnityEngine::Color, 0x20>(this);
+}
+constexpr void GlobalNamespace::MultipliedAndAddedColorSO::__set__addColor(::UnityEngine::Color  value)  {
+::cordl_internals::setInstanceField<::UnityEngine::Color, 0x30>(this, std::forward<::UnityEngine::Color>(value));
+}
+constexpr ::UnityEngine::Color& GlobalNamespace::MultipliedAndAddedColorSO::__get__addColor()  {
+return ::cordl_internals::getInstanceField<::UnityEngine::Color, 0x30>(this);
+}
+constexpr ::UnityEngine::Color const& GlobalNamespace::MultipliedAndAddedColorSO::__get__addColor() const {
+return ::cordl_internals::getInstanceField<::UnityEngine::Color, 0x30>(this);
+}
+inline ::UnityEngine::Color GlobalNamespace::MultipliedAndAddedColorSO::get_color()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultipliedAndAddedColorSO*>::get(),
+                            "get_color",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(*this, ___internal_method);
+}
+inline ::GlobalNamespace::MultipliedAndAddedColorSO* GlobalNamespace::MultipliedAndAddedColorSO::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MultipliedAndAddedColorSO*>());
+}
+inline void GlobalNamespace::MultipliedAndAddedColorSO::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultipliedAndAddedColorSO*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

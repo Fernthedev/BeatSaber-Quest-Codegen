@@ -1,0 +1,107 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include <cmath>
+#include <cstdint>
+CORDL_MODULE_EXPORT(OneTimeLightColorEffect)
+namespace GlobalNamespace {
+class ColorSO;
+}
+namespace GlobalNamespace {
+class LightWithIdManager;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+class OneTimeLightColorEffect;
+}
+// Write type traits
+MARK_REF_PTR_T(::GlobalNamespace::OneTimeLightColorEffect);
+// Type: ::OneTimeLightColorEffect
+namespace GlobalNamespace {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4873))
+// CS Name: ::OneTimeLightColorEffect*
+class CORDL_TYPE OneTimeLightColorEffect : public ::UnityEngine::MonoBehaviour {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x30};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x30 - sizeof(::UnityEngine::MonoBehaviour)]{};
+
+/// @brief Field _color offset 0x18
+ __declspec(property(get=__get__color, put=__set__color)) ::GlobalNamespace::ColorSO*  _color;
+
+/// @brief Field _alpha offset 0x20
+ __declspec(property(get=__get__alpha, put=__set__alpha)) float_t  _alpha;
+
+/// @brief Field _lightsId offset 0x24
+ __declspec(property(get=__get__lightsId, put=__set__lightsId)) int32_t  _lightsId;
+
+/// @brief Field _lightWithIdManager offset 0x28
+ __declspec(property(get=__get__lightWithIdManager, put=__set__lightWithIdManager)) ::GlobalNamespace::LightWithIdManager*  _lightWithIdManager;
+
+constexpr void __set__color(::GlobalNamespace::ColorSO*  value) ;
+
+constexpr ::GlobalNamespace::ColorSO* __get__color() ;
+
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> __get__color() const;
+
+constexpr void __set__alpha(float_t  value) ;
+
+constexpr float_t& __get__alpha() ;
+
+constexpr float_t const& __get__alpha() const;
+
+constexpr void __set__lightsId(int32_t  value) ;
+
+constexpr int32_t& __get__lightsId() ;
+
+constexpr int32_t const& __get__lightsId() const;
+
+constexpr void __set__lightWithIdManager(::GlobalNamespace::LightWithIdManager*  value) ;
+
+constexpr ::GlobalNamespace::LightWithIdManager* __get__lightWithIdManager() ;
+
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightWithIdManager*> __get__lightWithIdManager() const;
+
+/// @brief Method Update addr 0x239b084 size 0x5c virtual false final false
+inline void Update() ;
+
+static inline ::GlobalNamespace::OneTimeLightColorEffect* New_ctor() ;
+
+/// @brief Method .ctor addr 0x239b0e0 size 0x10 virtual false final false
+inline void _ctor() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "OneTimeLightColorEffect", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OneTimeLightColorEffect(OneTimeLightColorEffect && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "OneTimeLightColorEffect", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OneTimeLightColorEffect(OneTimeLightColorEffect const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ OneTimeLightColorEffect()  = default;
+public:
+
+
+// Fields
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OneTimeLightColorEffect, 0x30>, "Size mismatch!");
+
+} // namespace end def GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::OneTimeLightColorEffect);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OneTimeLightColorEffect*, "", "OneTimeLightColorEffect");

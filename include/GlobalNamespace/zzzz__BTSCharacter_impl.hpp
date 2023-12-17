@@ -1,0 +1,214 @@
+#pragma once
+#include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
+#include "GlobalNamespace/zzzz__BTSCharacter_def.hpp"
+#include "UnityEngine/zzzz__Animator_def.hpp"
+#include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
+#include "GlobalNamespace/zzzz__BTSCharacterMaterialSwitcher_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::BTSCharacter.get_characterName
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BTSCharacter::*)()>(&::GlobalNamespace::BTSCharacter::get_characterName)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x221963c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacter*>::get(),
+                            "get_characterName",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BTSCharacter.get_materialPropertyBlockController
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MaterialPropertyBlockController* (::GlobalNamespace::BTSCharacter::*)()>(&::GlobalNamespace::BTSCharacter::get_materialPropertyBlockController)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2219644;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacter*>::get(),
+                            "get_materialPropertyBlockController",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BTSCharacter.get_animator
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Animator* (::GlobalNamespace::BTSCharacter::*)()>(&::GlobalNamespace::BTSCharacter::get_animator)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x221964c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacter*>::get(),
+                            "get_animator",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BTSCharacter.get_headTransform
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (::GlobalNamespace::BTSCharacter::*)()>(&::GlobalNamespace::BTSCharacter::get_headTransform)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2219654;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacter*>::get(),
+                            "get_headTransform",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BTSCharacter.SetAlternativeAnimationAndMaterial
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacter::*)(::UnityEngine::AnimationClip*, bool)>(&::GlobalNamespace::BTSCharacter::SetAlternativeAnimationAndMaterial)> {
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x221965c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacter*>::get(),
+                            "SetAlternativeAnimationAndMaterial",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AnimationClip*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BTSCharacter._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacter::*)()>(&::GlobalNamespace::BTSCharacter::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2219aa4;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacter*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+constexpr void GlobalNamespace::BTSCharacter::__set__characterName(::StringW  value)  {
+::cordl_internals::setInstanceField<::StringW, 0x18>(this, std::forward<::StringW>(value));
+}
+constexpr ::StringW& GlobalNamespace::BTSCharacter::__get__characterName()  {
+return ::cordl_internals::getInstanceField<::StringW, 0x18>(this);
+}
+constexpr ::StringW const& GlobalNamespace::BTSCharacter::__get__characterName() const {
+return ::cordl_internals::getInstanceField<::StringW, 0x18>(this);
+}
+constexpr void GlobalNamespace::BTSCharacter::__set__animator(::UnityEngine::Animator*  value)  {
+::cordl_internals::setInstanceField<::UnityEngine::Animator*, 0x20>(this, std::forward<::UnityEngine::Animator*>(value));
+}
+constexpr ::UnityEngine::Animator* GlobalNamespace::BTSCharacter::__get__animator()  {
+return ::cordl_internals::getInstanceField<::UnityEngine::Animator*, 0x20>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animator*> GlobalNamespace::BTSCharacter::__get__animator() const {
+return ::cordl_internals::getInstanceField<::UnityEngine::Animator*, 0x20>(this);
+}
+constexpr void GlobalNamespace::BTSCharacter::__set__btsCharacterMaterialSwitcher(::GlobalNamespace::BTSCharacterMaterialSwitcher*  value)  {
+::cordl_internals::setInstanceField<::GlobalNamespace::BTSCharacterMaterialSwitcher*, 0x28>(this, std::forward<::GlobalNamespace::BTSCharacterMaterialSwitcher*>(value));
+}
+constexpr ::GlobalNamespace::BTSCharacterMaterialSwitcher* GlobalNamespace::BTSCharacter::__get__btsCharacterMaterialSwitcher()  {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::BTSCharacterMaterialSwitcher*, 0x28>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSCharacterMaterialSwitcher*> GlobalNamespace::BTSCharacter::__get__btsCharacterMaterialSwitcher() const {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::BTSCharacterMaterialSwitcher*, 0x28>(this);
+}
+constexpr void GlobalNamespace::BTSCharacter::__set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController*  value)  {
+::cordl_internals::setInstanceField<::GlobalNamespace::MaterialPropertyBlockController*, 0x30>(this, std::forward<::GlobalNamespace::MaterialPropertyBlockController*>(value));
+}
+constexpr ::GlobalNamespace::MaterialPropertyBlockController* GlobalNamespace::BTSCharacter::__get__materialPropertyBlockController()  {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::MaterialPropertyBlockController*, 0x30>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockController*> GlobalNamespace::BTSCharacter::__get__materialPropertyBlockController() const {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::MaterialPropertyBlockController*, 0x30>(this);
+}
+constexpr void GlobalNamespace::BTSCharacter::__set__headTransform(::UnityEngine::Transform*  value)  {
+::cordl_internals::setInstanceField<::UnityEngine::Transform*, 0x38>(this, std::forward<::UnityEngine::Transform*>(value));
+}
+constexpr ::UnityEngine::Transform* GlobalNamespace::BTSCharacter::__get__headTransform()  {
+return ::cordl_internals::getInstanceField<::UnityEngine::Transform*, 0x38>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> GlobalNamespace::BTSCharacter::__get__headTransform() const {
+return ::cordl_internals::getInstanceField<::UnityEngine::Transform*, 0x38>(this);
+}
+inline ::StringW GlobalNamespace::BTSCharacter::get_characterName()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacter*>::get(),
+                            "get_characterName",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(*this, ___internal_method);
+}
+inline ::GlobalNamespace::MaterialPropertyBlockController* GlobalNamespace::BTSCharacter::get_materialPropertyBlockController()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacter*>::get(),
+                            "get_materialPropertyBlockController",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MaterialPropertyBlockController*, false>(*this, ___internal_method);
+}
+inline ::UnityEngine::Animator* GlobalNamespace::BTSCharacter::get_animator()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacter*>::get(),
+                            "get_animator",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Animator*, false>(*this, ___internal_method);
+}
+inline ::UnityEngine::Transform* GlobalNamespace::BTSCharacter::get_headTransform()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacter*>::get(),
+                            "get_headTransform",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Transform*, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::BTSCharacter::SetAlternativeAnimationAndMaterial(::UnityEngine::AnimationClip*  animation, bool  alternativeMaterialOn)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacter*>::get(),
+                            "SetAlternativeAnimationAndMaterial",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AnimationClip*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, animation, alternativeMaterialOn);
+}
+inline ::GlobalNamespace::BTSCharacter* GlobalNamespace::BTSCharacter::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::BTSCharacter*>());
+}
+inline void GlobalNamespace::BTSCharacter::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacter*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

@@ -1,0 +1,154 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(CmsEnvelopedData)
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class AttributeTable;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfo;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Cms {
+class RecipientInformationStore;
+}
+// Forward declare root types
+namespace Org::BouncyCastle::Cms {
+class CmsEnvelopedData;
+}
+// Write type traits
+MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsEnvelopedData);
+// Type: Org.BouncyCastle.Cms::CmsEnvelopedData
+namespace Org::BouncyCastle::Cms {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(633))
+// CS Name: ::Org.BouncyCastle.Cms::CmsEnvelopedData*
+class CORDL_TYPE CmsEnvelopedData : public ::System::Object {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x30};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x30 - sizeof(::System::Object)]{};
+
+/// @brief Field recipientInfoStore offset 0x10
+ __declspec(property(get=__get_recipientInfoStore, put=__set_recipientInfoStore)) ::Org::BouncyCastle::Cms::RecipientInformationStore*  recipientInfoStore;
+
+/// @brief Field contentInfo offset 0x18
+ __declspec(property(get=__get_contentInfo, put=__set_contentInfo)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo*  contentInfo;
+
+/// @brief Field encAlg offset 0x20
+ __declspec(property(get=__get_encAlg, put=__set_encAlg)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  encAlg;
+
+/// @brief Field unprotectedAttributes offset 0x28
+ __declspec(property(get=__get_unprotectedAttributes, put=__set_unprotectedAttributes)) ::Org::BouncyCastle::Asn1::Asn1Set*  unprotectedAttributes;
+
+ __declspec(property(get=get_EncryptionAlgorithmID)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  EncryptionAlgorithmID;
+
+ __declspec(property(get=get_EncryptionAlgOid)) ::StringW  EncryptionAlgOid;
+
+ __declspec(property(get=get_ContentInfo)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo*  ContentInfo;
+
+constexpr void __set_recipientInfoStore(::Org::BouncyCastle::Cms::RecipientInformationStore*  value) ;
+
+constexpr ::Org::BouncyCastle::Cms::RecipientInformationStore* __get_recipientInfoStore() ;
+
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::RecipientInformationStore*> __get_recipientInfoStore() const;
+
+constexpr void __set_contentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfo*  value) ;
+
+constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo* __get_contentInfo() ;
+
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> __get_contentInfo() const;
+
+constexpr void __set_encAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  value) ;
+
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* __get_encAlg() ;
+
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> __get_encAlg() const;
+
+constexpr void __set_unprotectedAttributes(::Org::BouncyCastle::Asn1::Asn1Set*  value) ;
+
+constexpr ::Org::BouncyCastle::Asn1::Asn1Set* __get_unprotectedAttributes() ;
+
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> __get_unprotectedAttributes() const;
+
+static inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  envelopedData) ;
+
+/// @brief Method .ctor addr 0x11dd734 size 0x24 virtual false final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  envelopedData) ;
+
+static inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* New_ctor(::System::IO::Stream*  envelopedData) ;
+
+/// @brief Method .ctor addr 0x11dd89c size 0x24 virtual false final false
+inline void _ctor(::System::IO::Stream*  envelopedData) ;
+
+static inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo*  contentInfo) ;
+
+/// @brief Method .ctor addr 0x11dd758 size 0x144 virtual false final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo*  contentInfo) ;
+
+/// @brief Method get_EncryptionAlgorithmID addr 0x11dd8c0 size 0x8 virtual false final false
+inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithmID() ;
+
+/// @brief Method get_EncryptionAlgOid addr 0x11dd8c8 size 0x2c virtual false final false
+inline ::StringW get_EncryptionAlgOid() ;
+
+/// @brief Method GetRecipientInfos addr 0x11dd8f4 size 0x8 virtual false final false
+inline ::Org::BouncyCastle::Cms::RecipientInformationStore* GetRecipientInfos() ;
+
+/// @brief Method get_ContentInfo addr 0x11dd8fc size 0x8 virtual false final false
+inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_ContentInfo() ;
+
+/// @brief Method GetUnprotectedAttributes addr 0x11dd904 size 0x74 virtual false final false
+inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetUnprotectedAttributes() ;
+
+/// @brief Method GetEncoded addr 0x11dd978 size 0x1c virtual false final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetEncoded() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CmsEnvelopedData(CmsEnvelopedData && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CmsEnvelopedData(CmsEnvelopedData const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ CmsEnvelopedData()  = default;
+public:
+
+
+// Fields
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsEnvelopedData, 0x30>, "Size mismatch!");
+
+} // namespace end def Org::BouncyCastle::Cms
+NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsEnvelopedData);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsEnvelopedData*, "Org.BouncyCastle.Cms", "CmsEnvelopedData");

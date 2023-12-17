@@ -1,0 +1,161 @@
+#pragma once
+#include "System/Security/Cryptography/zzzz__AsymmetricSignatureDeformatter_impl.hpp"
+#include "System/Security/Cryptography/zzzz__RSAPKCS1SignatureDeformatter_def.hpp"
+#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
+#include "System/Security/Cryptography/zzzz__RSA_def.hpp"
+//  Writing Method size for method: ::System::Security::Cryptography::RSAPKCS1SignatureDeformatter._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::*)()>(&::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x246e4c0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RSAPKCS1SignatureDeformatter*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::RSAPKCS1SignatureDeformatter._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::*)(::System::Security::Cryptography::AsymmetricAlgorithm*)>(&::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::_ctor)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x2473150;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RSAPKCS1SignatureDeformatter*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::AsymmetricAlgorithm*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::RSAPKCS1SignatureDeformatter.SetHashAlgorithm
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::*)(::StringW)>(&::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::SetHashAlgorithm)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x2473184;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RSAPKCS1SignatureDeformatter*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RSAPKCS1SignatureDeformatter*>::get(),
+                                  5
+                                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::RSAPKCS1SignatureDeformatter.SetKey
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::*)(::System::Security::Cryptography::AsymmetricAlgorithm*)>(&::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::SetKey)> {
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x24731e4;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RSAPKCS1SignatureDeformatter*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RSAPKCS1SignatureDeformatter*>::get(),
+                                  4
+                                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::RSAPKCS1SignatureDeformatter.VerifySignature
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, ::ArrayW<uint8_t,::Array<uint8_t>*>)>(&::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::VerifySignature)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x24732d0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RSAPKCS1SignatureDeformatter*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RSAPKCS1SignatureDeformatter*>::get(),
+                                  6
+                                ));
+    return ___internal_method;
+  }
+};
+constexpr void System::Security::Cryptography::RSAPKCS1SignatureDeformatter::__set_rsa(::System::Security::Cryptography::RSA*  value)  {
+::cordl_internals::setInstanceField<::System::Security::Cryptography::RSA*, 0x10>(this, std::forward<::System::Security::Cryptography::RSA*>(value));
+}
+constexpr ::System::Security::Cryptography::RSA* System::Security::Cryptography::RSAPKCS1SignatureDeformatter::__get_rsa()  {
+return ::cordl_internals::getInstanceField<::System::Security::Cryptography::RSA*, 0x10>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RSA*> System::Security::Cryptography::RSAPKCS1SignatureDeformatter::__get_rsa() const {
+return ::cordl_internals::getInstanceField<::System::Security::Cryptography::RSA*, 0x10>(this);
+}
+constexpr void System::Security::Cryptography::RSAPKCS1SignatureDeformatter::__set_hashName(::StringW  value)  {
+::cordl_internals::setInstanceField<::StringW, 0x18>(this, std::forward<::StringW>(value));
+}
+constexpr ::StringW& System::Security::Cryptography::RSAPKCS1SignatureDeformatter::__get_hashName()  {
+return ::cordl_internals::getInstanceField<::StringW, 0x18>(this);
+}
+constexpr ::StringW const& System::Security::Cryptography::RSAPKCS1SignatureDeformatter::__get_hashName() const {
+return ::cordl_internals::getInstanceField<::StringW, 0x18>(this);
+}
+inline ::System::Security::Cryptography::RSAPKCS1SignatureDeformatter* System::Security::Cryptography::RSAPKCS1SignatureDeformatter::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::New<::System::Security::Cryptography::RSAPKCS1SignatureDeformatter*>());
+}
+inline void System::Security::Cryptography::RSAPKCS1SignatureDeformatter::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RSAPKCS1SignatureDeformatter*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline ::System::Security::Cryptography::RSAPKCS1SignatureDeformatter* System::Security::Cryptography::RSAPKCS1SignatureDeformatter::New_ctor(::System::Security::Cryptography::AsymmetricAlgorithm*  key)  {
+return THROW_UNLESS(::il2cpp_utils::New<::System::Security::Cryptography::RSAPKCS1SignatureDeformatter*>(key));
+}
+inline void System::Security::Cryptography::RSAPKCS1SignatureDeformatter::_ctor(::System::Security::Cryptography::AsymmetricAlgorithm*  key)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RSAPKCS1SignatureDeformatter*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::AsymmetricAlgorithm*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, key);
+}
+inline void System::Security::Cryptography::RSAPKCS1SignatureDeformatter::SetHashAlgorithm(::StringW  strName)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RSAPKCS1SignatureDeformatter*>::get(),
+                            "SetHashAlgorithm",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, strName);
+}
+inline void System::Security::Cryptography::RSAPKCS1SignatureDeformatter::SetKey(::System::Security::Cryptography::AsymmetricAlgorithm*  key)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RSAPKCS1SignatureDeformatter*>::get(),
+                            "SetKey",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::AsymmetricAlgorithm*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, key);
+}
+inline bool System::Security::Cryptography::RSAPKCS1SignatureDeformatter::VerifySignature(::ArrayW<uint8_t,::Array<uint8_t>*>  rgbHash, ::ArrayW<uint8_t,::Array<uint8_t>*>  rgbSignature)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RSAPKCS1SignatureDeformatter*>::get(),
+                            "VerifySignature",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method, rgbHash, rgbSignature);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

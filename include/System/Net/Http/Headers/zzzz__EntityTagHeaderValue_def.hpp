@@ -1,0 +1,146 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(EntityTagHeaderValue)
+namespace System {
+class ICloneable;
+}
+namespace System {
+class Object;
+}
+namespace System::Net::Http::Headers {
+class Lexer;
+}
+namespace System::Net::Http::Headers {
+struct Token;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+// Forward declare root types
+namespace System::Net::Http::Headers {
+class EntityTagHeaderValue;
+}
+// Write type traits
+MARK_REF_PTR_T(::System::Net::Http::Headers::EntityTagHeaderValue);
+// Type: System.Net.Http.Headers::EntityTagHeaderValue
+namespace System::Net::Http::Headers {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14665))
+// CS Name: ::System.Net.Http.Headers::EntityTagHeaderValue*
+class CORDL_TYPE EntityTagHeaderValue : public ::System::Object {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x20};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x20 - sizeof(::System::Object)]{};
+
+/// @brief Field <IsWeak>k__BackingField offset 0x10
+ __declspec(property(get=__get__IsWeak_k__BackingField, put=__set__IsWeak_k__BackingField)) bool  _IsWeak_k__BackingField;
+
+/// @brief Field <Tag>k__BackingField offset 0x18
+ __declspec(property(get=__get__Tag_k__BackingField, put=__set__Tag_k__BackingField)) ::StringW  _Tag_k__BackingField;
+
+ __declspec(property(get=get_IsWeak, put=set_IsWeak)) bool  IsWeak;
+
+ __declspec(property(get=get_Tag, put=set_Tag)) ::StringW  Tag;
+
+/// @brief Convert operator to "::System::ICloneable"
+constexpr operator  ::System::ICloneable*() noexcept;
+
+static inline void setStaticF_any(::System::Net::Http::Headers::EntityTagHeaderValue*  value) ;
+
+static inline ::System::Net::Http::Headers::EntityTagHeaderValue* getStaticF_any() ;
+
+constexpr void __set__IsWeak_k__BackingField(bool  value) ;
+
+constexpr bool& __get__IsWeak_k__BackingField() ;
+
+constexpr bool const& __get__IsWeak_k__BackingField() const;
+
+constexpr void __set__Tag_k__BackingField(::StringW  value) ;
+
+constexpr ::StringW& __get__Tag_k__BackingField() ;
+
+constexpr ::StringW const& __get__Tag_k__BackingField() const;
+
+static inline ::System::Net::Http::Headers::EntityTagHeaderValue* New_ctor() ;
+
+/// @brief Method .ctor addr 0x28388e4 size 0x8 virtual false final false
+inline void _ctor() ;
+
+/// @brief Method get_IsWeak addr 0x28388ec size 0x8 virtual false final false
+inline bool get_IsWeak() ;
+
+/// @brief Method set_IsWeak addr 0x28388f4 size 0xc virtual false final false
+inline void set_IsWeak(bool  value) ;
+
+/// @brief Method get_Tag addr 0x2838900 size 0x8 virtual false final false
+inline ::StringW get_Tag() ;
+
+/// @brief Method set_Tag addr 0x2838908 size 0x8 virtual false final false
+inline void set_Tag(::StringW  value) ;
+
+/// @brief Method System.ICloneable.Clone addr 0x2838910 size 0x8 virtual true final true
+inline ::System::Object* System_ICloneable_Clone() ;
+
+/// @brief Method Equals addr 0x2838918 size 0xb4 virtual true final false
+inline bool Equals(::System::Object*  obj) ;
+
+/// @brief Method GetHashCode addr 0x28389cc size 0x50 virtual true final false
+inline int32_t GetHashCode() ;
+
+/// @brief Method TryParse addr 0x2838a1c size 0xf4 virtual false final false
+static inline bool TryParse(::StringW  input, ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*>  parsedValue) ;
+
+/// @brief Method TryParseElement addr 0x2838b10 size 0x1e4 virtual false final false
+static inline bool TryParseElement(::System::Net::Http::Headers::Lexer*  lexer, ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*>  parsedValue, ByRef<::System::Net::Http::Headers::Token>  t) ;
+
+/// @brief Method TryParse addr 0x2838d44 size 0xb0 virtual false final false
+static inline bool TryParse(::StringW  input, int32_t  minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::EntityTagHeaderValue*>*>  result) ;
+
+/// @brief Method ToString addr 0x2838df4 size 0x64 virtual true final false
+inline ::StringW ToString() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "EntityTagHeaderValue", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EntityTagHeaderValue(EntityTagHeaderValue && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "EntityTagHeaderValue", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EntityTagHeaderValue(EntityTagHeaderValue const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ EntityTagHeaderValue()  = default;
+public:
+
+
+// Fields
+
+// Static field any
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::EntityTagHeaderValue, 0x20>, "Size mismatch!");
+
+} // namespace end def System::Net::Http::Headers
+NEED_NO_BOX(::System::Net::Http::Headers::EntityTagHeaderValue);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::EntityTagHeaderValue*, "System.Net.Http.Headers", "EntityTagHeaderValue");

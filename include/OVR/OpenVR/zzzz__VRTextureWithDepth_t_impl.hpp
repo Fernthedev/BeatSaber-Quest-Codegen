@@ -1,0 +1,17 @@
+#pragma once
+#include "OVR/OpenVR/zzzz__VRTextureWithDepth_t_def.hpp"
+#include "OVR/OpenVR/zzzz__VRTextureDepthInfo_t_def.hpp"
+constexpr void OVR::OpenVR::VRTextureWithDepth_t::__set_depth(::OVR::OpenVR::VRTextureDepthInfo_t  value)  {
+::cordl_internals::setInstanceField<::OVR::OpenVR::VRTextureDepthInfo_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance, std::forward<::OVR::OpenVR::VRTextureDepthInfo_t>(value));
+}
+constexpr ::OVR::OpenVR::VRTextureDepthInfo_t& OVR::OpenVR::VRTextureWithDepth_t::__get_depth()  {
+return ::cordl_internals::getInstanceField<::OVR::OpenVR::VRTextureDepthInfo_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+constexpr ::OVR::OpenVR::VRTextureDepthInfo_t const& OVR::OpenVR::VRTextureWithDepth_t::__get_depth() const {
+return ::cordl_internals::getInstanceField<::OVR::OpenVR::VRTextureDepthInfo_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+// Ctor Parameters [CppParam { name: "depth", ty: "::OVR::OpenVR::VRTextureDepthInfo_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::OVR::OpenVR::VRTextureWithDepth_t::VRTextureWithDepth_t(::OVR::OpenVR::VRTextureDepthInfo_t  depth) noexcept : ::bs_hook::ValueTypeWrapper<0x50>() {this->depth = depth;
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

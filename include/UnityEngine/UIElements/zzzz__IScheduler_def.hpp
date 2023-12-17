@@ -1,0 +1,49 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+CORDL_MODULE_EXPORT(IScheduler)
+namespace UnityEngine::UIElements {
+class ScheduledItem;
+}
+// Forward declare root types
+namespace UnityEngine::UIElements {
+class IScheduler;
+}
+// Write type traits
+MARK_REF_PTR_T(::UnityEngine::UIElements::IScheduler);
+// Type: UnityEngine.UIElements::IScheduler
+namespace UnityEngine::UIElements {
+// Is value type: false
+// Dependencies: {}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6940))
+// CS Name: ::UnityEngine.UIElements::IScheduler*
+class CORDL_TYPE IScheduler {
+public:
+// Declarations
+/// @brief Method Unschedule addr 0x0 size 0xffffffffffffffff virtual true final false
+inline void Unschedule(::UnityEngine::UIElements::ScheduledItem*  item) ;
+
+/// @brief Method Schedule addr 0x0 size 0xffffffffffffffff virtual true final false
+inline void Schedule(::UnityEngine::UIElements::ScheduledItem*  item) ;
+
+/// @brief Method UpdateScheduledEvents addr 0x0 size 0xffffffffffffffff virtual true final false
+inline void UpdateScheduledEvents() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "IScheduler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IScheduler(IScheduler && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "IScheduler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IScheduler(IScheduler const& ) = delete;
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def UnityEngine::UIElements
+NEED_NO_BOX(::UnityEngine::UIElements::IScheduler);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IScheduler*, "UnityEngine.UIElements", "IScheduler");

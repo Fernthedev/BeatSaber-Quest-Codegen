@@ -1,0 +1,89 @@
+#pragma once
+#include "TMPro/zzzz__GlyphPairKey_def.hpp"
+#include "TMPro/zzzz__TMP_GlyphPairAdjustmentRecord_def.hpp"
+//  Writing Method size for method: ::TMPro::GlyphPairKey._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::GlyphPairKey::*)(uint32_t, uint32_t)>(&::TMPro::GlyphPairKey::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x2c122a0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::GlyphPairKey>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::GlyphPairKey._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::GlyphPairKey::*)(::TMPro::TMP_GlyphPairAdjustmentRecord*)>(&::TMPro::GlyphPairKey::_ctor)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x2c09c24;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::GlyphPairKey>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_GlyphPairAdjustmentRecord*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+constexpr void TMPro::GlyphPairKey::__set_firstGlyphIndex(uint32_t  value)  {
+::cordl_internals::setInstanceField<uint32_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance, std::forward<uint32_t>(value));
+}
+constexpr uint32_t& TMPro::GlyphPairKey::__get_firstGlyphIndex()  {
+return ::cordl_internals::getInstanceField<uint32_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+constexpr uint32_t const& TMPro::GlyphPairKey::__get_firstGlyphIndex() const {
+return ::cordl_internals::getInstanceField<uint32_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+constexpr void TMPro::GlyphPairKey::__set_secondGlyphIndex(uint32_t  value)  {
+::cordl_internals::setInstanceField<uint32_t, 0x4>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance, std::forward<uint32_t>(value));
+}
+constexpr uint32_t& TMPro::GlyphPairKey::__get_secondGlyphIndex()  {
+return ::cordl_internals::getInstanceField<uint32_t, 0x4>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+constexpr uint32_t const& TMPro::GlyphPairKey::__get_secondGlyphIndex() const {
+return ::cordl_internals::getInstanceField<uint32_t, 0x4>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+constexpr void TMPro::GlyphPairKey::__set_key(uint32_t  value)  {
+::cordl_internals::setInstanceField<uint32_t, 0x8>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance, std::forward<uint32_t>(value));
+}
+constexpr uint32_t& TMPro::GlyphPairKey::__get_key()  {
+return ::cordl_internals::getInstanceField<uint32_t, 0x8>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+constexpr uint32_t const& TMPro::GlyphPairKey::__get_key() const {
+return ::cordl_internals::getInstanceField<uint32_t, 0x8>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+inline void TMPro::GlyphPairKey::_ctor(uint32_t  firstGlyphIndex, uint32_t  secondGlyphIndex)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::GlyphPairKey>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, firstGlyphIndex, secondGlyphIndex);
+}
+inline void TMPro::GlyphPairKey::_ctor(::TMPro::TMP_GlyphPairAdjustmentRecord*  record)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::GlyphPairKey>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_GlyphPairAdjustmentRecord*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, record);
+}
+// Ctor Parameters [CppParam { name: "firstGlyphIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "secondGlyphIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "key", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::TMPro::GlyphPairKey::GlyphPairKey(uint32_t  firstGlyphIndex, uint32_t  secondGlyphIndex, uint32_t  key) noexcept : ::bs_hook::ValueTypeWrapper<0xc>() {this->firstGlyphIndex = firstGlyphIndex;
+this->secondGlyphIndex = secondGlyphIndex;
+this->key = key;
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

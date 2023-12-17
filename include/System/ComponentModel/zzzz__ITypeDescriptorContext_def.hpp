@@ -1,0 +1,54 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+CORDL_MODULE_EXPORT(ITypeDescriptorContext)
+namespace System {
+class IServiceProvider;
+}
+namespace System::ComponentModel {
+class IContainer;
+}
+// Forward declare root types
+namespace System::ComponentModel {
+class ITypeDescriptorContext;
+}
+// Write type traits
+MARK_REF_PTR_T(::System::ComponentModel::ITypeDescriptorContext);
+// Type: System.ComponentModel::ITypeDescriptorContext
+namespace System::ComponentModel {
+// Is value type: false
+// Dependencies: {}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9434))
+// CS Name: ::System.ComponentModel::ITypeDescriptorContext*
+class CORDL_TYPE ITypeDescriptorContext {
+public:
+// Declarations
+ __declspec(property(get=get_Container)) ::System::ComponentModel::IContainer*  Container;
+
+/// @brief Convert operator to "::System::IServiceProvider"
+constexpr operator  ::System::IServiceProvider*() noexcept;
+
+/// @brief Method get_Container addr 0x0 size 0xffffffffffffffff virtual true final false
+inline ::System::ComponentModel::IContainer* get_Container() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "ITypeDescriptorContext", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ITypeDescriptorContext(ITypeDescriptorContext && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ITypeDescriptorContext", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ITypeDescriptorContext(ITypeDescriptorContext const& ) = delete;
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def System::ComponentModel
+NEED_NO_BOX(::System::ComponentModel::ITypeDescriptorContext);
+DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ITypeDescriptorContext*, "System.ComponentModel", "ITypeDescriptorContext");

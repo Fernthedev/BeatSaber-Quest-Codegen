@@ -1,0 +1,99 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(Asn1Encodable)
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Convertible;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+// Forward declare root types
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+// Write type traits
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1Encodable);
+// Type: Org.BouncyCastle.Asn1::Asn1Encodable
+namespace Org::BouncyCastle::Asn1 {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7))
+// CS Name: ::Org.BouncyCastle.Asn1::Asn1Encodable*
+class CORDL_TYPE Asn1Encodable : public ::System::Object {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x10};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x10 - sizeof(::System::Object)]{};
+
+/// @brief Field Der offset 0x0
+static constexpr ::ConstString  Der{u"DER"};
+
+/// @brief Field Ber offset 0x0
+static constexpr ::ConstString  Ber{u"BER"};
+
+/// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+constexpr operator  ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
+
+/// @brief Method GetEncoded addr 0xe631cc size 0xb4 virtual false final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetEncoded() ;
+
+/// @brief Method GetEncoded addr 0xe63280 size 0xf4 virtual false final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetEncoded(::StringW  encoding) ;
+
+/// @brief Method GetDerEncoded addr 0xe63374 size 0xc0 virtual false final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetDerEncoded() ;
+
+/// @brief Method GetHashCode addr 0xe63434 size 0x28 virtual true final true
+inline int32_t GetHashCode() ;
+
+/// @brief Method Equals addr 0xe63468 size 0x108 virtual true final true
+inline bool Equals(::System::Object*  obj) ;
+
+/// @brief Method ToAsn1Object addr 0x0 size 0xffffffffffffffff virtual true final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
+
+static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* New_ctor() ;
+
+/// @brief Method .ctor addr 0xe6357c size 0x8 virtual false final false
+inline void _ctor() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "Asn1Encodable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Asn1Encodable(Asn1Encodable && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "Asn1Encodable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Asn1Encodable(Asn1Encodable const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ Asn1Encodable()  = default;
+public:
+
+
+// Fields
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Asn1Encodable, 0x10>, "Size mismatch!");
+
+} // namespace end def Org::BouncyCastle::Asn1
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::Asn1Encodable);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Asn1Encodable*, "Org.BouncyCastle.Asn1", "Asn1Encodable");

@@ -1,0 +1,142 @@
+#pragma once
+#include "System/zzzz__Object_impl.hpp"
+#include "Org/BouncyCastle/Cmp/zzzz__CertificateStatus_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__DefaultDigestAlgorithmIdentifierFinder_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiStatusInfo_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__DefaultSignatureAlgorithmIdentifierFinder_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__CertStatus_def.hpp"
+//  Writing Method size for method: ::Org::BouncyCastle::Cmp::CertificateStatus._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cmp::CertificateStatus::*)(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*, ::Org::BouncyCastle::Asn1::Cmp::CertStatus*)>(&::Org::BouncyCastle::Cmp::CertificateStatus::_ctor)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x11d5510;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::CertificateStatus*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cmp::CertStatus*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Org::BouncyCastle::Cmp::CertificateStatus.get_PkiStatusInfo
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* (::Org::BouncyCastle::Cmp::CertificateStatus::*)()>(&::Org::BouncyCastle::Cmp::CertificateStatus::get_PkiStatusInfo)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x11d5c9c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::CertificateStatus*>::get(),
+                            "get_PkiStatusInfo",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Org::BouncyCastle::Cmp::CertificateStatus.get_CertRequestId
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Cmp::CertificateStatus::*)()>(&::Org::BouncyCastle::Cmp::CertificateStatus::get_CertRequestId)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x11d5cbc;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::CertificateStatus*>::get(),
+                            "get_CertRequestId",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Org::BouncyCastle::Cmp::CertificateStatus.IsVerified
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Cmp::CertificateStatus::*)(::Org::BouncyCastle::X509::X509Certificate*)>(&::Org::BouncyCastle::Cmp::CertificateStatus::IsVerified)> {
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x11d5ce8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::CertificateStatus*>::get(),
+                            "IsVerified",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::X509::X509Certificate*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+inline void Org::BouncyCastle::Cmp::CertificateStatus::setStaticF_sigAlgFinder(::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder*  value)  {
+::cordl_internals::setStaticField<::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder*, "sigAlgFinder", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::CertificateStatus*>::get>(std::forward<::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder*>(value));
+}
+inline ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* Org::BouncyCastle::Cmp::CertificateStatus::getStaticF_sigAlgFinder()  {
+return ::cordl_internals::getStaticField<::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder*, "sigAlgFinder", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::CertificateStatus*>::get>();
+}
+constexpr void Org::BouncyCastle::Cmp::CertificateStatus::__set_digestAlgFinder(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*  value)  {
+::cordl_internals::setInstanceField<::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*, 0x10>(this, std::forward<::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*>(value));
+}
+constexpr ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* Org::BouncyCastle::Cmp::CertificateStatus::__get_digestAlgFinder()  {
+return ::cordl_internals::getInstanceField<::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*, 0x10>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*> Org::BouncyCastle::Cmp::CertificateStatus::__get_digestAlgFinder() const {
+return ::cordl_internals::getInstanceField<::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*, 0x10>(this);
+}
+constexpr void Org::BouncyCastle::Cmp::CertificateStatus::__set_certStatus(::Org::BouncyCastle::Asn1::Cmp::CertStatus*  value)  {
+::cordl_internals::setInstanceField<::Org::BouncyCastle::Asn1::Cmp::CertStatus*, 0x18>(this, std::forward<::Org::BouncyCastle::Asn1::Cmp::CertStatus*>(value));
+}
+constexpr ::Org::BouncyCastle::Asn1::Cmp::CertStatus* Org::BouncyCastle::Cmp::CertificateStatus::__get_certStatus()  {
+return ::cordl_internals::getInstanceField<::Org::BouncyCastle::Asn1::Cmp::CertStatus*, 0x18>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CertStatus*> Org::BouncyCastle::Cmp::CertificateStatus::__get_certStatus() const {
+return ::cordl_internals::getInstanceField<::Org::BouncyCastle::Asn1::Cmp::CertStatus*, 0x18>(this);
+}
+inline ::Org::BouncyCastle::Cmp::CertificateStatus* Org::BouncyCastle::Cmp::CertificateStatus::New_ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*  digestAlgFinder, ::Org::BouncyCastle::Asn1::Cmp::CertStatus*  certStatus)  {
+return THROW_UNLESS(::il2cpp_utils::New<::Org::BouncyCastle::Cmp::CertificateStatus*>(digestAlgFinder, certStatus));
+}
+inline void Org::BouncyCastle::Cmp::CertificateStatus::_ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*  digestAlgFinder, ::Org::BouncyCastle::Asn1::Cmp::CertStatus*  certStatus)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::CertificateStatus*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cmp::CertStatus*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, digestAlgFinder, certStatus);
+}
+inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* Org::BouncyCastle::Cmp::CertificateStatus::get_PkiStatusInfo()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::CertificateStatus*>::get(),
+                            "get_PkiStatusInfo",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*, false>(*this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Cmp::CertificateStatus::get_CertRequestId()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::CertificateStatus*>::get(),
+                            "get_CertRequestId",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::BigInteger*, false>(*this, ___internal_method);
+}
+inline bool Org::BouncyCastle::Cmp::CertificateStatus::IsVerified(::Org::BouncyCastle::X509::X509Certificate*  cert)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::CertificateStatus*>::get(),
+                            "IsVerified",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::X509::X509Certificate*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method, cert);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

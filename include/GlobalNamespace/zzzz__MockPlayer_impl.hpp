@@ -1,0 +1,2255 @@
+#pragma once
+#include "System/zzzz__Object_impl.hpp"
+#include "GlobalNamespace/zzzz__MockPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
+#include "GlobalNamespace/zzzz__MockPlayerFiniteStateMachine_def.hpp"
+#include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
+#include "GlobalNamespace/zzzz__NodePoseSyncStateManager_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__MockPlayerSettings_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_isReady
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isReady)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23df974;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isReady",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_isReady
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isReady)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x23df97c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isReady",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_isMe
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isMe)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23df9b0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isMe",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_userId
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_userId)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x23df9b8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_userId",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_userName
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_userName)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x23df9d4;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_userName",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_sortIndex
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_sortIndex)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x23df9f0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_sortIndex",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_autoConnect
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_autoConnect)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x23dfa0c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_autoConnect",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_inactiveByDefault
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_inactiveByDefault)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x23dfa28;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_inactiveByDefault",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_isConnected
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isConnected)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23dfa44;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isConnected",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_isConnected
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isConnected)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x23dfa4c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isConnected",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_multiplayerAvatarsData
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerAvatarsData (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_multiplayerAvatarsData)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x23dfa58;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_multiplayerAvatarsData",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_multiplayerAvatarsData
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(::GlobalNamespace::MultiplayerAvatarsData)>(&::GlobalNamespace::MockPlayer::set_multiplayerAvatarsData)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x23dfa6c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_multiplayerAvatarsData",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerAvatarsData>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_isConnectionOwner
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isConnectionOwner)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23dfa80;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isConnectionOwner",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_isConnectionOwner
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isConnectionOwner)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x23dfa88;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isConnectionOwner",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_disconnectedReason
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DisconnectedReason (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_disconnectedReason)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23dfa94;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_disconnectedReason",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_offsetSyncTime
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_offsetSyncTime)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x23dfa9c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_offsetSyncTime",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_hasValidLatency
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_hasValidLatency)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23dfb38;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_hasValidLatency",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_currentLatency
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_currentLatency)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x23dfb0c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_currentLatency",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_isKicked
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isKicked)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23dfb40;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isKicked",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_isKicked
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isKicked)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x23dfb48;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isKicked",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_currentPartySize
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_currentPartySize)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23dfb54;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_currentPartySize",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_currentPartySize
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(int32_t)>(&::GlobalNamespace::MockPlayer::set_currentPartySize)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23dfb5c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_currentPartySize",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_selectionMask
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevelSelectionMask (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_selectionMask)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x23dfb64;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_selectionMask",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_selectionMask
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(::GlobalNamespace::BeatmapLevelSelectionMask)>(&::GlobalNamespace::MockPlayer::set_selectionMask)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x23dfb7c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_selectionMask",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelSelectionMask>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_configuration
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayServerConfiguration (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_configuration)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x23dfb94;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_configuration",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_configuration
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(::GlobalNamespace::GameplayServerConfiguration)>(&::GlobalNamespace::MockPlayer::set_configuration)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x23dfba8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_configuration",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayServerConfiguration>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_isMyPartyOwner
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isMyPartyOwner)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23dfbbc;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isMyPartyOwner",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_isMyPartyOwner
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isMyPartyOwner)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x23dfbc4;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isMyPartyOwner",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_connectedPlayer
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IConnectedPlayer* (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_connectedPlayer)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x23dfbd0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_connectedPlayer",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_canJoin
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_canJoin)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23dfbd4;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                                  43
+                                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_requiresPassword
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_requiresPassword)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23dfbdc;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_requiresPassword",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_requiresPassword
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_requiresPassword)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x23dfbe4;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_requiresPassword",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_isWaitingOnJoin
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isWaitingOnJoin)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23dfbf0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isWaitingOnJoin",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_isWaitingOnJoin
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isWaitingOnJoin)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x23dfbf8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isWaitingOnJoin",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_canInvite
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_canInvite)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23dfc04;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_canInvite",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_canInvite
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_canInvite)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x23dfc0c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_canInvite",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_isWaitingOnInvite
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isWaitingOnInvite)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23dfc18;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isWaitingOnInvite",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_isWaitingOnInvite
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isWaitingOnInvite)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x23dfc20;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isWaitingOnInvite",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_canKick
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_canKick)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23dfc2c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_canKick",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_canKick
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_canKick)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x23dfc34;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_canKick",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_canLeave
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_canLeave)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23dfc40;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_canLeave",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_canLeave
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_canLeave)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x23dfc48;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_canLeave",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_canBlock
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_canBlock)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23dfc54;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_canBlock",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_canBlock
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_canBlock)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x23dfc5c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_canBlock",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_canUnblock
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_canUnblock)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23dfc68;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_canUnblock",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_canUnblock
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_canUnblock)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x23dfc70;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_canUnblock",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_isPlayer
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isPlayer)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x23dfc7c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isPlayer",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_isPlayer
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isPlayer)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x23dfd1c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isPlayer",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_isDedicatedServer
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isDedicatedServer)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x23dfe08;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isDedicatedServer",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_isDedicatedServer
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isDedicatedServer)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x23dfe50;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isDedicatedServer",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_wantsToPlayNextLevel
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_wantsToPlayNextLevel)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x23dfea8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_wantsToPlayNextLevel",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_wantsToPlayNextLevel
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_wantsToPlayNextLevel)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x23dfef0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_wantsToPlayNextLevel",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_wasActiveAtLevelStart
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_wasActiveAtLevelStart)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x23dff48;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_wasActiveAtLevelStart",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_wasActiveAtLevelStart
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_wasActiveAtLevelStart)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x23dff90;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_wasActiveAtLevelStart",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_isActive
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isActive)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x23dffe8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isActive",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_isActive
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isActive)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x23e0030;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isActive",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_finishedLevel
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_finishedLevel)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x23e0088;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_finishedLevel",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_finishedLevel
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_finishedLevel)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x23e00d0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_finishedLevel",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.get_isTerminating
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isTerminating)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x23e0128;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isTerminating",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.set_isTerminating
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isTerminating)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x23e0170;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isTerminating",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(::GlobalNamespace::MockPlayerSettings*, bool)>(&::GlobalNamespace::MockPlayer::_ctor)> {
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x23e01c8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MockPlayerSettings*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.Tick
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::Tick)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x23e0280;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "Tick",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.SetState
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)(::StringW, bool)>(&::GlobalNamespace::MockPlayer::SetState)> {
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x23dfd74;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "SetState",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.HasState
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockPlayer::*)(::StringW)>(&::GlobalNamespace::MockPlayer::HasState)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x23dfcc4;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "HasState",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.Connect
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(::GlobalNamespace::IMultiplayerSessionManager*, ::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::NodePoseSyncStateManager*)>(&::GlobalNamespace::MockPlayer::Connect)> {
+  constexpr static std::size_t size = 0x11fc;
+  constexpr static std::size_t addrs = 0x23e0294;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                                  44
+                                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.Disconnect
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::Disconnect)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x23e1490;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                                  45
+                                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.Unblock
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::Unblock)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x23e14b8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "Unblock",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.SendJoinResponse
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::SendJoinResponse)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x23e14f8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "SendJoinResponse",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.SendInviteResponse
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::SendInviteResponse)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x23e1538;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "SendInviteResponse",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.Block
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::Block)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x23e1578;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "Block",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.Leave
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::Leave)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x23e15b8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "Leave",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.Kick
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::Kick)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x23e15bc;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "Kick",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.Invite
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::Invite)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x23e15fc;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "Invite",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.Join
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)(::StringW)>(&::GlobalNamespace::MockPlayer::Join)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x23e163c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                                  46
+                                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.Join
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::Join)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x23e167c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                                  47
+                                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.SimulateFail
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::SimulateFail)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x23e16bc;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "SimulateFail",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.SimulateGiveUp
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::SimulateGiveUp)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x23e16fc;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "SimulateGiveUp",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlayer.SimulateReturnToMainMenu
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::SimulateReturnToMainMenu)> {
+  constexpr static std::size_t size = 0x10a4;
+  constexpr static std::size_t addrs = 0x23e1738;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "SimulateReturnToMainMenu",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to "::GlobalNamespace::IConnectedPlayer"
+constexpr  GlobalNamespace::MockPlayer::operator ::GlobalNamespace::IConnectedPlayer*() noexcept {
+return static_cast<::GlobalNamespace::IConnectedPlayer*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::GlobalNamespace::INetworkPlayer"
+constexpr  GlobalNamespace::MockPlayer::operator ::GlobalNamespace::INetworkPlayer*() noexcept {
+return static_cast<::GlobalNamespace::INetworkPlayer*>(static_cast<void*>(this));
+}
+constexpr void GlobalNamespace::MockPlayer::__set__isMe_k__BackingField(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x10>(this, std::forward<bool>(value));
+}
+constexpr bool& GlobalNamespace::MockPlayer::__get__isMe_k__BackingField()  {
+return ::cordl_internals::getInstanceField<bool, 0x10>(this);
+}
+constexpr bool const& GlobalNamespace::MockPlayer::__get__isMe_k__BackingField() const {
+return ::cordl_internals::getInstanceField<bool, 0x10>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__isConnected_k__BackingField(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x11>(this, std::forward<bool>(value));
+}
+constexpr bool& GlobalNamespace::MockPlayer::__get__isConnected_k__BackingField()  {
+return ::cordl_internals::getInstanceField<bool, 0x11>(this);
+}
+constexpr bool const& GlobalNamespace::MockPlayer::__get__isConnected_k__BackingField() const {
+return ::cordl_internals::getInstanceField<bool, 0x11>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__multiplayerAvatarsData_k__BackingField(::GlobalNamespace::MultiplayerAvatarsData  value)  {
+::cordl_internals::setInstanceField<::GlobalNamespace::MultiplayerAvatarsData, 0x18>(this, std::forward<::GlobalNamespace::MultiplayerAvatarsData>(value));
+}
+constexpr ::GlobalNamespace::MultiplayerAvatarsData& GlobalNamespace::MockPlayer::__get__multiplayerAvatarsData_k__BackingField()  {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::MultiplayerAvatarsData, 0x18>(this);
+}
+constexpr ::GlobalNamespace::MultiplayerAvatarsData const& GlobalNamespace::MockPlayer::__get__multiplayerAvatarsData_k__BackingField() const {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::MultiplayerAvatarsData, 0x18>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__isConnectionOwner_k__BackingField(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x30>(this, std::forward<bool>(value));
+}
+constexpr bool& GlobalNamespace::MockPlayer::__get__isConnectionOwner_k__BackingField()  {
+return ::cordl_internals::getInstanceField<bool, 0x30>(this);
+}
+constexpr bool const& GlobalNamespace::MockPlayer::__get__isConnectionOwner_k__BackingField() const {
+return ::cordl_internals::getInstanceField<bool, 0x30>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__isKicked_k__BackingField(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x31>(this, std::forward<bool>(value));
+}
+constexpr bool& GlobalNamespace::MockPlayer::__get__isKicked_k__BackingField()  {
+return ::cordl_internals::getInstanceField<bool, 0x31>(this);
+}
+constexpr bool const& GlobalNamespace::MockPlayer::__get__isKicked_k__BackingField() const {
+return ::cordl_internals::getInstanceField<bool, 0x31>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__currentPartySize_k__BackingField(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x34>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::MockPlayer::__get__currentPartySize_k__BackingField()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x34>(this);
+}
+constexpr int32_t const& GlobalNamespace::MockPlayer::__get__currentPartySize_k__BackingField() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x34>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__selectionMask_k__BackingField(::GlobalNamespace::BeatmapLevelSelectionMask  value)  {
+::cordl_internals::setInstanceField<::GlobalNamespace::BeatmapLevelSelectionMask, 0x38>(this, std::forward<::GlobalNamespace::BeatmapLevelSelectionMask>(value));
+}
+constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& GlobalNamespace::MockPlayer::__get__selectionMask_k__BackingField()  {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::BeatmapLevelSelectionMask, 0x38>(this);
+}
+constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& GlobalNamespace::MockPlayer::__get__selectionMask_k__BackingField() const {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::BeatmapLevelSelectionMask, 0x38>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__configuration_k__BackingField(::GlobalNamespace::GameplayServerConfiguration  value)  {
+::cordl_internals::setInstanceField<::GlobalNamespace::GameplayServerConfiguration, 0x60>(this, std::forward<::GlobalNamespace::GameplayServerConfiguration>(value));
+}
+constexpr ::GlobalNamespace::GameplayServerConfiguration& GlobalNamespace::MockPlayer::__get__configuration_k__BackingField()  {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::GameplayServerConfiguration, 0x60>(this);
+}
+constexpr ::GlobalNamespace::GameplayServerConfiguration const& GlobalNamespace::MockPlayer::__get__configuration_k__BackingField() const {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::GameplayServerConfiguration, 0x60>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__isMyPartyOwner_k__BackingField(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x78>(this, std::forward<bool>(value));
+}
+constexpr bool& GlobalNamespace::MockPlayer::__get__isMyPartyOwner_k__BackingField()  {
+return ::cordl_internals::getInstanceField<bool, 0x78>(this);
+}
+constexpr bool const& GlobalNamespace::MockPlayer::__get__isMyPartyOwner_k__BackingField() const {
+return ::cordl_internals::getInstanceField<bool, 0x78>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__requiresPassword_k__BackingField(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x79>(this, std::forward<bool>(value));
+}
+constexpr bool& GlobalNamespace::MockPlayer::__get__requiresPassword_k__BackingField()  {
+return ::cordl_internals::getInstanceField<bool, 0x79>(this);
+}
+constexpr bool const& GlobalNamespace::MockPlayer::__get__requiresPassword_k__BackingField() const {
+return ::cordl_internals::getInstanceField<bool, 0x79>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__isWaitingOnJoin_k__BackingField(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x7a>(this, std::forward<bool>(value));
+}
+constexpr bool& GlobalNamespace::MockPlayer::__get__isWaitingOnJoin_k__BackingField()  {
+return ::cordl_internals::getInstanceField<bool, 0x7a>(this);
+}
+constexpr bool const& GlobalNamespace::MockPlayer::__get__isWaitingOnJoin_k__BackingField() const {
+return ::cordl_internals::getInstanceField<bool, 0x7a>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__canInvite_k__BackingField(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x7b>(this, std::forward<bool>(value));
+}
+constexpr bool& GlobalNamespace::MockPlayer::__get__canInvite_k__BackingField()  {
+return ::cordl_internals::getInstanceField<bool, 0x7b>(this);
+}
+constexpr bool const& GlobalNamespace::MockPlayer::__get__canInvite_k__BackingField() const {
+return ::cordl_internals::getInstanceField<bool, 0x7b>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__isWaitingOnInvite_k__BackingField(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x7c>(this, std::forward<bool>(value));
+}
+constexpr bool& GlobalNamespace::MockPlayer::__get__isWaitingOnInvite_k__BackingField()  {
+return ::cordl_internals::getInstanceField<bool, 0x7c>(this);
+}
+constexpr bool const& GlobalNamespace::MockPlayer::__get__isWaitingOnInvite_k__BackingField() const {
+return ::cordl_internals::getInstanceField<bool, 0x7c>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__canKick_k__BackingField(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x7d>(this, std::forward<bool>(value));
+}
+constexpr bool& GlobalNamespace::MockPlayer::__get__canKick_k__BackingField()  {
+return ::cordl_internals::getInstanceField<bool, 0x7d>(this);
+}
+constexpr bool const& GlobalNamespace::MockPlayer::__get__canKick_k__BackingField() const {
+return ::cordl_internals::getInstanceField<bool, 0x7d>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__canLeave_k__BackingField(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x7e>(this, std::forward<bool>(value));
+}
+constexpr bool& GlobalNamespace::MockPlayer::__get__canLeave_k__BackingField()  {
+return ::cordl_internals::getInstanceField<bool, 0x7e>(this);
+}
+constexpr bool const& GlobalNamespace::MockPlayer::__get__canLeave_k__BackingField() const {
+return ::cordl_internals::getInstanceField<bool, 0x7e>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__canBlock_k__BackingField(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x7f>(this, std::forward<bool>(value));
+}
+constexpr bool& GlobalNamespace::MockPlayer::__get__canBlock_k__BackingField()  {
+return ::cordl_internals::getInstanceField<bool, 0x7f>(this);
+}
+constexpr bool const& GlobalNamespace::MockPlayer::__get__canBlock_k__BackingField() const {
+return ::cordl_internals::getInstanceField<bool, 0x7f>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__canUnblock_k__BackingField(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x80>(this, std::forward<bool>(value));
+}
+constexpr bool& GlobalNamespace::MockPlayer::__get__canUnblock_k__BackingField()  {
+return ::cordl_internals::getInstanceField<bool, 0x80>(this);
+}
+constexpr bool const& GlobalNamespace::MockPlayer::__get__canUnblock_k__BackingField() const {
+return ::cordl_internals::getInstanceField<bool, 0x80>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__isReady(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x81>(this, std::forward<bool>(value));
+}
+constexpr bool& GlobalNamespace::MockPlayer::__get__isReady()  {
+return ::cordl_internals::getInstanceField<bool, 0x81>(this);
+}
+constexpr bool const& GlobalNamespace::MockPlayer::__get__isReady() const {
+return ::cordl_internals::getInstanceField<bool, 0x81>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__playerState(::System::Collections::Generic::HashSet_1<::StringW>*  value)  {
+::cordl_internals::setInstanceField<::System::Collections::Generic::HashSet_1<::StringW>*, 0x88>(this, std::forward<::System::Collections::Generic::HashSet_1<::StringW>*>(value));
+}
+constexpr ::System::Collections::Generic::HashSet_1<::StringW>* GlobalNamespace::MockPlayer::__get__playerState()  {
+return ::cordl_internals::getInstanceField<::System::Collections::Generic::HashSet_1<::StringW>*, 0x88>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> GlobalNamespace::MockPlayer::__get__playerState() const {
+return ::cordl_internals::getInstanceField<::System::Collections::Generic::HashSet_1<::StringW>*, 0x88>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__settings(::GlobalNamespace::MockPlayerSettings*  value)  {
+::cordl_internals::setInstanceField<::GlobalNamespace::MockPlayerSettings*, 0x90>(this, std::forward<::GlobalNamespace::MockPlayerSettings*>(value));
+}
+constexpr ::GlobalNamespace::MockPlayerSettings* GlobalNamespace::MockPlayer::__get__settings()  {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::MockPlayerSettings*, 0x90>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlayerSettings*> GlobalNamespace::MockPlayer::__get__settings() const {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::MockPlayerSettings*, 0x90>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__fsm(::GlobalNamespace::MockPlayerFiniteStateMachine*  value)  {
+::cordl_internals::setInstanceField<::GlobalNamespace::MockPlayerFiniteStateMachine*, 0x98>(this, std::forward<::GlobalNamespace::MockPlayerFiniteStateMachine*>(value));
+}
+constexpr ::GlobalNamespace::MockPlayerFiniteStateMachine* GlobalNamespace::MockPlayer::__get__fsm()  {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::MockPlayerFiniteStateMachine*, 0x98>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlayerFiniteStateMachine*> GlobalNamespace::MockPlayer::__get__fsm() const {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::MockPlayerFiniteStateMachine*, 0x98>(this);
+}
+constexpr void GlobalNamespace::MockPlayer::__set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager*  value)  {
+::cordl_internals::setInstanceField<::GlobalNamespace::IGameplayRpcManager*, 0xa0>(this, std::forward<::GlobalNamespace::IGameplayRpcManager*>(value));
+}
+constexpr ::GlobalNamespace::IGameplayRpcManager* GlobalNamespace::MockPlayer::__get__gameplayRpcManager()  {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::IGameplayRpcManager*, 0xa0>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> GlobalNamespace::MockPlayer::__get__gameplayRpcManager() const {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::IGameplayRpcManager*, 0xa0>(this);
+}
+inline bool GlobalNamespace::MockPlayer::get_isReady()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isReady",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_isReady(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isReady",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::MockPlayer::get_isMe()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isMe",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline ::StringW GlobalNamespace::MockPlayer::get_userId()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_userId",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(*this, ___internal_method);
+}
+inline ::StringW GlobalNamespace::MockPlayer::get_userName()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_userName",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(*this, ___internal_method);
+}
+inline int32_t GlobalNamespace::MockPlayer::get_sortIndex()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_sortIndex",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(*this, ___internal_method);
+}
+inline bool GlobalNamespace::MockPlayer::get_autoConnect()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_autoConnect",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline bool GlobalNamespace::MockPlayer::get_inactiveByDefault()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_inactiveByDefault",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline bool GlobalNamespace::MockPlayer::get_isConnected()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isConnected",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_isConnected(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isConnected",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline ::GlobalNamespace::MultiplayerAvatarsData GlobalNamespace::MockPlayer::get_multiplayerAvatarsData()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_multiplayerAvatarsData",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MultiplayerAvatarsData, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_multiplayerAvatarsData(::GlobalNamespace::MultiplayerAvatarsData  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_multiplayerAvatarsData",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerAvatarsData>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::MockPlayer::get_isConnectionOwner()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isConnectionOwner",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_isConnectionOwner(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isConnectionOwner",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline ::GlobalNamespace::DisconnectedReason GlobalNamespace::MockPlayer::get_disconnectedReason()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_disconnectedReason",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::DisconnectedReason, false>(*this, ___internal_method);
+}
+inline int64_t GlobalNamespace::MockPlayer::get_offsetSyncTime()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_offsetSyncTime",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int64_t, false>(*this, ___internal_method);
+}
+inline bool GlobalNamespace::MockPlayer::get_hasValidLatency()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_hasValidLatency",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline int64_t GlobalNamespace::MockPlayer::get_currentLatency()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_currentLatency",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int64_t, false>(*this, ___internal_method);
+}
+inline bool GlobalNamespace::MockPlayer::get_isKicked()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isKicked",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_isKicked(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isKicked",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline int32_t GlobalNamespace::MockPlayer::get_currentPartySize()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_currentPartySize",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_currentPartySize(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_currentPartySize",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline ::GlobalNamespace::BeatmapLevelSelectionMask GlobalNamespace::MockPlayer::get_selectionMask()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_selectionMask",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapLevelSelectionMask, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_selectionMask",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelSelectionMask>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline ::GlobalNamespace::GameplayServerConfiguration GlobalNamespace::MockPlayer::get_configuration()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_configuration",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::GameplayServerConfiguration, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_configuration(::GlobalNamespace::GameplayServerConfiguration  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_configuration",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayServerConfiguration>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::MockPlayer::get_isMyPartyOwner()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isMyPartyOwner",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_isMyPartyOwner(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isMyPartyOwner",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline ::GlobalNamespace::IConnectedPlayer* GlobalNamespace::MockPlayer::get_connectedPlayer()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_connectedPlayer",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IConnectedPlayer*, false>(*this, ___internal_method);
+}
+inline bool GlobalNamespace::MockPlayer::get_canJoin()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_canJoin",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline bool GlobalNamespace::MockPlayer::get_requiresPassword()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_requiresPassword",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_requiresPassword(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_requiresPassword",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::MockPlayer::get_isWaitingOnJoin()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isWaitingOnJoin",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_isWaitingOnJoin(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isWaitingOnJoin",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::MockPlayer::get_canInvite()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_canInvite",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_canInvite(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_canInvite",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::MockPlayer::get_isWaitingOnInvite()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isWaitingOnInvite",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_isWaitingOnInvite(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isWaitingOnInvite",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::MockPlayer::get_canKick()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_canKick",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_canKick(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_canKick",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::MockPlayer::get_canLeave()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_canLeave",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_canLeave(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_canLeave",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::MockPlayer::get_canBlock()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_canBlock",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_canBlock(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_canBlock",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::MockPlayer::get_canUnblock()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_canUnblock",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_canUnblock(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_canUnblock",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::MockPlayer::get_isPlayer()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isPlayer",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_isPlayer(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isPlayer",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::MockPlayer::get_isDedicatedServer()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isDedicatedServer",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_isDedicatedServer(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isDedicatedServer",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::MockPlayer::get_wantsToPlayNextLevel()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_wantsToPlayNextLevel",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_wantsToPlayNextLevel(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_wantsToPlayNextLevel",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::MockPlayer::get_wasActiveAtLevelStart()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_wasActiveAtLevelStart",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_wasActiveAtLevelStart(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_wasActiveAtLevelStart",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::MockPlayer::get_isActive()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isActive",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_isActive(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isActive",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::MockPlayer::get_finishedLevel()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_finishedLevel",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_finishedLevel(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_finishedLevel",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::MockPlayer::get_isTerminating()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "get_isTerminating",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::set_isTerminating(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "set_isTerminating",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline ::GlobalNamespace::MockPlayer* GlobalNamespace::MockPlayer::New_ctor(::GlobalNamespace::MockPlayerSettings*  settings, bool  isLocalPlayer)  {
+return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MockPlayer*>(settings, isLocalPlayer));
+}
+inline void GlobalNamespace::MockPlayer::_ctor(::GlobalNamespace::MockPlayerSettings*  settings, bool  isLocalPlayer)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MockPlayerSettings*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, settings, isLocalPlayer);
+}
+inline void GlobalNamespace::MockPlayer::Tick()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "Tick",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline bool GlobalNamespace::MockPlayer::SetState(::StringW  state, bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "SetState",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method, state, value);
+}
+inline bool GlobalNamespace::MockPlayer::HasState(::StringW  state)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "HasState",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method, state);
+}
+inline void GlobalNamespace::MockPlayer::Connect(::GlobalNamespace::IMultiplayerSessionManager*  multiplayerSessionManager, ::GlobalNamespace::BeatmapLevelsModel*  beatmapLevelsModel, ::GlobalNamespace::NodePoseSyncStateManager*  nodePoseSyncStateManager)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "Connect",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMultiplayerSessionManager*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsModel*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NodePoseSyncStateManager*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, multiplayerSessionManager, beatmapLevelsModel, nodePoseSyncStateManager);
+}
+inline void GlobalNamespace::MockPlayer::Disconnect()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "Disconnect",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::Unblock()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "Unblock",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::SendJoinResponse(bool  accept)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "SendJoinResponse",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, accept);
+}
+inline void GlobalNamespace::MockPlayer::SendInviteResponse(bool  accept)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "SendInviteResponse",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, accept);
+}
+inline void GlobalNamespace::MockPlayer::Block()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "Block",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::Leave()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "Leave",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::Kick()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "Kick",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::Invite()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "Invite",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::Join(::StringW  password)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "Join",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, password);
+}
+inline void GlobalNamespace::MockPlayer::Join()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "Join",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::SimulateFail()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "SimulateFail",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::SimulateGiveUp()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "SimulateGiveUp",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::MockPlayer::SimulateReturnToMainMenu()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayer*>::get(),
+                            "SimulateReturnToMainMenu",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

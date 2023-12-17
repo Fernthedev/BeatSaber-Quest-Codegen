@@ -1,0 +1,90 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+CORDL_MODULE_EXPORT(PkixCertPathBuilder)
+namespace Org::BouncyCastle::Pkix {
+class PkixBuilderParameters;
+}
+namespace System {
+class Exception;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixCertPathBuilderResult;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+// Forward declare root types
+namespace Org::BouncyCastle::Pkix {
+class PkixCertPathBuilder;
+}
+// Write type traits
+MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathBuilder);
+// Type: Org.BouncyCastle.Pkix::PkixCertPathBuilder
+namespace Org::BouncyCastle::Pkix {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(1716))
+// CS Name: ::Org.BouncyCastle.Pkix::PkixCertPathBuilder*
+class CORDL_TYPE PkixCertPathBuilder : public ::System::Object {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x18};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x18 - sizeof(::System::Object)]{};
+
+/// @brief Field certPathException offset 0x10
+ __declspec(property(get=__get_certPathException, put=__set_certPathException)) ::System::Exception*  certPathException;
+
+constexpr void __set_certPathException(::System::Exception*  value) ;
+
+constexpr ::System::Exception* __get_certPathException() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Exception*> __get_certPathException() const;
+
+/// @brief Method Build addr 0x10f29d4 size 0x8dc virtual true final false
+inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* Build(::Org::BouncyCastle::Pkix::PkixBuilderParameters*  pkixParams) ;
+
+/// @brief Method Build addr 0x10f32b0 size 0xbb4 virtual true final false
+inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* Build(::Org::BouncyCastle::X509::X509Certificate*  tbvCert, ::Org::BouncyCastle::Pkix::PkixBuilderParameters*  pkixParams, ::System::Collections::IList*  tbvPath) ;
+
+static inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilder* New_ctor() ;
+
+/// @brief Method .ctor addr 0x10f3e6c size 0x8 virtual false final false
+inline void _ctor() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "PkixCertPathBuilder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PkixCertPathBuilder(PkixCertPathBuilder && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "PkixCertPathBuilder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PkixCertPathBuilder(PkixCertPathBuilder const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ PkixCertPathBuilder()  = default;
+public:
+
+
+// Fields
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkix::PkixCertPathBuilder, 0x18>, "Size mismatch!");
+
+} // namespace end def Org::BouncyCastle::Pkix
+NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixCertPathBuilder);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkix::PkixCertPathBuilder*, "Org.BouncyCastle.Pkix", "PkixCertPathBuilder");

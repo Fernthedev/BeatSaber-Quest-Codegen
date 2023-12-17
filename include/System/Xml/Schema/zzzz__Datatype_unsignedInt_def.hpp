@@ -1,0 +1,131 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Xml/Schema/zzzz__Datatype_unsignedLong_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(Datatype_unsignedInt)
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System {
+class Exception;
+}
+namespace System::Xml::Schema {
+class FacetsChecker;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
+}
+namespace System {
+class Object;
+}
+namespace System::Xml {
+class XmlNameTable;
+}
+namespace System {
+class Type;
+}
+// Forward declare root types
+namespace System::Xml::Schema {
+class Datatype_unsignedInt;
+}
+// Write type traits
+MARK_REF_PTR_T(::System::Xml::Schema::Datatype_unsignedInt);
+// Type: System.Xml.Schema::Datatype_unsignedInt
+namespace System::Xml::Schema {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11672))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11673))
+// CS Name: ::System.Xml.Schema::Datatype_unsignedInt*
+class CORDL_TYPE Datatype_unsignedInt : public ::System::Xml::Schema::Datatype_unsignedLong {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x38};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x38 - sizeof(::System::Xml::Schema::Datatype_unsignedLong)]{};
+
+ __declspec(property(get=get_FacetsChecker)) ::System::Xml::Schema::FacetsChecker*  FacetsChecker;
+
+ __declspec(property(get=get_TypeCode)) ::System::Xml::Schema::XmlTypeCode  TypeCode;
+
+ __declspec(property(get=get_ValueType)) ::System::Type*  ValueType;
+
+ __declspec(property(get=get_ListValueType)) ::System::Type*  ListValueType;
+
+static inline void setStaticF_atomicValueType(::System::Type*  value) ;
+
+static inline ::System::Type* getStaticF_atomicValueType() ;
+
+static inline void setStaticF_listValueType(::System::Type*  value) ;
+
+static inline ::System::Type* getStaticF_listValueType() ;
+
+static inline void setStaticF_numeric10FacetsChecker(::System::Xml::Schema::FacetsChecker*  value) ;
+
+static inline ::System::Xml::Schema::FacetsChecker* getStaticF_numeric10FacetsChecker() ;
+
+/// @brief Method get_FacetsChecker addr 0x28bd9e8 size 0x58 virtual true final false
+inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker() ;
+
+/// @brief Method get_TypeCode addr 0x28bda40 size 0x8 virtual true final false
+inline ::System::Xml::Schema::XmlTypeCode get_TypeCode() ;
+
+/// @brief Method Compare addr 0x28bda48 size 0x94 virtual true final false
+inline int32_t Compare(::System::Object*  value1, ::System::Object*  value2) ;
+
+/// @brief Method get_ValueType addr 0x28bdadc size 0x58 virtual true final false
+inline ::System::Type* get_ValueType() ;
+
+/// @brief Method get_ListValueType addr 0x28bdb34 size 0x58 virtual true final false
+inline ::System::Type* get_ListValueType() ;
+
+/// @brief Method TryParseValue addr 0x28bdb8c size 0x140 virtual true final false
+inline ::System::Exception* TryParseValue(::StringW  s, ::System::Xml::XmlNameTable*  nameTable, ::System::Xml::IXmlNamespaceResolver*  nsmgr, ByRef<::System::Object*>  typedValue) ;
+
+static inline ::System::Xml::Schema::Datatype_unsignedInt* New_ctor() ;
+
+/// @brief Method .ctor addr 0x28bdccc size 0x54 virtual false final false
+inline void _ctor() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "Datatype_unsignedInt", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Datatype_unsignedInt(Datatype_unsignedInt && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "Datatype_unsignedInt", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Datatype_unsignedInt(Datatype_unsignedInt const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ Datatype_unsignedInt()  = default;
+public:
+
+
+// Fields
+
+// Static field atomicValueType
+
+// Static field listValueType
+
+// Static field numeric10FacetsChecker
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::Datatype_unsignedInt, 0x38>, "Size mismatch!");
+
+} // namespace end def System::Xml::Schema
+NEED_NO_BOX(::System::Xml::Schema::Datatype_unsignedInt);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_unsignedInt*, "System.Xml.Schema", "Datatype_unsignedInt");

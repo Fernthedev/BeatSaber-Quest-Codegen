@@ -1,0 +1,109 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(AsyncOpHandlesCacheKey)
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IOperationCacheKey;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+// Forward declare root types
+namespace UnityEngine::ResourceManagement::Util {
+class AsyncOpHandlesCacheKey;
+}
+// Write type traits
+MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey);
+// Type: UnityEngine.ResourceManagement.Util::AsyncOpHandlesCacheKey
+namespace UnityEngine::ResourceManagement::Util {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13972))
+// CS Name: ::UnityEngine.ResourceManagement.Util::AsyncOpHandlesCacheKey*
+class CORDL_TYPE AsyncOpHandlesCacheKey : public ::System::Object {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x18};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x18 - sizeof(::System::Object)]{};
+
+/// @brief Field m_Handles offset 0x10
+ __declspec(property(get=__get_m_Handles, put=__set_m_Handles)) ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*  m_Handles;
+
+/// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
+constexpr operator  ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept;
+
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>*() noexcept;
+
+constexpr void __set_m_Handles(::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*  value) ;
+
+constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* __get_m_Handles() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> __get_m_Handles() const;
+
+static inline ::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey* New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*  handles) ;
+
+/// @brief Method .ctor addr 0x2bcd0c4 size 0x90 virtual false final false
+inline void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*  handles) ;
+
+/// @brief Method GetHashCode addr 0x2bd1e9c size 0x20 virtual true final false
+inline int32_t GetHashCode() ;
+
+/// @brief Method Equals addr 0x2bd1ebc size 0x64 virtual true final false
+inline bool Equals(::System::Object*  obj) ;
+
+/// @brief Method Equals addr 0x2bd1f9c size 0x64 virtual true final true
+inline bool Equals(::UnityEngine::ResourceManagement::Util::IOperationCacheKey*  other) ;
+
+/// @brief Method Equals addr 0x2bd1f20 size 0x7c virtual false final false
+inline bool Equals(::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey*  other) ;
+
+// Ctor Parameters [CppParam { name: "", ty: "AsyncOpHandlesCacheKey", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AsyncOpHandlesCacheKey(AsyncOpHandlesCacheKey && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "AsyncOpHandlesCacheKey", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AsyncOpHandlesCacheKey(AsyncOpHandlesCacheKey const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ AsyncOpHandlesCacheKey()  = default;
+public:
+
+
+// Fields
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey, 0x18>, "Size mismatch!");
+
+} // namespace end def UnityEngine::ResourceManagement::Util
+NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey*, "UnityEngine.ResourceManagement.Util", "AsyncOpHandlesCacheKey");

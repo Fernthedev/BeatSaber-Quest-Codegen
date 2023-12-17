@@ -1,0 +1,27 @@
+#pragma once
+#include "UnityEngine/XR/zzzz__InputFeatureType_def.hpp"
+constexpr void UnityEngine::XR::InputFeatureType::__set_value__(uint32_t  value)  {
+::cordl_internals::setInstanceField<uint32_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance, std::forward<uint32_t>(value));
+}
+constexpr uint32_t& UnityEngine::XR::InputFeatureType::__get_value__()  {
+return ::cordl_internals::getInstanceField<uint32_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+constexpr uint32_t const& UnityEngine::XR::InputFeatureType::__get_value__() const {
+return ::cordl_internals::getInstanceField<uint32_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+// Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::XR::InputFeatureType::InputFeatureType(uint32_t  value__) noexcept : ::bs_hook::EnumTypeWrapper<0x4>() {this->value__ = value__;
+}
+constexpr ::UnityEngine::XR::InputFeatureType  UnityEngine::XR::InputFeatureType::Custom{static_cast<uint32_t>(0x3020100u)};
+constexpr ::UnityEngine::XR::InputFeatureType  UnityEngine::XR::InputFeatureType::Binary{static_cast<uint32_t>(0x4030201u)};
+constexpr ::UnityEngine::XR::InputFeatureType  UnityEngine::XR::InputFeatureType::DiscreteStates{static_cast<uint32_t>(0x5040302u)};
+constexpr ::UnityEngine::XR::InputFeatureType  UnityEngine::XR::InputFeatureType::Axis1D{static_cast<uint32_t>(0x6050403u)};
+constexpr ::UnityEngine::XR::InputFeatureType  UnityEngine::XR::InputFeatureType::Axis2D{static_cast<uint32_t>(0x7060504u)};
+constexpr ::UnityEngine::XR::InputFeatureType  UnityEngine::XR::InputFeatureType::Axis3D{static_cast<uint32_t>(0x8070605u)};
+constexpr ::UnityEngine::XR::InputFeatureType  UnityEngine::XR::InputFeatureType::Rotation{static_cast<uint32_t>(0x9080706u)};
+constexpr ::UnityEngine::XR::InputFeatureType  UnityEngine::XR::InputFeatureType::Hand{static_cast<uint32_t>(0xff090807u)};
+constexpr ::UnityEngine::XR::InputFeatureType  UnityEngine::XR::InputFeatureType::Bone{static_cast<uint32_t>(0xff0908u)};
+constexpr ::UnityEngine::XR::InputFeatureType  UnityEngine::XR::InputFeatureType::Eyes{static_cast<uint32_t>(0x100ff09u)};
+constexpr ::UnityEngine::XR::InputFeatureType  UnityEngine::XR::InputFeatureType::kUnityXRInputFeatureTypeInvalid{static_cast<uint32_t>(0x20100ffu)};
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

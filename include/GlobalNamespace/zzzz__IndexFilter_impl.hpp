@@ -1,0 +1,958 @@
+#pragma once
+#include "System/zzzz__Object_impl.hpp"
+#include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/zzzz__ValueTuple_3_def.hpp"
+#include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
+constexpr void GlobalNamespace::__IndexFilter__IndexFilterRandomType::__set_value__(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::__IndexFilter__IndexFilterRandomType::__get_value__()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+constexpr int32_t const& GlobalNamespace::__IndexFilter__IndexFilterRandomType::__get_value__() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__IndexFilter__IndexFilterRandomType::__IndexFilter__IndexFilterRandomType(int32_t  value__) noexcept : ::bs_hook::EnumTypeWrapper<0x4>() {this->value__ = value__;
+}
+constexpr ::GlobalNamespace::__IndexFilter__IndexFilterRandomType  GlobalNamespace::__IndexFilter__IndexFilterRandomType::NoRandom{static_cast<int32_t>(0x0)};
+constexpr ::GlobalNamespace::__IndexFilter__IndexFilterRandomType  GlobalNamespace::__IndexFilter__IndexFilterRandomType::KeepOrder{static_cast<int32_t>(0x1)};
+constexpr ::GlobalNamespace::__IndexFilter__IndexFilterRandomType  GlobalNamespace::__IndexFilter__IndexFilterRandomType::RandomElements{static_cast<int32_t>(0x2)};
+constexpr void GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType::__set_value__(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType::__get_value__()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+constexpr int32_t const& GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType::__get_value__() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType::__IndexFilter__IndexFilterLimitAlsoAffectType(int32_t  value__) noexcept : ::bs_hook::EnumTypeWrapper<0x4>() {this->value__ = value__;
+}
+constexpr ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType  GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType::None{static_cast<int32_t>(0x0)};
+constexpr ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType  GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType::Duration{static_cast<int32_t>(0x1)};
+constexpr ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType  GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType::Distribution{static_cast<int32_t>(0x2)};
+//  Writing Method size for method: ::GlobalNamespace::__IndexFilter___GetEnumerator_d__23._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IndexFilter___GetEnumerator_d__23::*)(int32_t)>(&::GlobalNamespace::__IndexFilter___GetEnumerator_d__23::_ctor)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x233af14;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetEnumerator_d__23*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__IndexFilter___GetEnumerator_d__23.System_IDisposable_Dispose
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IndexFilter___GetEnumerator_d__23::*)()>(&::GlobalNamespace::__IndexFilter___GetEnumerator_d__23::System_IDisposable_Dispose)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x233afec;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetEnumerator_d__23*>::get(),
+                            "System.IDisposable.Dispose",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__IndexFilter___GetEnumerator_d__23.MoveNext
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__IndexFilter___GetEnumerator_d__23::*)()>(&::GlobalNamespace::__IndexFilter___GetEnumerator_d__23::MoveNext)> {
+  constexpr static std::size_t size = 0x4f0;
+  constexpr static std::size_t addrs = 0x233b008;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetEnumerator_d__23*>::get(),
+                            "MoveNext",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__IndexFilter___GetEnumerator_d__23.__m__Finally1
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IndexFilter___GetEnumerator_d__23::*)()>(&::GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__m__Finally1)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x233b4f8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetEnumerator_d__23*>::get(),
+                            "<>m__Finally1",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__IndexFilter___GetEnumerator_d__23.System_Collections_Generic_IEnumerator__System_Int32element_System_Int32durationOrder_System_Int32distributionOrder___get_Current
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ValueTuple_3<int32_t,int32_t,int32_t> (::GlobalNamespace::__IndexFilter___GetEnumerator_d__23::*)()>(&::GlobalNamespace::__IndexFilter___GetEnumerator_d__23::System_Collections_Generic_IEnumerator__System_Int32element_System_Int32durationOrder_System_Int32distributionOrder___get_Current)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x233b5a8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetEnumerator_d__23*>::get(),
+                            "System.Collections.Generic.IEnumerator<(System.Int32element,System.Int32durationOrder,System.Int32distributionOrder)>.get_Current",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__IndexFilter___GetEnumerator_d__23.System_Collections_IEnumerator_Reset
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IndexFilter___GetEnumerator_d__23::*)()>(&::GlobalNamespace::__IndexFilter___GetEnumerator_d__23::System_Collections_IEnumerator_Reset)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x233b5b8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetEnumerator_d__23*>::get(),
+                            "System.Collections.IEnumerator.Reset",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__IndexFilter___GetEnumerator_d__23.System_Collections_IEnumerator_get_Current
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__IndexFilter___GetEnumerator_d__23::*)()>(&::GlobalNamespace::__IndexFilter___GetEnumerator_d__23::System_Collections_IEnumerator_get_Current)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x233b5f8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetEnumerator_d__23*>::get(),
+                            "System.Collections.IEnumerator.get_Current",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>"
+constexpr  GlobalNamespace::__IndexFilter___GetEnumerator_d__23::operator ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr  GlobalNamespace::__IndexFilter___GetEnumerator_d__23::operator ::System::Collections::IEnumerator*() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr  GlobalNamespace::__IndexFilter___GetEnumerator_d__23::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+constexpr void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__set___1__state(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x10>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get___1__state()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x10>(this);
+}
+constexpr int32_t const& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get___1__state() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x10>(this);
+}
+constexpr void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__set___2__current(::System::ValueTuple_3<int32_t,int32_t,int32_t>  value)  {
+::cordl_internals::setInstanceField<::System::ValueTuple_3<int32_t,int32_t,int32_t>, 0x14>(this, std::forward<::System::ValueTuple_3<int32_t,int32_t,int32_t>>(value));
+}
+constexpr ::System::ValueTuple_3<int32_t,int32_t,int32_t>& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get___2__current()  {
+return ::cordl_internals::getInstanceField<::System::ValueTuple_3<int32_t,int32_t,int32_t>, 0x14>(this);
+}
+constexpr ::System::ValueTuple_3<int32_t,int32_t,int32_t> const& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get___2__current() const {
+return ::cordl_internals::getInstanceField<::System::ValueTuple_3<int32_t,int32_t,int32_t>, 0x14>(this);
+}
+constexpr void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__set___4__this(::GlobalNamespace::IndexFilter*  value)  {
+::cordl_internals::setInstanceField<::GlobalNamespace::IndexFilter*, 0x20>(this, std::forward<::GlobalNamespace::IndexFilter*>(value));
+}
+constexpr ::GlobalNamespace::IndexFilter* GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get___4__this()  {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::IndexFilter*, 0x20>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IndexFilter*> GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get___4__this() const {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::IndexFilter*, 0x20>(this);
+}
+constexpr void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__set__limitedOrderIndex_5__2(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x28>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get__limitedOrderIndex_5__2()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x28>(this);
+}
+constexpr int32_t const& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get__limitedOrderIndex_5__2() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x28>(this);
+}
+constexpr void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__set___7__wrap2(::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t,int32_t>>*  value)  {
+::cordl_internals::setInstanceField<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t,int32_t>>*, 0x30>(this, std::forward<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t,int32_t>>*>(value));
+}
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t,int32_t>>* GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get___7__wrap2()  {
+return ::cordl_internals::getInstanceField<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t,int32_t>>*, 0x30>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t,int32_t>>*> GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get___7__wrap2() const {
+return ::cordl_internals::getInstanceField<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t,int32_t>>*, 0x30>(this);
+}
+constexpr void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__set__elementId_5__4(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x38>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get__elementId_5__4()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x38>(this);
+}
+constexpr int32_t const& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get__elementId_5__4() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x38>(this);
+}
+constexpr void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__set__index_5__5(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x3c>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get__index_5__5()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x3c>(this);
+}
+constexpr int32_t const& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get__index_5__5() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x3c>(this);
+}
+constexpr void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__set__localChunkIndex_5__6(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x40>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get__localChunkIndex_5__6()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x40>(this);
+}
+constexpr int32_t const& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get__localChunkIndex_5__6() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x40>(this);
+}
+inline ::GlobalNamespace::__IndexFilter___GetEnumerator_d__23* GlobalNamespace::__IndexFilter___GetEnumerator_d__23::New_ctor(int32_t  __1__state)  {
+return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__IndexFilter___GetEnumerator_d__23*>(__1__state));
+}
+inline void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::_ctor(int32_t  __1__state)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetEnumerator_d__23*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, __1__state);
+}
+inline void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::System_IDisposable_Dispose()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetEnumerator_d__23*>::get(),
+                            "System.IDisposable.Dispose",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline bool GlobalNamespace::__IndexFilter___GetEnumerator_d__23::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetEnumerator_d__23*>::get(),
+                            "MoveNext",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__m__Finally1()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetEnumerator_d__23*>::get(),
+                            "<>m__Finally1",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline ::System::ValueTuple_3<int32_t,int32_t,int32_t> GlobalNamespace::__IndexFilter___GetEnumerator_d__23::System_Collections_Generic_IEnumerator__System_Int32element_System_Int32durationOrder_System_Int32distributionOrder___get_Current()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetEnumerator_d__23*>::get(),
+                            "System.Collections.Generic.IEnumerator<(System.Int32element,System.Int32durationOrder,System.Int32distributionOrder)>.get_Current",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_3<int32_t,int32_t,int32_t>, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::System_Collections_IEnumerator_Reset()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetEnumerator_d__23*>::get(),
+                            "System.Collections.IEnumerator.Reset",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline ::System::Object* GlobalNamespace::__IndexFilter___GetEnumerator_d__23::System_Collections_IEnumerator_get_Current()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetEnumerator_d__23*>::get(),
+                            "System.Collections.IEnumerator.get_Current",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(*this, ___internal_method);
+}
+//  Writing Method size for method: ::GlobalNamespace::__IndexFilter___GetValues_d__24._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IndexFilter___GetValues_d__24::*)(int32_t)>(&::GlobalNamespace::__IndexFilter___GetValues_d__24::_ctor)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x233afb4;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetValues_d__24*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__IndexFilter___GetValues_d__24.System_IDisposable_Dispose
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IndexFilter___GetValues_d__24::*)()>(&::GlobalNamespace::__IndexFilter___GetValues_d__24::System_IDisposable_Dispose)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x233b65c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetValues_d__24*>::get(),
+                            "System.IDisposable.Dispose",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__IndexFilter___GetValues_d__24.MoveNext
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__IndexFilter___GetValues_d__24::*)()>(&::GlobalNamespace::__IndexFilter___GetValues_d__24::MoveNext)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x233b660;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetValues_d__24*>::get(),
+                            "MoveNext",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__IndexFilter___GetValues_d__24.System_Collections_Generic_IEnumerator_System_Int32__get_Current
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__IndexFilter___GetValues_d__24::*)()>(&::GlobalNamespace::__IndexFilter___GetValues_d__24::System_Collections_Generic_IEnumerator_System_Int32__get_Current)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x233b6e0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetValues_d__24*>::get(),
+                            "System.Collections.Generic.IEnumerator<System.Int32>.get_Current",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__IndexFilter___GetValues_d__24.System_Collections_IEnumerator_Reset
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IndexFilter___GetValues_d__24::*)()>(&::GlobalNamespace::__IndexFilter___GetValues_d__24::System_Collections_IEnumerator_Reset)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x233b6e8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetValues_d__24*>::get(),
+                            "System.Collections.IEnumerator.Reset",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__IndexFilter___GetValues_d__24.System_Collections_IEnumerator_get_Current
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__IndexFilter___GetValues_d__24::*)()>(&::GlobalNamespace::__IndexFilter___GetValues_d__24::System_Collections_IEnumerator_get_Current)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x233b728;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetValues_d__24*>::get(),
+                            "System.Collections.IEnumerator.get_Current",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__IndexFilter___GetValues_d__24.System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<int32_t>* (::GlobalNamespace::__IndexFilter___GetValues_d__24::*)()>(&::GlobalNamespace::__IndexFilter___GetValues_d__24::System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x233b784;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetValues_d__24*>::get(),
+                            "System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__IndexFilter___GetValues_d__24.System_Collections_IEnumerable_GetEnumerator
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::__IndexFilter___GetValues_d__24::*)()>(&::GlobalNamespace::__IndexFilter___GetValues_d__24::System_Collections_IEnumerable_GetEnumerator)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x233b828;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetValues_d__24*>::get(),
+                            "System.Collections.IEnumerable.GetEnumerator",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<int32_t>"
+constexpr  GlobalNamespace::__IndexFilter___GetValues_d__24::operator ::System::Collections::Generic::IEnumerable_1<int32_t>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr  GlobalNamespace::__IndexFilter___GetValues_d__24::operator ::System::Collections::IEnumerable*() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<int32_t>"
+constexpr  GlobalNamespace::__IndexFilter___GetValues_d__24::operator ::System::Collections::Generic::IEnumerator_1<int32_t>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<int32_t>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr  GlobalNamespace::__IndexFilter___GetValues_d__24::operator ::System::Collections::IEnumerator*() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr  GlobalNamespace::__IndexFilter___GetValues_d__24::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+constexpr void GlobalNamespace::__IndexFilter___GetValues_d__24::__set___1__state(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x10>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::__IndexFilter___GetValues_d__24::__get___1__state()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x10>(this);
+}
+constexpr int32_t const& GlobalNamespace::__IndexFilter___GetValues_d__24::__get___1__state() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x10>(this);
+}
+constexpr void GlobalNamespace::__IndexFilter___GetValues_d__24::__set___2__current(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x14>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::__IndexFilter___GetValues_d__24::__get___2__current()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x14>(this);
+}
+constexpr int32_t const& GlobalNamespace::__IndexFilter___GetValues_d__24::__get___2__current() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x14>(this);
+}
+constexpr void GlobalNamespace::__IndexFilter___GetValues_d__24::__set___l__initialThreadId(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x18>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::__IndexFilter___GetValues_d__24::__get___l__initialThreadId()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x18>(this);
+}
+constexpr int32_t const& GlobalNamespace::__IndexFilter___GetValues_d__24::__get___l__initialThreadId() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x18>(this);
+}
+constexpr void GlobalNamespace::__IndexFilter___GetValues_d__24::__set___4__this(::GlobalNamespace::IndexFilter*  value)  {
+::cordl_internals::setInstanceField<::GlobalNamespace::IndexFilter*, 0x20>(this, std::forward<::GlobalNamespace::IndexFilter*>(value));
+}
+constexpr ::GlobalNamespace::IndexFilter* GlobalNamespace::__IndexFilter___GetValues_d__24::__get___4__this()  {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::IndexFilter*, 0x20>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IndexFilter*> GlobalNamespace::__IndexFilter___GetValues_d__24::__get___4__this() const {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::IndexFilter*, 0x20>(this);
+}
+constexpr void GlobalNamespace::__IndexFilter___GetValues_d__24::__set__value_5__2(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x28>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::__IndexFilter___GetValues_d__24::__get__value_5__2()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x28>(this);
+}
+constexpr int32_t const& GlobalNamespace::__IndexFilter___GetValues_d__24::__get__value_5__2() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x28>(this);
+}
+constexpr void GlobalNamespace::__IndexFilter___GetValues_d__24::__set__i_5__3(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x2c>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::__IndexFilter___GetValues_d__24::__get__i_5__3()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x2c>(this);
+}
+constexpr int32_t const& GlobalNamespace::__IndexFilter___GetValues_d__24::__get__i_5__3() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x2c>(this);
+}
+inline ::GlobalNamespace::__IndexFilter___GetValues_d__24* GlobalNamespace::__IndexFilter___GetValues_d__24::New_ctor(int32_t  __1__state)  {
+return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__IndexFilter___GetValues_d__24*>(__1__state));
+}
+inline void GlobalNamespace::__IndexFilter___GetValues_d__24::_ctor(int32_t  __1__state)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetValues_d__24*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, __1__state);
+}
+inline void GlobalNamespace::__IndexFilter___GetValues_d__24::System_IDisposable_Dispose()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetValues_d__24*>::get(),
+                            "System.IDisposable.Dispose",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline bool GlobalNamespace::__IndexFilter___GetValues_d__24::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetValues_d__24*>::get(),
+                            "MoveNext",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline int32_t GlobalNamespace::__IndexFilter___GetValues_d__24::System_Collections_Generic_IEnumerator_System_Int32__get_Current()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetValues_d__24*>::get(),
+                            "System.Collections.Generic.IEnumerator<System.Int32>.get_Current",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(*this, ___internal_method);
+}
+inline void GlobalNamespace::__IndexFilter___GetValues_d__24::System_Collections_IEnumerator_Reset()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetValues_d__24*>::get(),
+                            "System.Collections.IEnumerator.Reset",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline ::System::Object* GlobalNamespace::__IndexFilter___GetValues_d__24::System_Collections_IEnumerator_get_Current()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetValues_d__24*>::get(),
+                            "System.Collections.IEnumerator.get_Current",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(*this, ___internal_method);
+}
+inline ::System::Collections::Generic::IEnumerator_1<int32_t>* GlobalNamespace::__IndexFilter___GetValues_d__24::System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetValues_d__24*>::get(),
+                            "System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<int32_t>*, false>(*this, ___internal_method);
+}
+inline ::System::Collections::IEnumerator* GlobalNamespace::__IndexFilter___GetValues_d__24::System_Collections_IEnumerable_GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IndexFilter___GetValues_d__24*>::get(),
+                            "System.Collections.IEnumerable.GetEnumerator",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(*this, ___internal_method);
+}
+//  Writing Method size for method: ::GlobalNamespace::IndexFilter.get_Count
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::IndexFilter::*)()>(&::GlobalNamespace::IndexFilter::get_Count)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x233aef0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            "get_Count",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IndexFilter.get_VisibleCount
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::IndexFilter::*)()>(&::GlobalNamespace::IndexFilter::get_VisibleCount)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x233aef8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            "get_VisibleCount",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IndexFilter.get_limitAlsoAffectType
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType (::GlobalNamespace::IndexFilter::*)()>(&::GlobalNamespace::IndexFilter::get_limitAlsoAffectType)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x233af00;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            "get_limitAlsoAffectType",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IndexFilter.get_limitsDuration
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IndexFilter::*)()>(&::GlobalNamespace::IndexFilter::get_limitsDuration)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x233af08;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            "get_limitsDuration",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IndexFilter.get_limitsDistribution
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IndexFilter::*)()>(&::GlobalNamespace::IndexFilter::get_limitsDistribution)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x23388a0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            "get_limitsDistribution",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IndexFilter._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IndexFilter::*)(int32_t, int32_t, int32_t, int32_t, ::GlobalNamespace::__IndexFilter__IndexFilterRandomType, int32_t, int32_t, float_t, ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType)>(&::GlobalNamespace::IndexFilter::_ctor)> {
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x2336154;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__IndexFilter__IndexFilterRandomType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IndexFilter._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IndexFilter::*)(int32_t, int32_t, int32_t, ::GlobalNamespace::__IndexFilter__IndexFilterRandomType, int32_t, int32_t, float_t, ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType)>(&::GlobalNamespace::IndexFilter::_ctor)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x2336074;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__IndexFilter__IndexFilterRandomType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IndexFilter.GetEnumerator
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>* (::GlobalNamespace::IndexFilter::*)()>(&::GlobalNamespace::IndexFilter::GetEnumerator)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x23389e0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            "GetEnumerator",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IndexFilter.GetValues
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (::GlobalNamespace::IndexFilter::*)()>(&::GlobalNamespace::IndexFilter::GetValues)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x233af3c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            "GetValues",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IndexFilter.System_Collections_IEnumerable_GetEnumerator
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::IndexFilter::*)()>(&::GlobalNamespace::IndexFilter::System_Collections_IEnumerable_GetEnumerator)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x233afe8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            "System.Collections.IEnumerable.GetEnumerator",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>"
+constexpr  GlobalNamespace::IndexFilter::operator ::System::Collections::Generic::IReadOnlyCollection_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>*() noexcept {
+return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>"
+constexpr  GlobalNamespace::IndexFilter::operator ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr  GlobalNamespace::IndexFilter::operator ::System::Collections::IEnumerable*() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+constexpr void GlobalNamespace::IndexFilter::__set__random(::GlobalNamespace::__IndexFilter__IndexFilterRandomType  value)  {
+::cordl_internals::setInstanceField<::GlobalNamespace::__IndexFilter__IndexFilterRandomType, 0x10>(this, std::forward<::GlobalNamespace::__IndexFilter__IndexFilterRandomType>(value));
+}
+constexpr ::GlobalNamespace::__IndexFilter__IndexFilterRandomType& GlobalNamespace::IndexFilter::__get__random()  {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::__IndexFilter__IndexFilterRandomType, 0x10>(this);
+}
+constexpr ::GlobalNamespace::__IndexFilter__IndexFilterRandomType const& GlobalNamespace::IndexFilter::__get__random() const {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::__IndexFilter__IndexFilterRandomType, 0x10>(this);
+}
+constexpr void GlobalNamespace::IndexFilter::__set__seed(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x14>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::IndexFilter::__get__seed()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x14>(this);
+}
+constexpr int32_t const& GlobalNamespace::IndexFilter::__get__seed() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x14>(this);
+}
+constexpr void GlobalNamespace::IndexFilter::__set__groupSize(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x18>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::IndexFilter::__get__groupSize()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x18>(this);
+}
+constexpr int32_t const& GlobalNamespace::IndexFilter::__get__groupSize() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x18>(this);
+}
+constexpr void GlobalNamespace::IndexFilter::__set__chunkSize(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x1c>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::IndexFilter::__get__chunkSize()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x1c>(this);
+}
+constexpr int32_t const& GlobalNamespace::IndexFilter::__get__chunkSize() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x1c>(this);
+}
+constexpr void GlobalNamespace::IndexFilter::__set__visibleCount(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x20>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::IndexFilter::__get__visibleCount()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x20>(this);
+}
+constexpr int32_t const& GlobalNamespace::IndexFilter::__get__visibleCount() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x20>(this);
+}
+constexpr void GlobalNamespace::IndexFilter::__set__limitAlsoAffectType(::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType  value)  {
+::cordl_internals::setInstanceField<::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType, 0x24>(this, std::forward<::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType>(value));
+}
+constexpr ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType& GlobalNamespace::IndexFilter::__get__limitAlsoAffectType()  {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType, 0x24>(this);
+}
+constexpr ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType const& GlobalNamespace::IndexFilter::__get__limitAlsoAffectType() const {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType, 0x24>(this);
+}
+constexpr void GlobalNamespace::IndexFilter::__set__start(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x28>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::IndexFilter::__get__start()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x28>(this);
+}
+constexpr int32_t const& GlobalNamespace::IndexFilter::__get__start() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x28>(this);
+}
+constexpr void GlobalNamespace::IndexFilter::__set__step(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x2c>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::IndexFilter::__get__step()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x2c>(this);
+}
+constexpr int32_t const& GlobalNamespace::IndexFilter::__get__step() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x2c>(this);
+}
+constexpr void GlobalNamespace::IndexFilter::__set__count(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x30>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::IndexFilter::__get__count()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x30>(this);
+}
+constexpr int32_t const& GlobalNamespace::IndexFilter::__get__count() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x30>(this);
+}
+inline int32_t GlobalNamespace::IndexFilter::get_Count()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            "get_Count",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(*this, ___internal_method);
+}
+inline int32_t GlobalNamespace::IndexFilter::get_VisibleCount()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            "get_VisibleCount",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(*this, ___internal_method);
+}
+inline ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType GlobalNamespace::IndexFilter::get_limitAlsoAffectType()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            "get_limitAlsoAffectType",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType, false>(*this, ___internal_method);
+}
+inline bool GlobalNamespace::IndexFilter::get_limitsDuration()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            "get_limitsDuration",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline bool GlobalNamespace::IndexFilter::get_limitsDistribution()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            "get_limitsDistribution",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline ::GlobalNamespace::IndexFilter* GlobalNamespace::IndexFilter::New_ctor(int32_t  start, int32_t  step, int32_t  count, int32_t  groupSize, ::GlobalNamespace::__IndexFilter__IndexFilterRandomType  random, int32_t  seed, int32_t  chunkSize, float_t  limit, ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType  limitAlsoAffectType)  {
+return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::IndexFilter*>(start, step, count, groupSize, random, seed, chunkSize, limit, limitAlsoAffectType));
+}
+inline void GlobalNamespace::IndexFilter::_ctor(int32_t  start, int32_t  step, int32_t  count, int32_t  groupSize, ::GlobalNamespace::__IndexFilter__IndexFilterRandomType  random, int32_t  seed, int32_t  chunkSize, float_t  limit, ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType  limitAlsoAffectType)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__IndexFilter__IndexFilterRandomType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, start, step, count, groupSize, random, seed, chunkSize, limit, limitAlsoAffectType);
+}
+inline ::GlobalNamespace::IndexFilter* GlobalNamespace::IndexFilter::New_ctor(int32_t  start, int32_t  end, int32_t  groupSize, ::GlobalNamespace::__IndexFilter__IndexFilterRandomType  random, int32_t  seed, int32_t  chunkSize, float_t  limit, ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType  limitAlsoAffectType)  {
+return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::IndexFilter*>(start, end, groupSize, random, seed, chunkSize, limit, limitAlsoAffectType));
+}
+inline void GlobalNamespace::IndexFilter::_ctor(int32_t  start, int32_t  end, int32_t  groupSize, ::GlobalNamespace::__IndexFilter__IndexFilterRandomType  random, int32_t  seed, int32_t  chunkSize, float_t  limit, ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType  limitAlsoAffectType)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__IndexFilter__IndexFilterRandomType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, start, end, groupSize, random, seed, chunkSize, limit, limitAlsoAffectType);
+}
+inline ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>* GlobalNamespace::IndexFilter::GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            "GetEnumerator",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>*, false>(*this, ___internal_method);
+}
+inline ::System::Collections::Generic::IEnumerable_1<int32_t>* GlobalNamespace::IndexFilter::GetValues()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            "GetValues",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<int32_t>*, false>(*this, ___internal_method);
+}
+inline ::System::Collections::IEnumerator* GlobalNamespace::IndexFilter::System_Collections_IEnumerable_GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
+                            "System.Collections.IEnumerable.GetEnumerator",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(*this, ___internal_method);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

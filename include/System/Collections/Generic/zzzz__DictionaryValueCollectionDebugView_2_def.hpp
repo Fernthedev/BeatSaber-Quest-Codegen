@@ -1,0 +1,49 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+CORDL_MODULE_EXPORT(DictionaryValueCollectionDebugView_2)
+// Forward declare root types
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class DictionaryValueCollectionDebugView_2;
+}
+// Write type traits
+MARK_GEN_REF_PTR_T(::System::Collections::Generic::DictionaryValueCollectionDebugView_2);
+// Type: System.Collections.Generic::DictionaryValueCollectionDebugView`2
+namespace System::Collections::Generic {
+// cpp template
+template<typename TKey,typename TValue>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3831))
+// CS Name: ::System.Collections.Generic::DictionaryValueCollectionDebugView`2<TKey,TValue>*
+class CORDL_TYPE DictionaryValueCollectionDebugView_2 : public ::System::Object {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x10};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x10 - sizeof(::System::Object)]{};
+
+// Ctor Parameters [CppParam { name: "", ty: "DictionaryValueCollectionDebugView_2", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DictionaryValueCollectionDebugView_2(DictionaryValueCollectionDebugView_2 && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "DictionaryValueCollectionDebugView_2", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DictionaryValueCollectionDebugView_2(DictionaryValueCollectionDebugView_2 const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ DictionaryValueCollectionDebugView_2()  = default;
+public:
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def System::Collections::Generic
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::DictionaryValueCollectionDebugView_2, "System.Collections.Generic", "DictionaryValueCollectionDebugView`2");

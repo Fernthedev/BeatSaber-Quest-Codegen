@@ -1,0 +1,75 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
+CORDL_MODULE_EXPORT(UnionFacetsChecker)
+namespace System {
+class Object;
+}
+namespace System::Xml::Schema {
+class XmlSchemaDatatype;
+}
+namespace System {
+class Exception;
+}
+namespace System::Collections {
+class ArrayList;
+}
+// Forward declare root types
+namespace System::Xml::Schema {
+class UnionFacetsChecker;
+}
+// Write type traits
+MARK_REF_PTR_T(::System::Xml::Schema::UnionFacetsChecker);
+// Type: System.Xml.Schema::UnionFacetsChecker
+namespace System::Xml::Schema {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11686))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11696))
+// CS Name: ::System.Xml.Schema::UnionFacetsChecker*
+class CORDL_TYPE UnionFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x10};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x10 - sizeof(::System::Xml::Schema::FacetsChecker)]{};
+
+/// @brief Method CheckValueFacets addr 0x28c3918 size 0xf4 virtual true final false
+inline ::System::Exception* CheckValueFacets(::System::Object*  value, ::System::Xml::Schema::XmlSchemaDatatype*  datatype) ;
+
+/// @brief Method MatchEnumeration addr 0x28c3a0c size 0xb4 virtual true final false
+inline bool MatchEnumeration(::System::Object*  value, ::System::Collections::ArrayList*  enumeration, ::System::Xml::Schema::XmlSchemaDatatype*  datatype) ;
+
+static inline ::System::Xml::Schema::UnionFacetsChecker* New_ctor() ;
+
+/// @brief Method .ctor addr 0x28c3ac0 size 0x8 virtual false final false
+inline void _ctor() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "UnionFacetsChecker", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnionFacetsChecker(UnionFacetsChecker && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "UnionFacetsChecker", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnionFacetsChecker(UnionFacetsChecker const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ UnionFacetsChecker()  = default;
+public:
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::UnionFacetsChecker, 0x10>, "Size mismatch!");
+
+} // namespace end def System::Xml::Schema
+NEED_NO_BOX(::System::Xml::Schema::UnionFacetsChecker);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::UnionFacetsChecker*, "System.Xml.Schema", "UnionFacetsChecker");

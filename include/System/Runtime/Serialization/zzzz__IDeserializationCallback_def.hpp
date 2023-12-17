@@ -1,0 +1,43 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+CORDL_MODULE_EXPORT(IDeserializationCallback)
+namespace System {
+class Object;
+}
+// Forward declare root types
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+// Write type traits
+MARK_REF_PTR_T(::System::Runtime::Serialization::IDeserializationCallback);
+// Type: System.Runtime.Serialization::IDeserializationCallback
+namespace System::Runtime::Serialization {
+// Is value type: false
+// Dependencies: {}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3193))
+// CS Name: ::System.Runtime.Serialization::IDeserializationCallback*
+class CORDL_TYPE IDeserializationCallback {
+public:
+// Declarations
+/// @brief Method OnDeserialization addr 0x0 size 0xffffffffffffffff virtual true final false
+inline void OnDeserialization(::System::Object*  sender) ;
+
+// Ctor Parameters [CppParam { name: "", ty: "IDeserializationCallback", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IDeserializationCallback(IDeserializationCallback && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "IDeserializationCallback", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IDeserializationCallback(IDeserializationCallback const& ) = delete;
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def System::Runtime::Serialization
+NEED_NO_BOX(::System::Runtime::Serialization::IDeserializationCallback);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::IDeserializationCallback*, "System.Runtime.Serialization", "IDeserializationCallback");

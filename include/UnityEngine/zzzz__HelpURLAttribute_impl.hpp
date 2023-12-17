@@ -1,0 +1,61 @@
+#pragma once
+#include "System/zzzz__Attribute_impl.hpp"
+#include "UnityEngine/zzzz__HelpURLAttribute_def.hpp"
+//  Writing Method size for method: ::UnityEngine::HelpURLAttribute._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::HelpURLAttribute::*)(::StringW)>(&::UnityEngine::HelpURLAttribute::_ctor)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x2cd2900;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::HelpURLAttribute*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+constexpr void UnityEngine::HelpURLAttribute::__set_m_Url(::StringW  value)  {
+::cordl_internals::setInstanceField<::StringW, 0x10>(this, std::forward<::StringW>(value));
+}
+constexpr ::StringW& UnityEngine::HelpURLAttribute::__get_m_Url()  {
+return ::cordl_internals::getInstanceField<::StringW, 0x10>(this);
+}
+constexpr ::StringW const& UnityEngine::HelpURLAttribute::__get_m_Url() const {
+return ::cordl_internals::getInstanceField<::StringW, 0x10>(this);
+}
+constexpr void UnityEngine::HelpURLAttribute::__set_m_Dispatcher(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x18>(this, std::forward<bool>(value));
+}
+constexpr bool& UnityEngine::HelpURLAttribute::__get_m_Dispatcher()  {
+return ::cordl_internals::getInstanceField<bool, 0x18>(this);
+}
+constexpr bool const& UnityEngine::HelpURLAttribute::__get_m_Dispatcher() const {
+return ::cordl_internals::getInstanceField<bool, 0x18>(this);
+}
+constexpr void UnityEngine::HelpURLAttribute::__set_m_DispatchingFieldName(::StringW  value)  {
+::cordl_internals::setInstanceField<::StringW, 0x20>(this, std::forward<::StringW>(value));
+}
+constexpr ::StringW& UnityEngine::HelpURLAttribute::__get_m_DispatchingFieldName()  {
+return ::cordl_internals::getInstanceField<::StringW, 0x20>(this);
+}
+constexpr ::StringW const& UnityEngine::HelpURLAttribute::__get_m_DispatchingFieldName() const {
+return ::cordl_internals::getInstanceField<::StringW, 0x20>(this);
+}
+inline ::UnityEngine::HelpURLAttribute* UnityEngine::HelpURLAttribute::New_ctor(::StringW  url)  {
+return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::HelpURLAttribute*>(url));
+}
+inline void UnityEngine::HelpURLAttribute::_ctor(::StringW  url)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::HelpURLAttribute*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, url);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

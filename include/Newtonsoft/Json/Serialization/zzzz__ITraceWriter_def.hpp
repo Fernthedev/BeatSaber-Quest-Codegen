@@ -1,0 +1,55 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+CORDL_MODULE_EXPORT(ITraceWriter)
+namespace System::Diagnostics {
+struct TraceLevel;
+}
+namespace System {
+class Exception;
+}
+// Forward declare root types
+namespace Newtonsoft::Json::Serialization {
+class ITraceWriter;
+}
+// Write type traits
+MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ITraceWriter);
+// Type: Newtonsoft.Json.Serialization::ITraceWriter
+namespace Newtonsoft::Json::Serialization {
+// Is value type: false
+// Dependencies: {}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11906))
+// CS Name: ::Newtonsoft.Json.Serialization::ITraceWriter*
+class CORDL_TYPE ITraceWriter {
+public:
+// Declarations
+ __declspec(property(get=get_LevelFilter)) ::System::Diagnostics::TraceLevel  LevelFilter;
+
+/// @brief Method get_LevelFilter addr 0x0 size 0xffffffffffffffff virtual true final false
+inline ::System::Diagnostics::TraceLevel get_LevelFilter() ;
+
+/// @brief Method Trace addr 0x0 size 0xffffffffffffffff virtual true final false
+inline void Trace(::System::Diagnostics::TraceLevel  level, ::StringW  message, ::System::Exception*  ex) ;
+
+// Ctor Parameters [CppParam { name: "", ty: "ITraceWriter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ITraceWriter(ITraceWriter && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ITraceWriter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ITraceWriter(ITraceWriter const& ) = delete;
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def Newtonsoft::Json::Serialization
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::ITraceWriter);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::ITraceWriter*, "Newtonsoft.Json.Serialization", "ITraceWriter");

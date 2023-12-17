@@ -1,0 +1,134 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__RuntimeLightWithIds_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include <cmath>
+CORDL_MODULE_EXPORT(ParticleSystemLightWithIds)
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct __ParticleSystem__MainModule;
+}
+namespace UnityEngine {
+struct __ParticleSystem__Particle;
+}
+namespace UnityEngine {
+class ParticleSystem;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+class ParticleSystemLightWithIds;
+}
+// Write type traits
+MARK_REF_PTR_T(::GlobalNamespace::ParticleSystemLightWithIds);
+// Type: ::ParticleSystemLightWithIds
+namespace GlobalNamespace {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14552))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14549))
+// CS Name: ::ParticleSystemLightWithIds*
+class CORDL_TYPE ParticleSystemLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x68};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x68 - sizeof(::GlobalNamespace::RuntimeLightWithIds)]{};
+
+/// @brief Field _particleSystem offset 0x48
+ __declspec(property(get=__get__particleSystem, put=__set__particleSystem)) ::UnityEngine::ParticleSystem*  _particleSystem;
+
+/// @brief Field _setOnlyOnce offset 0x50
+ __declspec(property(get=__get__setOnlyOnce, put=__set__setOnlyOnce)) bool  _setOnlyOnce;
+
+/// @brief Field _setColorOnly offset 0x51
+ __declspec(property(get=__get__setColorOnly, put=__set__setColorOnly)) bool  _setColorOnly;
+
+/// @brief Field _minAlpha offset 0x54
+ __declspec(property(get=__get__minAlpha, put=__set__minAlpha)) float_t  _minAlpha;
+
+/// @brief Field _mainModule offset 0x58
+ __declspec(property(get=__get__mainModule, put=__set__mainModule)) ::UnityEngine::__ParticleSystem__MainModule  _mainModule;
+
+/// @brief Field _particles offset 0x60
+ __declspec(property(get=__get__particles, put=__set__particles)) ::ArrayW<::UnityEngine::__ParticleSystem__Particle,::Array<::UnityEngine::__ParticleSystem__Particle>*>  _particles;
+
+constexpr void __set__particleSystem(::UnityEngine::ParticleSystem*  value) ;
+
+constexpr ::UnityEngine::ParticleSystem* __get__particleSystem() ;
+
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> __get__particleSystem() const;
+
+constexpr void __set__setOnlyOnce(bool  value) ;
+
+constexpr bool& __get__setOnlyOnce() ;
+
+constexpr bool const& __get__setOnlyOnce() const;
+
+constexpr void __set__setColorOnly(bool  value) ;
+
+constexpr bool& __get__setColorOnly() ;
+
+constexpr bool const& __get__setColorOnly() const;
+
+constexpr void __set__minAlpha(float_t  value) ;
+
+constexpr float_t& __get__minAlpha() ;
+
+constexpr float_t const& __get__minAlpha() const;
+
+constexpr void __set__mainModule(::UnityEngine::__ParticleSystem__MainModule  value) ;
+
+constexpr ::UnityEngine::__ParticleSystem__MainModule& __get__mainModule() ;
+
+constexpr ::UnityEngine::__ParticleSystem__MainModule const& __get__mainModule() const;
+
+constexpr void __set__particles(::ArrayW<::UnityEngine::__ParticleSystem__Particle,::Array<::UnityEngine::__ParticleSystem__Particle>*>  value) ;
+
+constexpr ::ArrayW<::UnityEngine::__ParticleSystem__Particle,::Array<::UnityEngine::__ParticleSystem__Particle>*>& __get__particles() ;
+
+constexpr ::ArrayW<::UnityEngine::__ParticleSystem__Particle,::Array<::UnityEngine::__ParticleSystem__Particle>*> const& __get__particles() const;
+
+/// @brief Method Awake addr 0x2112418 size 0x80 virtual true final false
+inline void Awake() ;
+
+/// @brief Method ColorWasSet addr 0x2112498 size 0x460 virtual true final false
+inline void ColorWasSet(::UnityEngine::Color  color) ;
+
+static inline ::GlobalNamespace::ParticleSystemLightWithIds* New_ctor() ;
+
+/// @brief Method .ctor addr 0x21128f8 size 0x18 virtual false final false
+inline void _ctor() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "ParticleSystemLightWithIds", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ParticleSystemLightWithIds(ParticleSystemLightWithIds && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ParticleSystemLightWithIds", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ParticleSystemLightWithIds(ParticleSystemLightWithIds const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ ParticleSystemLightWithIds()  = default;
+public:
+
+
+// Fields
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ParticleSystemLightWithIds, 0x68>, "Size mismatch!");
+
+} // namespace end def GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::ParticleSystemLightWithIds);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ParticleSystemLightWithIds*, "", "ParticleSystemLightWithIds");

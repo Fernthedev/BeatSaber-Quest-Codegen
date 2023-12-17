@@ -1,0 +1,89 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__Animator_def.hpp"
+#include "Zenject/zzzz__Installer_2_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+CORDL_MODULE_EXPORT(AnimatorInstaller)
+namespace System {
+class Object;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace UnityEngine {
+class Animator;
+}
+// Forward declare root types
+namespace Zenject {
+class AnimatorInstaller;
+}
+// Write type traits
+MARK_REF_PTR_T(::Zenject::AnimatorInstaller);
+// Type: Zenject::AnimatorInstaller
+namespace Zenject {
+// Is value type: false
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11132), inst: 3907 }), TypeDefinitionIndex(TypeDefinitionIndex(11132)), TypeDefinitionIndex(TypeDefinitionIndex(14882))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11301))
+// CS Name: ::Zenject::AnimatorInstaller*
+class CORDL_TYPE AnimatorInstaller : public ::Zenject::Installer_2<::UnityEngine::Animator*,::Zenject::AnimatorInstaller*> {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x20};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x20 - sizeof(::Zenject::Installer_2<::UnityEngine::Animator*,::Zenject::AnimatorInstaller*>)]{};
+
+/// @brief Field _animator offset 0x18
+ __declspec(property(get=__get__animator, put=__set__animator)) ::UnityEngine::Animator*  _animator;
+
+constexpr void __set__animator(::UnityEngine::Animator*  value) ;
+
+constexpr ::UnityEngine::Animator* __get__animator() ;
+
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animator*> __get__animator() const;
+
+static inline ::Zenject::AnimatorInstaller* New_ctor(::UnityEngine::Animator*  animator) ;
+
+/// @brief Method .ctor addr 0x2f0e650 size 0x5c virtual false final false
+inline void _ctor(::UnityEngine::Animator*  animator) ;
+
+/// @brief Method InstallBindings addr 0x2f0e6ac size 0xb8 virtual true final false
+inline void InstallBindings() ;
+
+/// @brief Method __zenCreate addr 0x2f0e764 size 0xc4 virtual false final false
+static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*,::Array<::System::Object*>*>  P_0) ;
+
+/// @brief Method __zenCreateInjectTypeInfo addr 0x2f0e828 size 0x274 virtual false final false
+static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "AnimatorInstaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AnimatorInstaller(AnimatorInstaller && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "AnimatorInstaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AnimatorInstaller(AnimatorInstaller const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ AnimatorInstaller()  = default;
+public:
+
+
+// Fields
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Zenject::AnimatorInstaller, 0x20>, "Size mismatch!");
+
+} // namespace end def Zenject
+NEED_NO_BOX(::Zenject::AnimatorInstaller);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::AnimatorInstaller*, "Zenject", "AnimatorInstaller");

@@ -1,0 +1,52 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+CORDL_MODULE_EXPORT(ISubsystemDescriptor)
+namespace UnityEngine {
+class ISubsystem;
+}
+// Forward declare root types
+namespace UnityEngine {
+class ISubsystemDescriptor;
+}
+// Write type traits
+MARK_REF_PTR_T(::UnityEngine::ISubsystemDescriptor);
+// Type: UnityEngine::ISubsystemDescriptor
+namespace UnityEngine {
+// Is value type: false
+// Dependencies: {}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15970))
+// CS Name: ::UnityEngine::ISubsystemDescriptor*
+class CORDL_TYPE ISubsystemDescriptor {
+public:
+// Declarations
+ __declspec(property(get=get_id)) ::StringW  id;
+
+/// @brief Method get_id addr 0x0 size 0xffffffffffffffff virtual true final false
+inline ::StringW get_id() ;
+
+/// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
+inline ::UnityEngine::ISubsystem* Create() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "ISubsystemDescriptor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ISubsystemDescriptor(ISubsystemDescriptor && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ISubsystemDescriptor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ISubsystemDescriptor(ISubsystemDescriptor const& ) = delete;
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def UnityEngine
+NEED_NO_BOX(::UnityEngine::ISubsystemDescriptor);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ISubsystemDescriptor*, "UnityEngine", "ISubsystemDescriptor");

@@ -1,0 +1,56 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+CORDL_MODULE_EXPORT(ILevelGameplaySetupData)
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+class ILevelGameplaySetupData;
+}
+// Write type traits
+MARK_REF_PTR_T(::GlobalNamespace::ILevelGameplaySetupData);
+// Type: ::ILevelGameplaySetupData
+namespace GlobalNamespace {
+// Is value type: false
+// Dependencies: {}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4489))
+// CS Name: ::ILevelGameplaySetupData*
+class CORDL_TYPE ILevelGameplaySetupData {
+public:
+// Declarations
+ __declspec(property(get=get_beatmapLevel)) ::GlobalNamespace::PreviewDifficultyBeatmap*  beatmapLevel;
+
+ __declspec(property(get=get_gameplayModifiers)) ::GlobalNamespace::GameplayModifiers*  gameplayModifiers;
+
+/// @brief Method get_beatmapLevel addr 0x0 size 0xffffffffffffffff virtual true final false
+inline ::GlobalNamespace::PreviewDifficultyBeatmap* get_beatmapLevel() ;
+
+/// @brief Method get_gameplayModifiers addr 0x0 size 0xffffffffffffffff virtual true final false
+inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "ILevelGameplaySetupData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ILevelGameplaySetupData(ILevelGameplaySetupData && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ILevelGameplaySetupData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ILevelGameplaySetupData(ILevelGameplaySetupData const& ) = delete;
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::ILevelGameplaySetupData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ILevelGameplaySetupData*, "", "ILevelGameplaySetupData");

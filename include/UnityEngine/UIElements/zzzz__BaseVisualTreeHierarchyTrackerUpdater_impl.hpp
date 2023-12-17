@@ -1,0 +1,236 @@
+#pragma once
+#include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualTreeHierarchyTrackerUpdater_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__HierarchyChangeType_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualTreeHierarchyTrackerUpdater_def.hpp"
+constexpr void UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State::__set_value__(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance, std::forward<int32_t>(value));
+}
+constexpr int32_t& UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State::__get_value__()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+constexpr int32_t const& UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State::__get_value__() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State::__BaseVisualTreeHierarchyTrackerUpdater__State(int32_t  value__) noexcept : ::bs_hook::EnumTypeWrapper<0x4>() {this->value__ = value__;
+}
+constexpr ::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State  UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State::Waiting{static_cast<int32_t>(0x0)};
+constexpr ::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State  UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State::TrackingAddOrMove{static_cast<int32_t>(0x1)};
+constexpr ::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State  UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State::TrackingRemove{static_cast<int32_t>(0x2)};
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater.OnHierarchyChange
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::HierarchyChangeType)>(&::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::OnHierarchyChange)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater*>::get(),
+                                  14
+                                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater.OnVersionChanged
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType)>(&::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::OnVersionChanged)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x2dba6bc;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater*>::get(),
+                                  13
+                                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater.Update
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::*)()>(&::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::Update)> {
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x2dba88c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater*>::get(),
+                                  12
+                                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater.ProcessNewChange
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::ProcessNewChange)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x2dba6e8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater*>::get(),
+                            "ProcessNewChange",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater.ProcessAddOrMove
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::ProcessAddOrMove)> {
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x2dba7d0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater*>::get(),
+                            "ProcessAddOrMove",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater.ProcessRemove
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::ProcessRemove)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x2dba76c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater*>::get(),
+                            "ProcessRemove",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::*)()>(&::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::_ctor)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x2dba920;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+constexpr void UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::__set_m_State(::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State  value)  {
+::cordl_internals::setInstanceField<::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State, 0x20>(this, std::forward<::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State>(value));
+}
+constexpr ::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State& UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::__get_m_State()  {
+return ::cordl_internals::getInstanceField<::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State, 0x20>(this);
+}
+constexpr ::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State const& UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::__get_m_State() const {
+return ::cordl_internals::getInstanceField<::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State, 0x20>(this);
+}
+constexpr void UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::__set_m_CurrentChangeElement(::UnityEngine::UIElements::VisualElement*  value)  {
+::cordl_internals::setInstanceField<::UnityEngine::UIElements::VisualElement*, 0x28>(this, std::forward<::UnityEngine::UIElements::VisualElement*>(value));
+}
+constexpr ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::__get_m_CurrentChangeElement()  {
+return ::cordl_internals::getInstanceField<::UnityEngine::UIElements::VisualElement*, 0x28>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::__get_m_CurrentChangeElement() const {
+return ::cordl_internals::getInstanceField<::UnityEngine::UIElements::VisualElement*, 0x28>(this);
+}
+constexpr void UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::__set_m_CurrentChangeParent(::UnityEngine::UIElements::VisualElement*  value)  {
+::cordl_internals::setInstanceField<::UnityEngine::UIElements::VisualElement*, 0x30>(this, std::forward<::UnityEngine::UIElements::VisualElement*>(value));
+}
+constexpr ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::__get_m_CurrentChangeParent()  {
+return ::cordl_internals::getInstanceField<::UnityEngine::UIElements::VisualElement*, 0x30>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::__get_m_CurrentChangeParent() const {
+return ::cordl_internals::getInstanceField<::UnityEngine::UIElements::VisualElement*, 0x30>(this);
+}
+inline void UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::OnHierarchyChange(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::HierarchyChangeType  type)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater*>::get(),
+                            "OnHierarchyChange",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::HierarchyChangeType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, ve, type);
+}
+inline void UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::OnVersionChanged(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::VersionChangeType  versionChangeType)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater*>::get(),
+                            "OnVersionChanged",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VersionChangeType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, ve, versionChangeType);
+}
+inline void UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::Update()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater*>::get(),
+                            "Update",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline void UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::ProcessNewChange(::UnityEngine::UIElements::VisualElement*  ve)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater*>::get(),
+                            "ProcessNewChange",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, ve);
+}
+inline void UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::ProcessAddOrMove(::UnityEngine::UIElements::VisualElement*  ve)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater*>::get(),
+                            "ProcessAddOrMove",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, ve);
+}
+inline void UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::ProcessRemove(::UnityEngine::UIElements::VisualElement*  ve)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater*>::get(),
+                            "ProcessRemove",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, ve);
+}
+inline ::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater* UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater*>());
+}
+inline void UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

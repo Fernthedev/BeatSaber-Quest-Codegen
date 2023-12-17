@@ -1,0 +1,140 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+CORDL_MODULE_EXPORT(CustomTypeDescriptor)
+namespace System {
+class Object;
+}
+namespace System::ComponentModel {
+class EventDescriptorCollection;
+}
+namespace System {
+class Attribute;
+}
+namespace System::ComponentModel {
+class ICustomTypeDescriptor;
+}
+namespace System::ComponentModel {
+class AttributeCollection;
+}
+namespace System::ComponentModel {
+class TypeConverter;
+}
+namespace System::ComponentModel {
+class PropertyDescriptor;
+}
+namespace System::ComponentModel {
+class PropertyDescriptorCollection;
+}
+namespace System::ComponentModel {
+class EventDescriptor;
+}
+namespace System {
+class Type;
+}
+// Forward declare root types
+namespace System::ComponentModel {
+class CustomTypeDescriptor;
+}
+// Write type traits
+MARK_REF_PTR_T(::System::ComponentModel::CustomTypeDescriptor);
+// Type: System.ComponentModel::CustomTypeDescriptor
+namespace System::ComponentModel {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9414))
+// CS Name: ::System.ComponentModel::CustomTypeDescriptor*
+class CORDL_TYPE CustomTypeDescriptor : public ::System::Object {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x18};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x18 - sizeof(::System::Object)]{};
+
+/// @brief Field _parent offset 0x10
+ __declspec(property(get=__get__parent, put=__set__parent)) ::System::ComponentModel::ICustomTypeDescriptor*  _parent;
+
+/// @brief Convert operator to "::System::ComponentModel::ICustomTypeDescriptor"
+constexpr operator  ::System::ComponentModel::ICustomTypeDescriptor*() noexcept;
+
+constexpr void __set__parent(::System::ComponentModel::ICustomTypeDescriptor*  value) ;
+
+constexpr ::System::ComponentModel::ICustomTypeDescriptor* __get__parent() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ICustomTypeDescriptor*> __get__parent() const;
+
+static inline ::System::ComponentModel::CustomTypeDescriptor* New_ctor() ;
+
+/// @brief Method .ctor addr 0x290cc34 size 0x8 virtual false final false
+inline void _ctor() ;
+
+/// @brief Method GetAttributes addr 0x290cc3c size 0xd8 virtual true final false
+inline ::System::ComponentModel::AttributeCollection* GetAttributes() ;
+
+/// @brief Method GetClassName addr 0x290cd14 size 0xb0 virtual true final false
+inline ::StringW GetClassName() ;
+
+/// @brief Method GetComponentName addr 0x290cdc4 size 0xb0 virtual true final false
+inline ::StringW GetComponentName() ;
+
+/// @brief Method GetConverter addr 0x290ce74 size 0xe0 virtual true final false
+inline ::System::ComponentModel::TypeConverter* GetConverter() ;
+
+/// @brief Method GetDefaultEvent addr 0x290cf54 size 0xb0 virtual true final false
+inline ::System::ComponentModel::EventDescriptor* GetDefaultEvent() ;
+
+/// @brief Method GetDefaultProperty addr 0x290d004 size 0xb0 virtual true final false
+inline ::System::ComponentModel::PropertyDescriptor* GetDefaultProperty() ;
+
+/// @brief Method GetEditor addr 0x290d0b4 size 0xb8 virtual true final false
+inline ::System::Object* GetEditor(::System::Type*  editorBaseType) ;
+
+/// @brief Method GetEvents addr 0x290d16c size 0xdc virtual true final false
+inline ::System::ComponentModel::EventDescriptorCollection* GetEvents() ;
+
+/// @brief Method GetEvents addr 0x290d248 size 0xe4 virtual true final false
+inline ::System::ComponentModel::EventDescriptorCollection* GetEvents(::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>  attributes) ;
+
+/// @brief Method GetProperties addr 0x290d32c size 0xdc virtual true final false
+inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties() ;
+
+/// @brief Method GetProperties addr 0x290d408 size 0xe4 virtual true final false
+inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>  attributes) ;
+
+/// @brief Method GetPropertyOwner addr 0x290d4ec size 0xb8 virtual true final false
+inline ::System::Object* GetPropertyOwner(::System::ComponentModel::PropertyDescriptor*  pd) ;
+
+// Ctor Parameters [CppParam { name: "", ty: "CustomTypeDescriptor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CustomTypeDescriptor(CustomTypeDescriptor && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "CustomTypeDescriptor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CustomTypeDescriptor(CustomTypeDescriptor const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ CustomTypeDescriptor()  = default;
+public:
+
+
+// Fields
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::System::ComponentModel::CustomTypeDescriptor, 0x18>, "Size mismatch!");
+
+} // namespace end def System::ComponentModel
+NEED_NO_BOX(::System::ComponentModel::CustomTypeDescriptor);
+DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::CustomTypeDescriptor*, "System.ComponentModel", "CustomTypeDescriptor");

@@ -1,0 +1,34 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+CORDL_MODULE_EXPORT(IInternalListViewBinding)
+// Forward declare root types
+namespace UnityEngine::UIElements {
+class IInternalListViewBinding;
+}
+// Write type traits
+MARK_REF_PTR_T(::UnityEngine::UIElements::IInternalListViewBinding);
+// Type: UnityEngine.UIElements::IInternalListViewBinding
+namespace UnityEngine::UIElements {
+// Is value type: false
+// Dependencies: {}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7084))
+// CS Name: ::UnityEngine.UIElements::IInternalListViewBinding*
+class CORDL_TYPE IInternalListViewBinding {
+public:
+// Declarations
+// Ctor Parameters [CppParam { name: "", ty: "IInternalListViewBinding", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IInternalListViewBinding(IInternalListViewBinding && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "IInternalListViewBinding", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IInternalListViewBinding(IInternalListViewBinding const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def UnityEngine::UIElements
+NEED_NO_BOX(::UnityEngine::UIElements::IInternalListViewBinding);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IInternalListViewBinding*, "UnityEngine.UIElements", "IInternalListViewBinding");

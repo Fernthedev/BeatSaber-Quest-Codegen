@@ -1,0 +1,16 @@
+#pragma once
+#include "OVR/OpenVR/zzzz__CVRSettingHelper_def.hpp"
+constexpr void OVR::OpenVR::CVRSettingHelper::__set_m_pSettings(::cordl_internals::intptr_t  value)  {
+::cordl_internals::setInstanceField<::cordl_internals::intptr_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance, std::forward<::cordl_internals::intptr_t>(value));
+}
+constexpr ::cordl_internals::intptr_t& OVR::OpenVR::CVRSettingHelper::__get_m_pSettings()  {
+return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+constexpr ::cordl_internals::intptr_t const& OVR::OpenVR::CVRSettingHelper::__get_m_pSettings() const {
+return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x0>(this->::bs_hook::ValueTypeWrapper<__IL2CPP_VALUE_TYPE_SIZE>::instance);
+}
+// Ctor Parameters [CppParam { name: "m_pSettings", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::OVR::OpenVR::CVRSettingHelper::CVRSettingHelper(::cordl_internals::intptr_t  m_pSettings) noexcept : ::bs_hook::ValueTypeWrapper<0x8>() {this->m_pSettings = m_pSettings;
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

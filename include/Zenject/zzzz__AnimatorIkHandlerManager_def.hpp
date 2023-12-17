@@ -1,0 +1,95 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+CORDL_MODULE_EXPORT(AnimatorIkHandlerManager)
+namespace Zenject {
+class IAnimatorIkHandler;
+}
+namespace System {
+class Object;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+// Forward declare root types
+namespace Zenject {
+class AnimatorIkHandlerManager;
+}
+// Write type traits
+MARK_REF_PTR_T(::Zenject::AnimatorIkHandlerManager);
+// Type: Zenject::AnimatorIkHandlerManager
+namespace Zenject {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11300))
+// CS Name: ::Zenject::AnimatorIkHandlerManager*
+class CORDL_TYPE AnimatorIkHandlerManager : public ::UnityEngine::MonoBehaviour {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x20};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x20 - sizeof(::UnityEngine::MonoBehaviour)]{};
+
+/// @brief Field _handlers offset 0x18
+ __declspec(property(get=__get__handlers, put=__set__handlers)) ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*  _handlers;
+
+constexpr void __set__handlers(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*  value) ;
+
+constexpr ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* __get__handlers() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*> __get__handlers() const;
+
+/// @brief Method Construct addr 0x2f0e0bc size 0x8 virtual false final false
+inline void Construct(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*  handlers) ;
+
+/// @brief Method OnAnimatorIk addr 0x2f0e0c4 size 0x1b0 virtual false final false
+inline void OnAnimatorIk() ;
+
+static inline ::Zenject::AnimatorIkHandlerManager* New_ctor() ;
+
+/// @brief Method .ctor addr 0x2f0e274 size 0x8 virtual false final false
+inline void _ctor() ;
+
+/// @brief Method __zenInjectMethod0 addr 0x2f0e27c size 0xdc virtual false final false
+static inline void __zenInjectMethod0(::System::Object*  P_0, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  P_1) ;
+
+/// @brief Method __zenCreateInjectTypeInfo addr 0x2f0e358 size 0x2f8 virtual false final false
+static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "AnimatorIkHandlerManager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AnimatorIkHandlerManager(AnimatorIkHandlerManager && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "AnimatorIkHandlerManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AnimatorIkHandlerManager(AnimatorIkHandlerManager const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ AnimatorIkHandlerManager()  = default;
+public:
+
+
+// Fields
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Zenject::AnimatorIkHandlerManager, 0x20>, "Size mismatch!");
+
+} // namespace end def Zenject
+NEED_NO_BOX(::Zenject::AnimatorIkHandlerManager);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::AnimatorIkHandlerManager*, "Zenject", "AnimatorIkHandlerManager");

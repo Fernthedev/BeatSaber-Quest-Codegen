@@ -1,0 +1,79 @@
+#pragma once
+#include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
+#include "RootMotion/zzzz__DemoGUIMessage_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+//  Writing Method size for method: ::RootMotion::DemoGUIMessage.OnGUI
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::DemoGUIMessage::*)()>(&::RootMotion::DemoGUIMessage::OnGUI)> {
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x123cce0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::DemoGUIMessage*>::get(),
+                            "OnGUI",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::RootMotion::DemoGUIMessage._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::DemoGUIMessage::*)()>(&::RootMotion::DemoGUIMessage::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x123cdd8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::DemoGUIMessage*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+constexpr void RootMotion::DemoGUIMessage::__set_text(::StringW  value)  {
+::cordl_internals::setInstanceField<::StringW, 0x18>(this, std::forward<::StringW>(value));
+}
+constexpr ::StringW& RootMotion::DemoGUIMessage::__get_text()  {
+return ::cordl_internals::getInstanceField<::StringW, 0x18>(this);
+}
+constexpr ::StringW const& RootMotion::DemoGUIMessage::__get_text() const {
+return ::cordl_internals::getInstanceField<::StringW, 0x18>(this);
+}
+constexpr void RootMotion::DemoGUIMessage::__set_color(::UnityEngine::Color  value)  {
+::cordl_internals::setInstanceField<::UnityEngine::Color, 0x20>(this, std::forward<::UnityEngine::Color>(value));
+}
+constexpr ::UnityEngine::Color& RootMotion::DemoGUIMessage::__get_color()  {
+return ::cordl_internals::getInstanceField<::UnityEngine::Color, 0x20>(this);
+}
+constexpr ::UnityEngine::Color const& RootMotion::DemoGUIMessage::__get_color() const {
+return ::cordl_internals::getInstanceField<::UnityEngine::Color, 0x20>(this);
+}
+inline void RootMotion::DemoGUIMessage::OnGUI()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::DemoGUIMessage*>::get(),
+                            "OnGUI",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline ::RootMotion::DemoGUIMessage* RootMotion::DemoGUIMessage::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::New<::RootMotion::DemoGUIMessage*>());
+}
+inline void RootMotion::DemoGUIMessage::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::DemoGUIMessage*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

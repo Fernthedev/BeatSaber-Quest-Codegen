@@ -1,0 +1,40 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+CORDL_MODULE_EXPORT(IHasDefault)
+// Forward declare root types
+namespace UnityEngine::ProBuilder {
+class IHasDefault;
+}
+// Write type traits
+MARK_REF_PTR_T(::UnityEngine::ProBuilder::IHasDefault);
+// Type: UnityEngine.ProBuilder::IHasDefault
+namespace UnityEngine::ProBuilder {
+// Is value type: false
+// Dependencies: {}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12129))
+// CS Name: ::UnityEngine.ProBuilder::IHasDefault*
+class CORDL_TYPE IHasDefault {
+public:
+// Declarations
+/// @brief Method SetDefaultValues addr 0x0 size 0xffffffffffffffff virtual true final false
+inline void SetDefaultValues() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "IHasDefault", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IHasDefault(IHasDefault && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "IHasDefault", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IHasDefault(IHasDefault const& ) = delete;
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def UnityEngine::ProBuilder
+NEED_NO_BOX(::UnityEngine::ProBuilder::IHasDefault);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::IHasDefault*, "UnityEngine.ProBuilder", "IHasDefault");

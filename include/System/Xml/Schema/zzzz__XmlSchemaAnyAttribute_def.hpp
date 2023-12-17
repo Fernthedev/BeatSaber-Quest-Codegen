@@ -1,0 +1,105 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Xml/Schema/zzzz__XmlSchemaAnnotated_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+CORDL_MODULE_EXPORT(XmlSchemaAnyAttribute)
+namespace System::Xml::Schema {
+struct XmlSchemaContentProcessing;
+}
+namespace System::Xml::Schema {
+class NamespaceList;
+}
+// Forward declare root types
+namespace System::Xml::Schema {
+class XmlSchemaAnyAttribute;
+}
+// Write type traits
+MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaAnyAttribute);
+// Type: System.Xml.Schema::XmlSchemaAnyAttribute
+namespace System::Xml::Schema {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11714))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11716))
+// CS Name: ::System.Xml.Schema::XmlSchemaAnyAttribute*
+class CORDL_TYPE XmlSchemaAnyAttribute : public ::System::Xml::Schema::XmlSchemaAnnotated {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x28};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x28 - sizeof(::System::Xml::Schema::XmlSchemaAnnotated)]{};
+
+/// @brief Field ns offset 0x10
+ __declspec(property(get=__get_ns, put=__set_ns)) ::StringW  ns;
+
+/// @brief Field processContents offset 0x18
+ __declspec(property(get=__get_processContents, put=__set_processContents)) ::System::Xml::Schema::XmlSchemaContentProcessing  processContents;
+
+/// @brief Field namespaceList offset 0x20
+ __declspec(property(get=__get_namespaceList, put=__set_namespaceList)) ::System::Xml::Schema::NamespaceList*  namespaceList;
+
+ __declspec(property(put=set_ProcessContents)) ::System::Xml::Schema::XmlSchemaContentProcessing  ProcessContents;
+
+constexpr void __set_ns(::StringW  value) ;
+
+constexpr ::StringW& __get_ns() ;
+
+constexpr ::StringW const& __get_ns() const;
+
+constexpr void __set_processContents(::System::Xml::Schema::XmlSchemaContentProcessing  value) ;
+
+constexpr ::System::Xml::Schema::XmlSchemaContentProcessing& __get_processContents() ;
+
+constexpr ::System::Xml::Schema::XmlSchemaContentProcessing const& __get_processContents() const;
+
+constexpr void __set_namespaceList(::System::Xml::Schema::NamespaceList*  value) ;
+
+constexpr ::System::Xml::Schema::NamespaceList* __get_namespaceList() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::NamespaceList*> __get_namespaceList() const;
+
+/// @brief Method set_ProcessContents addr 0x28c723c size 0x8 virtual false final false
+inline void set_ProcessContents(::System::Xml::Schema::XmlSchemaContentProcessing  value) ;
+
+/// @brief Method BuildNamespaceList addr 0x28c7244 size 0x90 virtual false final false
+inline void BuildNamespaceList(::StringW  targetNamespace) ;
+
+static inline ::System::Xml::Schema::XmlSchemaAnyAttribute* New_ctor() ;
+
+/// @brief Method .ctor addr 0x28c72d4 size 0x8 virtual false final false
+inline void _ctor() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAnyAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlSchemaAnyAttribute(XmlSchemaAnyAttribute && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAnyAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlSchemaAnyAttribute(XmlSchemaAnyAttribute const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ XmlSchemaAnyAttribute()  = default;
+public:
+
+
+// Fields
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaAnyAttribute, 0x28>, "Size mismatch!");
+
+} // namespace end def System::Xml::Schema
+NEED_NO_BOX(::System::Xml::Schema::XmlSchemaAnyAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaAnyAttribute*, "System.Xml.Schema", "XmlSchemaAnyAttribute");

@@ -1,0 +1,172 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include "beatsaber-hook/shared/utils/value-wrapper-type.hpp"
+#include <cmath>
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(QuaternionSerializable)
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+struct QuaternionSerializable;
+}
+// Write type traits
+MARK_VAL_T(::GlobalNamespace::QuaternionSerializable);
+// Type: ::QuaternionSerializable
+namespace GlobalNamespace {
+// Is value type: true
+// Dependencies: {}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15041))
+// CS Name: ::QuaternionSerializable
+struct CORDL_TYPE QuaternionSerializable : public ::bs_hook::ValueTypeWrapper<0xc> {
+public:
+// Declarations
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0xc};
+
+/// @brief Field kSqrtTwo offset 0x0
+static constexpr float_t  kSqrtTwo{1.4142135};
+
+/// @brief Field kOneOverSqrtTwo offset 0x0
+static constexpr float_t  kOneOverSqrtTwo{0.70710677};
+
+/// @brief Field kScale offset 0x0
+static constexpr float_t  kScale{11584.53};
+
+/// @brief Field kInvScale offset 0x0
+static constexpr float_t  kInvScale{0.00008632201};
+
+/// @brief Field _a offset 0x0
+ __declspec(property(get=__get__a, put=__set__a)) int32_t  _a;
+
+/// @brief Field _b offset 0x4
+ __declspec(property(get=__get__b, put=__set__b)) int32_t  _b;
+
+/// @brief Field _c offset 0x8
+ __declspec(property(get=__get__c, put=__set__c)) int32_t  _c;
+
+/// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
+constexpr operator  ::LiteNetLib::Utils::INetSerializable*() ;
+
+/// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::QuaternionSerializable>"
+constexpr operator  ::System::IEquatable_1<::GlobalNamespace::QuaternionSerializable>*() ;
+
+constexpr void __set__a(int32_t  value) ;
+
+constexpr int32_t& __get__a() ;
+
+constexpr int32_t const& __get__a() const;
+
+constexpr void __set__b(int32_t  value) ;
+
+constexpr int32_t& __get__b() ;
+
+constexpr int32_t const& __get__b() const;
+
+constexpr void __set__c(int32_t  value) ;
+
+constexpr int32_t& __get__c() ;
+
+constexpr int32_t const& __get__c() const;
+
+/// @brief Method get_identity addr 0x12a7a90 size 0x64 virtual false final false
+static inline ::GlobalNamespace::QuaternionSerializable get_identity() ;
+
+/// @brief Method ToSmallest addr 0x12a7c58 size 0x3e8 virtual false final false
+static inline void ToSmallest(::UnityEngine::Quaternion  q, ByRef<int32_t>  sa, ByRef<int32_t>  sb, ByRef<int32_t>  sc) ;
+
+/// @brief Method FromSmallest addr 0x12a8040 size 0xd0 virtual false final false
+static inline ::UnityEngine::Quaternion FromSmallest(int32_t  sa, int32_t  sb, int32_t  sc) ;
+
+/// @brief Method Serialize addr 0x12a4624 size 0x54 virtual true final true
+inline void Serialize(::LiteNetLib::Utils::NetDataWriter*  writer) ;
+
+/// @brief Method Deserialize addr 0x12a4468 size 0x64 virtual true final true
+inline void Deserialize(::LiteNetLib::Utils::NetDataReader*  reader) ;
+
+/// @brief Method Equals addr 0x12a8110 size 0x34 virtual true final true
+inline bool Equals(::GlobalNamespace::QuaternionSerializable  other) ;
+
+/// @brief Method Equals addr 0x12a8144 size 0x98 virtual true final false
+inline bool Equals(::System::Object*  obj) ;
+
+/// @brief Method Approximately addr 0x12a81dc size 0x80 virtual false final false
+inline bool Approximately(::GlobalNamespace::QuaternionSerializable  other) ;
+
+/// @brief Method GetHashCode addr 0x12a826c size 0x18 virtual true final false
+inline int32_t GetHashCode() ;
+
+/// @brief Method GetSize addr 0x12a8284 size 0x54 virtual false final false
+inline int32_t GetSize() ;
+
+/// @brief Method .ctor addr 0x12a7af4 size 0x164 virtual false final false
+inline void _ctor(::UnityEngine::Quaternion  q) ;
+
+/// @brief Method .ctor addr 0x12a82d8 size 0xc virtual false final false
+inline void _ctor(::LiteNetLib::Utils::NetDataReader*  reader) ;
+
+/// @brief Method ToString addr 0x12a82e4 size 0x38 virtual true final false
+inline ::StringW ToString() ;
+
+/// @brief Method op_Implicit addr 0x12a825c size 0x10 virtual false final false
+static inline ::UnityEngine::Quaternion op_Implicit___UnityEngine__Quaternion(::GlobalNamespace::QuaternionSerializable  q) ;
+
+/// @brief Method op_Implicit addr 0x12a4a0c size 0x2c virtual false final false
+static inline ::GlobalNamespace::QuaternionSerializable op_Implicit___GlobalNamespace__QuaternionSerializable(::UnityEngine::Quaternion  q) ;
+
+/// @brief Method op_Addition addr 0x12a831c size 0x1c virtual false final false
+static inline ::GlobalNamespace::QuaternionSerializable op_Addition(::GlobalNamespace::QuaternionSerializable  a, ::GlobalNamespace::QuaternionSerializable  b) ;
+
+/// @brief Method op_Subtraction addr 0x12a8338 size 0x1c virtual false final false
+static inline ::GlobalNamespace::QuaternionSerializable op_Subtraction(::GlobalNamespace::QuaternionSerializable  a, ::GlobalNamespace::QuaternionSerializable  b) ;
+
+// Ctor Parameters [CppParam { name: "_a", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_b", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_c", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr QuaternionSerializable(int32_t  _a, int32_t  _b, int32_t  _c) noexcept;
+
+// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __IL2CPP_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
+// @brief Constructor that lets you initialize the internal array explicitly
+constexpr explicit QuaternionSerializable(std::array<std::byte, __IL2CPP_VALUE_TYPE_SIZE>  instance) noexcept : ::bs_hook::ValueTypeWrapper<0xc>(instance) {
+}
+
+// Ctor Parameters []
+// @brief default ctor
+ QuaternionSerializable()  = default;
+
+
+// Fields
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::QuaternionSerializable, 0xc>, "Size mismatch!");
+
+} // namespace end def GlobalNamespace
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::QuaternionSerializable, "", "QuaternionSerializable");

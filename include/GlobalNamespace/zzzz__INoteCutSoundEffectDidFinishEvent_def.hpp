@@ -1,0 +1,43 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+CORDL_MODULE_EXPORT(INoteCutSoundEffectDidFinishEvent)
+namespace GlobalNamespace {
+class NoteCutSoundEffect;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+class INoteCutSoundEffectDidFinishEvent;
+}
+// Write type traits
+MARK_REF_PTR_T(::GlobalNamespace::INoteCutSoundEffectDidFinishEvent);
+// Type: ::INoteCutSoundEffectDidFinishEvent
+namespace GlobalNamespace {
+// Is value type: false
+// Dependencies: {}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4068))
+// CS Name: ::INoteCutSoundEffectDidFinishEvent*
+class CORDL_TYPE INoteCutSoundEffectDidFinishEvent {
+public:
+// Declarations
+/// @brief Method HandleNoteCutSoundEffectDidFinish addr 0x0 size 0xffffffffffffffff virtual true final false
+inline void HandleNoteCutSoundEffectDidFinish(::GlobalNamespace::NoteCutSoundEffect*  noteCutSoundEffect) ;
+
+// Ctor Parameters [CppParam { name: "", ty: "INoteCutSoundEffectDidFinishEvent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+INoteCutSoundEffectDidFinishEvent(INoteCutSoundEffectDidFinishEvent && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "INoteCutSoundEffectDidFinishEvent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+INoteCutSoundEffectDidFinishEvent(INoteCutSoundEffectDidFinishEvent const& ) = delete;
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::INoteCutSoundEffectDidFinishEvent);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*, "", "INoteCutSoundEffectDidFinishEvent");

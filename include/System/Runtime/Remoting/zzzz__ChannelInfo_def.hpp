@@ -1,0 +1,92 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+CORDL_MODULE_EXPORT(ChannelInfo)
+namespace System::Runtime::Remoting {
+class IChannelInfo;
+}
+namespace System {
+class Object;
+}
+// Forward declare root types
+namespace System::Runtime::Remoting {
+class ChannelInfo;
+}
+// Write type traits
+MARK_REF_PTR_T(::System::Runtime::Remoting::ChannelInfo);
+// Type: System.Runtime.Remoting::ChannelInfo
+namespace System::Runtime::Remoting {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3052))
+// CS Name: ::System.Runtime.Remoting::ChannelInfo*
+class CORDL_TYPE ChannelInfo : public ::System::Object {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x18};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x18 - sizeof(::System::Object)]{};
+
+/// @brief Field channelData offset 0x10
+ __declspec(property(get=__get_channelData, put=__set_channelData)) ::ArrayW<::System::Object*,::Array<::System::Object*>*>  channelData;
+
+ __declspec(property(get=get_ChannelData)) ::ArrayW<::System::Object*,::Array<::System::Object*>*>  ChannelData;
+
+/// @brief Convert operator to "::System::Runtime::Remoting::IChannelInfo"
+constexpr operator  ::System::Runtime::Remoting::IChannelInfo*() noexcept;
+
+constexpr void __set_channelData(::ArrayW<::System::Object*,::Array<::System::Object*>*>  value) ;
+
+constexpr ::ArrayW<::System::Object*,::Array<::System::Object*>*>& __get_channelData() ;
+
+constexpr ::ArrayW<::System::Object*,::Array<::System::Object*>*> const& __get_channelData() const;
+
+static inline ::System::Runtime::Remoting::ChannelInfo* New_ctor() ;
+
+/// @brief Method .ctor addr 0x2484c7c size 0x68 virtual false final false
+inline void _ctor() ;
+
+static inline ::System::Runtime::Remoting::ChannelInfo* New_ctor(::System::Object*  remoteChannelData) ;
+
+/// @brief Method .ctor addr 0x2484ce4 size 0xa8 virtual false final false
+inline void _ctor(::System::Object*  remoteChannelData) ;
+
+/// @brief Method get_ChannelData addr 0x2484d8c size 0x8 virtual true final true
+inline ::ArrayW<::System::Object*,::Array<::System::Object*>*> get_ChannelData() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "ChannelInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ChannelInfo(ChannelInfo && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ChannelInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ChannelInfo(ChannelInfo const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ ChannelInfo()  = default;
+public:
+
+
+// Fields
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::ChannelInfo, 0x18>, "Size mismatch!");
+
+} // namespace end def System::Runtime::Remoting
+NEED_NO_BOX(::System::Runtime::Remoting::ChannelInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::ChannelInfo*, "System.Runtime.Remoting", "ChannelInfo");

@@ -1,0 +1,214 @@
+#pragma once
+#include "System/zzzz__ArgumentException_impl.hpp"
+#include "System/zzzz__ArgumentOutOfRangeException_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+//  Writing Method size for method: ::System::ArgumentOutOfRangeException._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ArgumentOutOfRangeException::*)()>(&::System::ArgumentOutOfRangeException::_ctor)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x2520d2c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgumentOutOfRangeException*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ArgumentOutOfRangeException._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ArgumentOutOfRangeException::*)(::StringW)>(&::System::ArgumentOutOfRangeException::_ctor)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x2520d88;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgumentOutOfRangeException*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ArgumentOutOfRangeException._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ArgumentOutOfRangeException::*)(::StringW, ::StringW)>(&::System::ArgumentOutOfRangeException::_ctor)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x251c910;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgumentOutOfRangeException*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ArgumentOutOfRangeException._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ArgumentOutOfRangeException::*)(::StringW, ::System::Object*, ::StringW)>(&::System::ArgumentOutOfRangeException::_ctor)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x251da30;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgumentOutOfRangeException*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ArgumentOutOfRangeException._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ArgumentOutOfRangeException::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::ArgumentOutOfRangeException::_ctor)> {
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x2520df4;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgumentOutOfRangeException*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ArgumentOutOfRangeException.GetObjectData
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ArgumentOutOfRangeException::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::ArgumentOutOfRangeException::GetObjectData)> {
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x2520ecc;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgumentOutOfRangeException*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgumentOutOfRangeException*>::get(),
+                                  10
+                                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ArgumentOutOfRangeException.get_Message
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ArgumentOutOfRangeException::*)()>(&::System::ArgumentOutOfRangeException::get_Message)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x2520fa4;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgumentOutOfRangeException*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgumentOutOfRangeException*>::get(),
+                                  5
+                                ));
+    return ___internal_method;
+  }
+};
+constexpr void System::ArgumentOutOfRangeException::__set__actualValue(::System::Object*  value)  {
+::cordl_internals::setInstanceField<::System::Object*, 0x98>(this, std::forward<::System::Object*>(value));
+}
+constexpr ::System::Object* System::ArgumentOutOfRangeException::__get__actualValue()  {
+return ::cordl_internals::getInstanceField<::System::Object*, 0x98>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> System::ArgumentOutOfRangeException::__get__actualValue() const {
+return ::cordl_internals::getInstanceField<::System::Object*, 0x98>(this);
+}
+inline ::System::ArgumentOutOfRangeException* System::ArgumentOutOfRangeException::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::New<::System::ArgumentOutOfRangeException*>());
+}
+inline void System::ArgumentOutOfRangeException::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgumentOutOfRangeException*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+inline ::System::ArgumentOutOfRangeException* System::ArgumentOutOfRangeException::New_ctor(::StringW  paramName)  {
+return THROW_UNLESS(::il2cpp_utils::New<::System::ArgumentOutOfRangeException*>(paramName));
+}
+inline void System::ArgumentOutOfRangeException::_ctor(::StringW  paramName)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgumentOutOfRangeException*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, paramName);
+}
+inline ::System::ArgumentOutOfRangeException* System::ArgumentOutOfRangeException::New_ctor(::StringW  paramName, ::StringW  message)  {
+return THROW_UNLESS(::il2cpp_utils::New<::System::ArgumentOutOfRangeException*>(paramName, message));
+}
+inline void System::ArgumentOutOfRangeException::_ctor(::StringW  paramName, ::StringW  message)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgumentOutOfRangeException*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, paramName, message);
+}
+inline ::System::ArgumentOutOfRangeException* System::ArgumentOutOfRangeException::New_ctor(::StringW  paramName, ::System::Object*  actualValue, ::StringW  message)  {
+return THROW_UNLESS(::il2cpp_utils::New<::System::ArgumentOutOfRangeException*>(paramName, actualValue, message));
+}
+inline void System::ArgumentOutOfRangeException::_ctor(::StringW  paramName, ::System::Object*  actualValue, ::StringW  message)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgumentOutOfRangeException*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, paramName, actualValue, message);
+}
+inline ::System::ArgumentOutOfRangeException* System::ArgumentOutOfRangeException::New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
+return THROW_UNLESS(::il2cpp_utils::New<::System::ArgumentOutOfRangeException*>(info, context));
+}
+inline void System::ArgumentOutOfRangeException::_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgumentOutOfRangeException*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, info, context);
+}
+inline void System::ArgumentOutOfRangeException::GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgumentOutOfRangeException*>::get(),
+                            "GetObjectData",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, info, context);
+}
+inline ::StringW System::ArgumentOutOfRangeException::get_Message()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgumentOutOfRangeException*>::get(),
+                            "get_Message",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(*this, ___internal_method);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

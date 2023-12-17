@@ -1,0 +1,32 @@
+#pragma once
+#include "System/zzzz__ICustomFormatter_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+//  Writing Method size for method: ::System::ICustomFormatter.Format
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ICustomFormatter::*)(::StringW, ::System::Object*, ::System::IFormatProvider*)>(&::System::ICustomFormatter::Format)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ICustomFormatter*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ICustomFormatter*>::get(),
+                                  0
+                                ));
+    return ___internal_method;
+  }
+};
+inline ::StringW System::ICustomFormatter::Format(::StringW  format, ::System::Object*  arg, ::System::IFormatProvider*  formatProvider)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ICustomFormatter*>::get(),
+                            "Format",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IFormatProvider*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(*this, ___internal_method, format, arg, formatProvider);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

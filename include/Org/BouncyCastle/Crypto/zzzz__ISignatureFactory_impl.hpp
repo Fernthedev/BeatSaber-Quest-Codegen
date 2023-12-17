@@ -1,0 +1,58 @@
+#pragma once
+#include "Org/BouncyCastle/Crypto/zzzz__ISignatureFactory_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
+//  Writing Method size for method: ::Org::BouncyCastle::Crypto::ISignatureFactory.get_AlgorithmDetails
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Crypto::ISignatureFactory::*)()>(&::Org::BouncyCastle::Crypto::ISignatureFactory::get_AlgorithmDetails)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::ISignatureFactory*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::ISignatureFactory*>::get(),
+                                  0
+                                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Org::BouncyCastle::Crypto::ISignatureFactory.CreateCalculator
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IStreamCalculator* (::Org::BouncyCastle::Crypto::ISignatureFactory::*)()>(&::Org::BouncyCastle::Crypto::ISignatureFactory::CreateCalculator)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::ISignatureFactory*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::ISignatureFactory*>::get(),
+                                  1
+                                ));
+    return ___internal_method;
+  }
+};
+inline ::System::Object* Org::BouncyCastle::Crypto::ISignatureFactory::get_AlgorithmDetails()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::ISignatureFactory*>::get(),
+                            "get_AlgorithmDetails",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(*this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::IStreamCalculator* Org::BouncyCastle::Crypto::ISignatureFactory::CreateCalculator()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::ISignatureFactory*>::get(),
+                            "CreateCalculator",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::IStreamCalculator*, false>(*this, ___internal_method);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

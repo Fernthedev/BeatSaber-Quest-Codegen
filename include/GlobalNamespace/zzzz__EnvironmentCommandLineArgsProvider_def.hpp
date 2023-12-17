@@ -1,0 +1,68 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+CORDL_MODULE_EXPORT(EnvironmentCommandLineArgsProvider)
+namespace GlobalNamespace {
+class ICommandLineArgsProvider;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+class EnvironmentCommandLineArgsProvider;
+}
+// Write type traits
+MARK_REF_PTR_T(::GlobalNamespace::EnvironmentCommandLineArgsProvider);
+// Type: ::EnvironmentCommandLineArgsProvider
+namespace GlobalNamespace {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5953))
+// CS Name: ::EnvironmentCommandLineArgsProvider*
+class CORDL_TYPE EnvironmentCommandLineArgsProvider : public ::System::Object {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x10};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x10 - sizeof(::System::Object)]{};
+
+/// @brief Convert operator to "::GlobalNamespace::ICommandLineArgsProvider"
+constexpr operator  ::GlobalNamespace::ICommandLineArgsProvider*() noexcept;
+
+/// @brief Method GetCommandLineArgs addr 0x23050dc size 0x8 virtual true final true
+inline ::ArrayW<::StringW,::Array<::StringW>*> GetCommandLineArgs() ;
+
+static inline ::GlobalNamespace::EnvironmentCommandLineArgsProvider* New_ctor() ;
+
+/// @brief Method .ctor addr 0x2305164 size 0x8 virtual false final false
+inline void _ctor() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "EnvironmentCommandLineArgsProvider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EnvironmentCommandLineArgsProvider(EnvironmentCommandLineArgsProvider && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "EnvironmentCommandLineArgsProvider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EnvironmentCommandLineArgsProvider(EnvironmentCommandLineArgsProvider const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ EnvironmentCommandLineArgsProvider()  = default;
+public:
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentCommandLineArgsProvider, 0x10>, "Size mismatch!");
+
+} // namespace end def GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::EnvironmentCommandLineArgsProvider);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentCommandLineArgsProvider*, "", "EnvironmentCommandLineArgsProvider");

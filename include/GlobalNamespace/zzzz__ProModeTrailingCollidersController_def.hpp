@@ -1,0 +1,115 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+CORDL_MODULE_EXPORT(ProModeTrailingCollidersController)
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+class BoxCuttableBySaber;
+}
+namespace GlobalNamespace {
+class NoteMovement;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+class ProModeTrailingCollidersController;
+}
+// Write type traits
+MARK_REF_PTR_T(::GlobalNamespace::ProModeTrailingCollidersController);
+// Type: ::ProModeTrailingCollidersController
+namespace GlobalNamespace {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4784))
+// CS Name: ::ProModeTrailingCollidersController*
+class CORDL_TYPE ProModeTrailingCollidersController : public ::UnityEngine::MonoBehaviour {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x38};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x38 - sizeof(::UnityEngine::MonoBehaviour)]{};
+
+/// @brief Field _mainSmallCuttableBySaber offset 0x18
+ __declspec(property(get=__get__mainSmallCuttableBySaber, put=__set__mainSmallCuttableBySaber)) ::GlobalNamespace::BoxCuttableBySaber*  _mainSmallCuttableBySaber;
+
+/// @brief Field _trailingSmallCuttableBySaberList offset 0x20
+ __declspec(property(get=__get__trailingSmallCuttableBySaberList, put=__set__trailingSmallCuttableBySaberList)) ::ArrayW<::GlobalNamespace::BoxCuttableBySaber*,::Array<::GlobalNamespace::BoxCuttableBySaber*>*>  _trailingSmallCuttableBySaberList;
+
+/// @brief Field _noteMovement offset 0x28
+ __declspec(property(get=__get__noteMovement, put=__set__noteMovement)) ::GlobalNamespace::NoteMovement*  _noteMovement;
+
+/// @brief Field _transform offset 0x30
+ __declspec(property(get=__get__transform, put=__set__transform)) ::UnityEngine::Transform*  _transform;
+
+constexpr void __set__mainSmallCuttableBySaber(::GlobalNamespace::BoxCuttableBySaber*  value) ;
+
+constexpr ::GlobalNamespace::BoxCuttableBySaber* __get__mainSmallCuttableBySaber() ;
+
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoxCuttableBySaber*> __get__mainSmallCuttableBySaber() const;
+
+constexpr void __set__trailingSmallCuttableBySaberList(::ArrayW<::GlobalNamespace::BoxCuttableBySaber*,::Array<::GlobalNamespace::BoxCuttableBySaber*>*>  value) ;
+
+constexpr ::ArrayW<::GlobalNamespace::BoxCuttableBySaber*,::Array<::GlobalNamespace::BoxCuttableBySaber*>*>& __get__trailingSmallCuttableBySaberList() ;
+
+constexpr ::ArrayW<::GlobalNamespace::BoxCuttableBySaber*,::Array<::GlobalNamespace::BoxCuttableBySaber*>*> const& __get__trailingSmallCuttableBySaberList() const;
+
+constexpr void __set__noteMovement(::GlobalNamespace::NoteMovement*  value) ;
+
+constexpr ::GlobalNamespace::NoteMovement* __get__noteMovement() ;
+
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteMovement*> __get__noteMovement() const;
+
+constexpr void __set__transform(::UnityEngine::Transform*  value) ;
+
+constexpr ::UnityEngine::Transform* __get__transform() ;
+
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> __get__transform() const;
+
+/// @brief Method Start addr 0x238b9e4 size 0x98 virtual false final false
+inline void Start() ;
+
+/// @brief Method OnDestroy addr 0x238ba7c size 0xd0 virtual false final false
+inline void OnDestroy() ;
+
+/// @brief Method HandleNoteDidMoveInJumpPhase addr 0x238bb4c size 0x170 virtual false final false
+inline void HandleNoteDidMoveInJumpPhase() ;
+
+static inline ::GlobalNamespace::ProModeTrailingCollidersController* New_ctor() ;
+
+/// @brief Method .ctor addr 0x238bcbc size 0x8 virtual false final false
+inline void _ctor() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "ProModeTrailingCollidersController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ProModeTrailingCollidersController(ProModeTrailingCollidersController && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ProModeTrailingCollidersController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ProModeTrailingCollidersController(ProModeTrailingCollidersController const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ ProModeTrailingCollidersController()  = default;
+public:
+
+
+// Fields
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ProModeTrailingCollidersController, 0x38>, "Size mismatch!");
+
+} // namespace end def GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::ProModeTrailingCollidersController);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ProModeTrailingCollidersController*, "", "ProModeTrailingCollidersController");

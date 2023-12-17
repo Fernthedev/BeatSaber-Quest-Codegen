@@ -1,0 +1,819 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(JsonSerializerSettings)
+namespace Newtonsoft::Json {
+struct MissingMemberHandling;
+}
+namespace Newtonsoft::Json::Serialization {
+class ITraceWriter;
+}
+namespace System::Runtime::Serialization::Formatters {
+struct FormatterAssemblyStyle;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace Newtonsoft::Json {
+struct Formatting;
+}
+namespace Newtonsoft::Json {
+struct FloatParseHandling;
+}
+namespace System {
+template<typename TResult>
+class Func_1;
+}
+namespace Newtonsoft::Json {
+struct DefaultValueHandling;
+}
+namespace Newtonsoft::Json {
+struct PreserveReferencesHandling;
+}
+namespace Newtonsoft::Json::Serialization {
+class IContractResolver;
+}
+namespace Newtonsoft::Json {
+struct DateParseHandling;
+}
+namespace Newtonsoft::Json::Serialization {
+class IReferenceResolver;
+}
+namespace Newtonsoft::Json {
+class __JsonSerializerSettings____c__DisplayClass90_0;
+}
+namespace Newtonsoft::Json::Serialization {
+class ErrorEventArgs;
+}
+namespace Newtonsoft::Json {
+struct ConstructorHandling;
+}
+namespace Newtonsoft::Json {
+struct TypeNameHandling;
+}
+namespace Newtonsoft::Json {
+struct StringEscapeHandling;
+}
+namespace System::Collections {
+class IEqualityComparer;
+}
+namespace Newtonsoft::Json {
+struct FloatFormatHandling;
+}
+namespace Newtonsoft::Json {
+struct MetadataPropertyHandling;
+}
+namespace Newtonsoft::Json {
+class JsonConverter;
+}
+namespace Newtonsoft::Json {
+struct NullValueHandling;
+}
+namespace Newtonsoft::Json {
+struct DateFormatHandling;
+}
+namespace Newtonsoft::Json {
+struct ReferenceLoopHandling;
+}
+namespace Newtonsoft::Json {
+struct ObjectCreationHandling;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace Newtonsoft::Json {
+struct DateTimeZoneHandling;
+}
+namespace System {
+template<typename TEventArgs>
+class EventHandler_1;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace System::Runtime::Serialization {
+class SerializationBinder;
+}
+// Forward declare root types
+namespace Newtonsoft::Json {
+class JsonSerializerSettings;
+}
+namespace Newtonsoft::Json {
+class __JsonSerializerSettings____c__DisplayClass90_0;
+}
+// Write type traits
+MARK_REF_PTR_T(::Newtonsoft::Json::JsonSerializerSettings);
+MARK_REF_PTR_T(::Newtonsoft::Json::__JsonSerializerSettings____c__DisplayClass90_0);
+// Type: ::<>c__DisplayClass90_0
+namespace Newtonsoft::Json {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11819))
+// CS Name: ::JsonSerializerSettings::<>c__DisplayClass90_0*
+class CORDL_TYPE __JsonSerializerSettings____c__DisplayClass90_0 : public ::System::Object {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x18};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x18 - sizeof(::System::Object)]{};
+
+/// @brief Field value offset 0x10
+ __declspec(property(get=__get_value, put=__set_value)) ::Newtonsoft::Json::Serialization::IReferenceResolver*  value;
+
+constexpr void __set_value(::Newtonsoft::Json::Serialization::IReferenceResolver*  value) ;
+
+constexpr ::Newtonsoft::Json::Serialization::IReferenceResolver* __get_value() ;
+
+constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::IReferenceResolver*> __get_value() const;
+
+static inline ::Newtonsoft::Json::__JsonSerializerSettings____c__DisplayClass90_0* New_ctor() ;
+
+/// @brief Method .ctor addr 0x263fd78 size 0x8 virtual false final false
+inline void _ctor() ;
+
+/// @brief Method <set_ReferenceResolver>b__0 addr 0x264087c size 0x8 virtual false final false
+inline ::Newtonsoft::Json::Serialization::IReferenceResolver* _set_ReferenceResolver_b__0() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "__JsonSerializerSettings____c__DisplayClass90_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__JsonSerializerSettings____c__DisplayClass90_0(__JsonSerializerSettings____c__DisplayClass90_0 && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "__JsonSerializerSettings____c__DisplayClass90_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__JsonSerializerSettings____c__DisplayClass90_0(__JsonSerializerSettings____c__DisplayClass90_0 const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ __JsonSerializerSettings____c__DisplayClass90_0()  = default;
+public:
+
+
+// Fields
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::__JsonSerializerSettings____c__DisplayClass90_0, 0x18>, "Size mismatch!");
+
+} // namespace end def Newtonsoft::Json
+// Type: Newtonsoft.Json::JsonSerializerSettings
+namespace Newtonsoft::Json {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11840)), TypeDefinitionIndex(TypeDefinitionIndex(11816)), TypeDefinitionIndex(TypeDefinitionIndex(11837)), TypeDefinitionIndex(TypeDefinitionIndex(11796)), TypeDefinitionIndex(TypeDefinitionIndex(11838)), TypeDefinitionIndex(TypeDefinitionIndex(11795)), TypeDefinitionIndex(TypeDefinitionIndex(11809)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11799)), TypeDefinitionIndex(TypeDefinitionIndex(11810)), TypeDefinitionIndex(TypeDefinitionIndex(11800)), TypeDefinitionIndex(TypeDefinitionIndex(11797)), TypeDefinitionIndex(TypeDefinitionIndex(11798)), TypeDefinitionIndex(TypeDefinitionIndex(11794)), TypeDefinitionIndex(TypeDefinitionIndex(11812)), TypeDefinitionIndex(TypeDefinitionIndex(3241)), TypeDefinitionIndex(TypeDefinitionIndex(11839)), TypeDefinitionIndex(TypeDefinitionIndex(11822))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11820))
+// CS Name: ::Newtonsoft.Json::JsonSerializerSettings*
+class CORDL_TYPE JsonSerializerSettings : public ::System::Object {
+public:
+// Declarations
+using __c__DisplayClass90_0 = ::Newtonsoft::Json::__JsonSerializerSettings____c__DisplayClass90_0;
+
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x110};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x110 - sizeof(::System::Object)]{};
+
+/// @brief Field DefaultReferenceLoopHandling value: static_cast<int32_t>(0x0)
+static ::Newtonsoft::Json::ReferenceLoopHandling const DefaultReferenceLoopHandling;
+
+/// @brief Field DefaultMissingMemberHandling value: static_cast<int32_t>(0x0)
+static ::Newtonsoft::Json::MissingMemberHandling const DefaultMissingMemberHandling;
+
+/// @brief Field DefaultNullValueHandling value: static_cast<int32_t>(0x0)
+static ::Newtonsoft::Json::NullValueHandling const DefaultNullValueHandling;
+
+/// @brief Field DefaultDefaultValueHandling value: static_cast<int32_t>(0x0)
+static ::Newtonsoft::Json::DefaultValueHandling const DefaultDefaultValueHandling;
+
+/// @brief Field DefaultObjectCreationHandling value: static_cast<int32_t>(0x0)
+static ::Newtonsoft::Json::ObjectCreationHandling const DefaultObjectCreationHandling;
+
+/// @brief Field DefaultPreserveReferencesHandling value: static_cast<int32_t>(0x0)
+static ::Newtonsoft::Json::PreserveReferencesHandling const DefaultPreserveReferencesHandling;
+
+/// @brief Field DefaultConstructorHandling value: static_cast<int32_t>(0x0)
+static ::Newtonsoft::Json::ConstructorHandling const DefaultConstructorHandling;
+
+/// @brief Field DefaultTypeNameHandling value: static_cast<int32_t>(0x0)
+static ::Newtonsoft::Json::TypeNameHandling const DefaultTypeNameHandling;
+
+/// @brief Field DefaultMetadataPropertyHandling value: static_cast<int32_t>(0x0)
+static ::Newtonsoft::Json::MetadataPropertyHandling const DefaultMetadataPropertyHandling;
+
+/// @brief Field DefaultTypeNameAssemblyFormat value: static_cast<int32_t>(0x0)
+static ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle const DefaultTypeNameAssemblyFormat;
+
+/// @brief Field DefaultFormatting value: static_cast<int32_t>(0x0)
+static ::Newtonsoft::Json::Formatting const DefaultFormatting;
+
+/// @brief Field DefaultDateFormatHandling value: static_cast<int32_t>(0x0)
+static ::Newtonsoft::Json::DateFormatHandling const DefaultDateFormatHandling;
+
+/// @brief Field DefaultDateTimeZoneHandling value: static_cast<int32_t>(0x3)
+static ::Newtonsoft::Json::DateTimeZoneHandling const DefaultDateTimeZoneHandling;
+
+/// @brief Field DefaultDateParseHandling value: static_cast<int32_t>(0x1)
+static ::Newtonsoft::Json::DateParseHandling const DefaultDateParseHandling;
+
+/// @brief Field DefaultFloatParseHandling value: static_cast<int32_t>(0x0)
+static ::Newtonsoft::Json::FloatParseHandling const DefaultFloatParseHandling;
+
+/// @brief Field DefaultFloatFormatHandling value: static_cast<int32_t>(0x0)
+static ::Newtonsoft::Json::FloatFormatHandling const DefaultFloatFormatHandling;
+
+/// @brief Field DefaultStringEscapeHandling value: static_cast<int32_t>(0x0)
+static ::Newtonsoft::Json::StringEscapeHandling const DefaultStringEscapeHandling;
+
+/// @brief Field DefaultFormatterAssemblyStyle value: static_cast<int32_t>(0x0)
+static ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle const DefaultFormatterAssemblyStyle;
+
+/// @brief Field DefaultCheckAdditionalContent offset 0x0
+static constexpr bool  DefaultCheckAdditionalContent{false};
+
+/// @brief Field DefaultDateFormatString offset 0x0
+static constexpr ::ConstString  DefaultDateFormatString{u"yyyy\'-\'MM\'-\'dd\'T\'HH\':\'mm\':\'ss.FFFFFFFK"};
+
+/// @brief Field _formatting offset 0x10
+ __declspec(property(get=__get__formatting, put=__set__formatting)) ::System::Nullable_1<::Newtonsoft::Json::Formatting>  _formatting;
+
+/// @brief Field _dateFormatHandling offset 0x18
+ __declspec(property(get=__get__dateFormatHandling, put=__set__dateFormatHandling)) ::System::Nullable_1<::Newtonsoft::Json::DateFormatHandling>  _dateFormatHandling;
+
+/// @brief Field _dateTimeZoneHandling offset 0x20
+ __declspec(property(get=__get__dateTimeZoneHandling, put=__set__dateTimeZoneHandling)) ::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling>  _dateTimeZoneHandling;
+
+/// @brief Field _dateParseHandling offset 0x28
+ __declspec(property(get=__get__dateParseHandling, put=__set__dateParseHandling)) ::System::Nullable_1<::Newtonsoft::Json::DateParseHandling>  _dateParseHandling;
+
+/// @brief Field _floatFormatHandling offset 0x30
+ __declspec(property(get=__get__floatFormatHandling, put=__set__floatFormatHandling)) ::System::Nullable_1<::Newtonsoft::Json::FloatFormatHandling>  _floatFormatHandling;
+
+/// @brief Field _floatParseHandling offset 0x38
+ __declspec(property(get=__get__floatParseHandling, put=__set__floatParseHandling)) ::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling>  _floatParseHandling;
+
+/// @brief Field _stringEscapeHandling offset 0x40
+ __declspec(property(get=__get__stringEscapeHandling, put=__set__stringEscapeHandling)) ::System::Nullable_1<::Newtonsoft::Json::StringEscapeHandling>  _stringEscapeHandling;
+
+/// @brief Field _culture offset 0x48
+ __declspec(property(get=__get__culture, put=__set__culture)) ::System::Globalization::CultureInfo*  _culture;
+
+/// @brief Field _checkAdditionalContent offset 0x50
+ __declspec(property(get=__get__checkAdditionalContent, put=__set__checkAdditionalContent)) ::System::Nullable_1<bool>  _checkAdditionalContent;
+
+/// @brief Field _maxDepth offset 0x54
+ __declspec(property(get=__get__maxDepth, put=__set__maxDepth)) ::System::Nullable_1<int32_t>  _maxDepth;
+
+/// @brief Field _maxDepthSet offset 0x5c
+ __declspec(property(get=__get__maxDepthSet, put=__set__maxDepthSet)) bool  _maxDepthSet;
+
+/// @brief Field _dateFormatString offset 0x60
+ __declspec(property(get=__get__dateFormatString, put=__set__dateFormatString)) ::StringW  _dateFormatString;
+
+/// @brief Field _dateFormatStringSet offset 0x68
+ __declspec(property(get=__get__dateFormatStringSet, put=__set__dateFormatStringSet)) bool  _dateFormatStringSet;
+
+/// @brief Field _typeNameAssemblyFormat offset 0x6c
+ __declspec(property(get=__get__typeNameAssemblyFormat, put=__set__typeNameAssemblyFormat)) ::System::Nullable_1<::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle>  _typeNameAssemblyFormat;
+
+/// @brief Field _defaultValueHandling offset 0x74
+ __declspec(property(get=__get__defaultValueHandling, put=__set__defaultValueHandling)) ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling>  _defaultValueHandling;
+
+/// @brief Field _preserveReferencesHandling offset 0x7c
+ __declspec(property(get=__get__preserveReferencesHandling, put=__set__preserveReferencesHandling)) ::System::Nullable_1<::Newtonsoft::Json::PreserveReferencesHandling>  _preserveReferencesHandling;
+
+/// @brief Field _nullValueHandling offset 0x84
+ __declspec(property(get=__get__nullValueHandling, put=__set__nullValueHandling)) ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling>  _nullValueHandling;
+
+/// @brief Field _objectCreationHandling offset 0x8c
+ __declspec(property(get=__get__objectCreationHandling, put=__set__objectCreationHandling)) ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling>  _objectCreationHandling;
+
+/// @brief Field _missingMemberHandling offset 0x94
+ __declspec(property(get=__get__missingMemberHandling, put=__set__missingMemberHandling)) ::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling>  _missingMemberHandling;
+
+/// @brief Field _referenceLoopHandling offset 0x9c
+ __declspec(property(get=__get__referenceLoopHandling, put=__set__referenceLoopHandling)) ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>  _referenceLoopHandling;
+
+/// @brief Field _context offset 0xa8
+ __declspec(property(get=__get__context, put=__set__context)) ::System::Nullable_1<::System::Runtime::Serialization::StreamingContext>  _context;
+
+/// @brief Field _constructorHandling offset 0xc0
+ __declspec(property(get=__get__constructorHandling, put=__set__constructorHandling)) ::System::Nullable_1<::Newtonsoft::Json::ConstructorHandling>  _constructorHandling;
+
+/// @brief Field _typeNameHandling offset 0xc8
+ __declspec(property(get=__get__typeNameHandling, put=__set__typeNameHandling)) ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>  _typeNameHandling;
+
+/// @brief Field _metadataPropertyHandling offset 0xd0
+ __declspec(property(get=__get__metadataPropertyHandling, put=__set__metadataPropertyHandling)) ::System::Nullable_1<::Newtonsoft::Json::MetadataPropertyHandling>  _metadataPropertyHandling;
+
+/// @brief Field <Converters>k__BackingField offset 0xd8
+ __declspec(property(get=__get__Converters_k__BackingField, put=__set__Converters_k__BackingField)) ::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>*  _Converters_k__BackingField;
+
+/// @brief Field <ContractResolver>k__BackingField offset 0xe0
+ __declspec(property(get=__get__ContractResolver_k__BackingField, put=__set__ContractResolver_k__BackingField)) ::Newtonsoft::Json::Serialization::IContractResolver*  _ContractResolver_k__BackingField;
+
+/// @brief Field <EqualityComparer>k__BackingField offset 0xe8
+ __declspec(property(get=__get__EqualityComparer_k__BackingField, put=__set__EqualityComparer_k__BackingField)) ::System::Collections::IEqualityComparer*  _EqualityComparer_k__BackingField;
+
+/// @brief Field <ReferenceResolverProvider>k__BackingField offset 0xf0
+ __declspec(property(get=__get__ReferenceResolverProvider_k__BackingField, put=__set__ReferenceResolverProvider_k__BackingField)) ::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>*  _ReferenceResolverProvider_k__BackingField;
+
+/// @brief Field <TraceWriter>k__BackingField offset 0xf8
+ __declspec(property(get=__get__TraceWriter_k__BackingField, put=__set__TraceWriter_k__BackingField)) ::Newtonsoft::Json::Serialization::ITraceWriter*  _TraceWriter_k__BackingField;
+
+/// @brief Field <Binder>k__BackingField offset 0x100
+ __declspec(property(get=__get__Binder_k__BackingField, put=__set__Binder_k__BackingField)) ::System::Runtime::Serialization::SerializationBinder*  _Binder_k__BackingField;
+
+/// @brief Field <Error>k__BackingField offset 0x108
+ __declspec(property(get=__get__Error_k__BackingField, put=__set__Error_k__BackingField)) ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>*  _Error_k__BackingField;
+
+ __declspec(property(get=get_ReferenceLoopHandling, put=set_ReferenceLoopHandling)) ::Newtonsoft::Json::ReferenceLoopHandling  ReferenceLoopHandling;
+
+ __declspec(property(get=get_MissingMemberHandling, put=set_MissingMemberHandling)) ::Newtonsoft::Json::MissingMemberHandling  MissingMemberHandling;
+
+ __declspec(property(get=get_ObjectCreationHandling, put=set_ObjectCreationHandling)) ::Newtonsoft::Json::ObjectCreationHandling  ObjectCreationHandling;
+
+ __declspec(property(get=get_NullValueHandling, put=set_NullValueHandling)) ::Newtonsoft::Json::NullValueHandling  NullValueHandling;
+
+ __declspec(property(get=get_DefaultValueHandling, put=set_DefaultValueHandling)) ::Newtonsoft::Json::DefaultValueHandling  DefaultValueHandling;
+
+ __declspec(property(get=get_Converters, put=set_Converters)) ::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>*  Converters;
+
+ __declspec(property(get=get_PreserveReferencesHandling, put=set_PreserveReferencesHandling)) ::Newtonsoft::Json::PreserveReferencesHandling  PreserveReferencesHandling;
+
+ __declspec(property(get=get_TypeNameHandling, put=set_TypeNameHandling)) ::Newtonsoft::Json::TypeNameHandling  TypeNameHandling;
+
+ __declspec(property(get=get_MetadataPropertyHandling, put=set_MetadataPropertyHandling)) ::Newtonsoft::Json::MetadataPropertyHandling  MetadataPropertyHandling;
+
+ __declspec(property(get=get_TypeNameAssemblyFormat, put=set_TypeNameAssemblyFormat)) ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle  TypeNameAssemblyFormat;
+
+ __declspec(property(get=get_ConstructorHandling, put=set_ConstructorHandling)) ::Newtonsoft::Json::ConstructorHandling  ConstructorHandling;
+
+ __declspec(property(get=get_ContractResolver, put=set_ContractResolver)) ::Newtonsoft::Json::Serialization::IContractResolver*  ContractResolver;
+
+ __declspec(property(get=get_EqualityComparer, put=set_EqualityComparer)) ::System::Collections::IEqualityComparer*  EqualityComparer;
+
+ __declspec(property(get=get_ReferenceResolver, put=set_ReferenceResolver)) ::Newtonsoft::Json::Serialization::IReferenceResolver*  ReferenceResolver;
+
+ __declspec(property(get=get_ReferenceResolverProvider, put=set_ReferenceResolverProvider)) ::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>*  ReferenceResolverProvider;
+
+ __declspec(property(get=get_TraceWriter, put=set_TraceWriter)) ::Newtonsoft::Json::Serialization::ITraceWriter*  TraceWriter;
+
+ __declspec(property(get=get_Binder, put=set_Binder)) ::System::Runtime::Serialization::SerializationBinder*  Binder;
+
+ __declspec(property(get=get_Error, put=set_Error)) ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>*  Error;
+
+ __declspec(property(get=get_Context, put=set_Context)) ::System::Runtime::Serialization::StreamingContext  Context;
+
+ __declspec(property(get=get_DateFormatString, put=set_DateFormatString)) ::StringW  DateFormatString;
+
+ __declspec(property(get=get_MaxDepth, put=set_MaxDepth)) ::System::Nullable_1<int32_t>  MaxDepth;
+
+ __declspec(property(get=get_Formatting, put=set_Formatting)) ::Newtonsoft::Json::Formatting  Formatting;
+
+ __declspec(property(get=get_DateFormatHandling, put=set_DateFormatHandling)) ::Newtonsoft::Json::DateFormatHandling  DateFormatHandling;
+
+ __declspec(property(get=get_DateTimeZoneHandling, put=set_DateTimeZoneHandling)) ::Newtonsoft::Json::DateTimeZoneHandling  DateTimeZoneHandling;
+
+ __declspec(property(get=get_DateParseHandling, put=set_DateParseHandling)) ::Newtonsoft::Json::DateParseHandling  DateParseHandling;
+
+ __declspec(property(get=get_FloatFormatHandling, put=set_FloatFormatHandling)) ::Newtonsoft::Json::FloatFormatHandling  FloatFormatHandling;
+
+ __declspec(property(get=get_FloatParseHandling, put=set_FloatParseHandling)) ::Newtonsoft::Json::FloatParseHandling  FloatParseHandling;
+
+ __declspec(property(get=get_StringEscapeHandling, put=set_StringEscapeHandling)) ::Newtonsoft::Json::StringEscapeHandling  StringEscapeHandling;
+
+ __declspec(property(get=get_Culture, put=set_Culture)) ::System::Globalization::CultureInfo*  Culture;
+
+ __declspec(property(get=get_CheckAdditionalContent, put=set_CheckAdditionalContent)) bool  CheckAdditionalContent;
+
+static inline void setStaticF_DefaultContext(::System::Runtime::Serialization::StreamingContext  value) ;
+
+static inline ::System::Runtime::Serialization::StreamingContext getStaticF_DefaultContext() ;
+
+static inline void setStaticF_DefaultCulture(::System::Globalization::CultureInfo*  value) ;
+
+static inline ::System::Globalization::CultureInfo* getStaticF_DefaultCulture() ;
+
+constexpr void __set__formatting(::System::Nullable_1<::Newtonsoft::Json::Formatting>  value) ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::Formatting>& __get__formatting() ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::Formatting> const& __get__formatting() const;
+
+constexpr void __set__dateFormatHandling(::System::Nullable_1<::Newtonsoft::Json::DateFormatHandling>  value) ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::DateFormatHandling>& __get__dateFormatHandling() ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::DateFormatHandling> const& __get__dateFormatHandling() const;
+
+constexpr void __set__dateTimeZoneHandling(::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling>  value) ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling>& __get__dateTimeZoneHandling() ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling> const& __get__dateTimeZoneHandling() const;
+
+constexpr void __set__dateParseHandling(::System::Nullable_1<::Newtonsoft::Json::DateParseHandling>  value) ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::DateParseHandling>& __get__dateParseHandling() ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::DateParseHandling> const& __get__dateParseHandling() const;
+
+constexpr void __set__floatFormatHandling(::System::Nullable_1<::Newtonsoft::Json::FloatFormatHandling>  value) ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::FloatFormatHandling>& __get__floatFormatHandling() ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::FloatFormatHandling> const& __get__floatFormatHandling() const;
+
+constexpr void __set__floatParseHandling(::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling>  value) ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling>& __get__floatParseHandling() ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling> const& __get__floatParseHandling() const;
+
+constexpr void __set__stringEscapeHandling(::System::Nullable_1<::Newtonsoft::Json::StringEscapeHandling>  value) ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::StringEscapeHandling>& __get__stringEscapeHandling() ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::StringEscapeHandling> const& __get__stringEscapeHandling() const;
+
+constexpr void __set__culture(::System::Globalization::CultureInfo*  value) ;
+
+constexpr ::System::Globalization::CultureInfo* __get__culture() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> __get__culture() const;
+
+constexpr void __set__checkAdditionalContent(::System::Nullable_1<bool>  value) ;
+
+constexpr ::System::Nullable_1<bool>& __get__checkAdditionalContent() ;
+
+constexpr ::System::Nullable_1<bool> const& __get__checkAdditionalContent() const;
+
+constexpr void __set__maxDepth(::System::Nullable_1<int32_t>  value) ;
+
+constexpr ::System::Nullable_1<int32_t>& __get__maxDepth() ;
+
+constexpr ::System::Nullable_1<int32_t> const& __get__maxDepth() const;
+
+constexpr void __set__maxDepthSet(bool  value) ;
+
+constexpr bool& __get__maxDepthSet() ;
+
+constexpr bool const& __get__maxDepthSet() const;
+
+constexpr void __set__dateFormatString(::StringW  value) ;
+
+constexpr ::StringW& __get__dateFormatString() ;
+
+constexpr ::StringW const& __get__dateFormatString() const;
+
+constexpr void __set__dateFormatStringSet(bool  value) ;
+
+constexpr bool& __get__dateFormatStringSet() ;
+
+constexpr bool const& __get__dateFormatStringSet() const;
+
+constexpr void __set__typeNameAssemblyFormat(::System::Nullable_1<::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle>  value) ;
+
+constexpr ::System::Nullable_1<::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle>& __get__typeNameAssemblyFormat() ;
+
+constexpr ::System::Nullable_1<::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle> const& __get__typeNameAssemblyFormat() const;
+
+constexpr void __set__defaultValueHandling(::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling>  value) ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling>& __get__defaultValueHandling() ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> const& __get__defaultValueHandling() const;
+
+constexpr void __set__preserveReferencesHandling(::System::Nullable_1<::Newtonsoft::Json::PreserveReferencesHandling>  value) ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::PreserveReferencesHandling>& __get__preserveReferencesHandling() ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::PreserveReferencesHandling> const& __get__preserveReferencesHandling() const;
+
+constexpr void __set__nullValueHandling(::System::Nullable_1<::Newtonsoft::Json::NullValueHandling>  value) ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling>& __get__nullValueHandling() ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> const& __get__nullValueHandling() const;
+
+constexpr void __set__objectCreationHandling(::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling>  value) ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling>& __get__objectCreationHandling() ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> const& __get__objectCreationHandling() const;
+
+constexpr void __set__missingMemberHandling(::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling>  value) ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling>& __get__missingMemberHandling() ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling> const& __get__missingMemberHandling() const;
+
+constexpr void __set__referenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>  value) ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& __get__referenceLoopHandling() ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> const& __get__referenceLoopHandling() const;
+
+constexpr void __set__context(::System::Nullable_1<::System::Runtime::Serialization::StreamingContext>  value) ;
+
+constexpr ::System::Nullable_1<::System::Runtime::Serialization::StreamingContext>& __get__context() ;
+
+constexpr ::System::Nullable_1<::System::Runtime::Serialization::StreamingContext> const& __get__context() const;
+
+constexpr void __set__constructorHandling(::System::Nullable_1<::Newtonsoft::Json::ConstructorHandling>  value) ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::ConstructorHandling>& __get__constructorHandling() ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::ConstructorHandling> const& __get__constructorHandling() const;
+
+constexpr void __set__typeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>  value) ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& __get__typeNameHandling() ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> const& __get__typeNameHandling() const;
+
+constexpr void __set__metadataPropertyHandling(::System::Nullable_1<::Newtonsoft::Json::MetadataPropertyHandling>  value) ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::MetadataPropertyHandling>& __get__metadataPropertyHandling() ;
+
+constexpr ::System::Nullable_1<::Newtonsoft::Json::MetadataPropertyHandling> const& __get__metadataPropertyHandling() const;
+
+constexpr void __set__Converters_k__BackingField(::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>*  value) ;
+
+constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>* __get__Converters_k__BackingField() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>*> __get__Converters_k__BackingField() const;
+
+constexpr void __set__ContractResolver_k__BackingField(::Newtonsoft::Json::Serialization::IContractResolver*  value) ;
+
+constexpr ::Newtonsoft::Json::Serialization::IContractResolver* __get__ContractResolver_k__BackingField() ;
+
+constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::IContractResolver*> __get__ContractResolver_k__BackingField() const;
+
+constexpr void __set__EqualityComparer_k__BackingField(::System::Collections::IEqualityComparer*  value) ;
+
+constexpr ::System::Collections::IEqualityComparer* __get__EqualityComparer_k__BackingField() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEqualityComparer*> __get__EqualityComparer_k__BackingField() const;
+
+constexpr void __set__ReferenceResolverProvider_k__BackingField(::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>*  value) ;
+
+constexpr ::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>* __get__ReferenceResolverProvider_k__BackingField() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>*> __get__ReferenceResolverProvider_k__BackingField() const;
+
+constexpr void __set__TraceWriter_k__BackingField(::Newtonsoft::Json::Serialization::ITraceWriter*  value) ;
+
+constexpr ::Newtonsoft::Json::Serialization::ITraceWriter* __get__TraceWriter_k__BackingField() ;
+
+constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ITraceWriter*> __get__TraceWriter_k__BackingField() const;
+
+constexpr void __set__Binder_k__BackingField(::System::Runtime::Serialization::SerializationBinder*  value) ;
+
+constexpr ::System::Runtime::Serialization::SerializationBinder* __get__Binder_k__BackingField() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationBinder*> __get__Binder_k__BackingField() const;
+
+constexpr void __set__Error_k__BackingField(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>*  value) ;
+
+constexpr ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* __get__Error_k__BackingField() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>*> __get__Error_k__BackingField() const;
+
+/// @brief Method get_ReferenceLoopHandling addr 0x263f538 size 0x50 virtual false final false
+inline ::Newtonsoft::Json::ReferenceLoopHandling get_ReferenceLoopHandling() ;
+
+/// @brief Method set_ReferenceLoopHandling addr 0x263f588 size 0x68 virtual false final false
+inline void set_ReferenceLoopHandling(::Newtonsoft::Json::ReferenceLoopHandling  value) ;
+
+/// @brief Method get_MissingMemberHandling addr 0x263f5f0 size 0x50 virtual false final false
+inline ::Newtonsoft::Json::MissingMemberHandling get_MissingMemberHandling() ;
+
+/// @brief Method set_MissingMemberHandling addr 0x263f640 size 0x68 virtual false final false
+inline void set_MissingMemberHandling(::Newtonsoft::Json::MissingMemberHandling  value) ;
+
+/// @brief Method get_ObjectCreationHandling addr 0x263f6a8 size 0x50 virtual false final false
+inline ::Newtonsoft::Json::ObjectCreationHandling get_ObjectCreationHandling() ;
+
+/// @brief Method set_ObjectCreationHandling addr 0x263f6f8 size 0x68 virtual false final false
+inline void set_ObjectCreationHandling(::Newtonsoft::Json::ObjectCreationHandling  value) ;
+
+/// @brief Method get_NullValueHandling addr 0x263f760 size 0x50 virtual false final false
+inline ::Newtonsoft::Json::NullValueHandling get_NullValueHandling() ;
+
+/// @brief Method set_NullValueHandling addr 0x263f7b0 size 0x68 virtual false final false
+inline void set_NullValueHandling(::Newtonsoft::Json::NullValueHandling  value) ;
+
+/// @brief Method get_DefaultValueHandling addr 0x263f818 size 0x50 virtual false final false
+inline ::Newtonsoft::Json::DefaultValueHandling get_DefaultValueHandling() ;
+
+/// @brief Method set_DefaultValueHandling addr 0x263f868 size 0x68 virtual false final false
+inline void set_DefaultValueHandling(::Newtonsoft::Json::DefaultValueHandling  value) ;
+
+/// @brief Method get_Converters addr 0x263f8d0 size 0x8 virtual false final false
+inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>* get_Converters() ;
+
+/// @brief Method set_Converters addr 0x263f8d8 size 0x8 virtual false final false
+inline void set_Converters(::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>*  value) ;
+
+/// @brief Method get_PreserveReferencesHandling addr 0x263f8e0 size 0x50 virtual false final false
+inline ::Newtonsoft::Json::PreserveReferencesHandling get_PreserveReferencesHandling() ;
+
+/// @brief Method set_PreserveReferencesHandling addr 0x263f930 size 0x68 virtual false final false
+inline void set_PreserveReferencesHandling(::Newtonsoft::Json::PreserveReferencesHandling  value) ;
+
+/// @brief Method get_TypeNameHandling addr 0x263f998 size 0x50 virtual false final false
+inline ::Newtonsoft::Json::TypeNameHandling get_TypeNameHandling() ;
+
+/// @brief Method set_TypeNameHandling addr 0x263f9e8 size 0x68 virtual false final false
+inline void set_TypeNameHandling(::Newtonsoft::Json::TypeNameHandling  value) ;
+
+/// @brief Method get_MetadataPropertyHandling addr 0x263fa50 size 0x50 virtual false final false
+inline ::Newtonsoft::Json::MetadataPropertyHandling get_MetadataPropertyHandling() ;
+
+/// @brief Method set_MetadataPropertyHandling addr 0x263faa0 size 0x68 virtual false final false
+inline void set_MetadataPropertyHandling(::Newtonsoft::Json::MetadataPropertyHandling  value) ;
+
+/// @brief Method get_TypeNameAssemblyFormat addr 0x263fb08 size 0x50 virtual false final false
+inline ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle get_TypeNameAssemblyFormat() ;
+
+/// @brief Method set_TypeNameAssemblyFormat addr 0x263fb58 size 0x68 virtual false final false
+inline void set_TypeNameAssemblyFormat(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle  value) ;
+
+/// @brief Method get_ConstructorHandling addr 0x263fbc0 size 0x50 virtual false final false
+inline ::Newtonsoft::Json::ConstructorHandling get_ConstructorHandling() ;
+
+/// @brief Method set_ConstructorHandling addr 0x263fc10 size 0x68 virtual false final false
+inline void set_ConstructorHandling(::Newtonsoft::Json::ConstructorHandling  value) ;
+
+/// @brief Method get_ContractResolver addr 0x263fc78 size 0x8 virtual false final false
+inline ::Newtonsoft::Json::Serialization::IContractResolver* get_ContractResolver() ;
+
+/// @brief Method set_ContractResolver addr 0x263fc80 size 0x8 virtual false final false
+inline void set_ContractResolver(::Newtonsoft::Json::Serialization::IContractResolver*  value) ;
+
+/// @brief Method get_EqualityComparer addr 0x263fc88 size 0x8 virtual false final false
+inline ::System::Collections::IEqualityComparer* get_EqualityComparer() ;
+
+/// @brief Method set_EqualityComparer addr 0x263fc90 size 0x8 virtual false final false
+inline void set_EqualityComparer(::System::Collections::IEqualityComparer*  value) ;
+
+/// @brief Method get_ReferenceResolver addr 0x263fc98 size 0x20 virtual false final false
+inline ::Newtonsoft::Json::Serialization::IReferenceResolver* get_ReferenceResolver() ;
+
+/// @brief Method set_ReferenceResolver addr 0x263fcb8 size 0xc0 virtual false final false
+inline void set_ReferenceResolver(::Newtonsoft::Json::Serialization::IReferenceResolver*  value) ;
+
+/// @brief Method get_ReferenceResolverProvider addr 0x263fd80 size 0x8 virtual false final false
+inline ::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>* get_ReferenceResolverProvider() ;
+
+/// @brief Method set_ReferenceResolverProvider addr 0x263fd88 size 0x8 virtual false final false
+inline void set_ReferenceResolverProvider(::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>*  value) ;
+
+/// @brief Method get_TraceWriter addr 0x263fd90 size 0x8 virtual false final false
+inline ::Newtonsoft::Json::Serialization::ITraceWriter* get_TraceWriter() ;
+
+/// @brief Method set_TraceWriter addr 0x263fd98 size 0x8 virtual false final false
+inline void set_TraceWriter(::Newtonsoft::Json::Serialization::ITraceWriter*  value) ;
+
+/// @brief Method get_Binder addr 0x263fda0 size 0x8 virtual false final false
+inline ::System::Runtime::Serialization::SerializationBinder* get_Binder() ;
+
+/// @brief Method set_Binder addr 0x263fda8 size 0x8 virtual false final false
+inline void set_Binder(::System::Runtime::Serialization::SerializationBinder*  value) ;
+
+/// @brief Method get_Error addr 0x263fdb0 size 0x8 virtual false final false
+inline ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* get_Error() ;
+
+/// @brief Method set_Error addr 0x263fdb8 size 0x8 virtual false final false
+inline void set_Error(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>*  value) ;
+
+/// @brief Method get_Context addr 0x263fdc0 size 0x90 virtual false final false
+inline ::System::Runtime::Serialization::StreamingContext get_Context() ;
+
+/// @brief Method set_Context addr 0x263fe50 size 0x84 virtual false final false
+inline void set_Context(::System::Runtime::Serialization::StreamingContext  value) ;
+
+/// @brief Method get_DateFormatString addr 0x263fed4 size 0x50 virtual false final false
+inline ::StringW get_DateFormatString() ;
+
+/// @brief Method set_DateFormatString addr 0x263ff24 size 0x10 virtual false final false
+inline void set_DateFormatString(::StringW  value) ;
+
+/// @brief Method get_MaxDepth addr 0x263ff34 size 0x8 virtual false final false
+inline ::System::Nullable_1<int32_t> get_MaxDepth() ;
+
+/// @brief Method set_MaxDepth addr 0x263ff3c size 0xc8 virtual false final false
+inline void set_MaxDepth(::System::Nullable_1<int32_t>  value) ;
+
+/// @brief Method get_Formatting addr 0x2640004 size 0x50 virtual false final false
+inline ::Newtonsoft::Json::Formatting get_Formatting() ;
+
+/// @brief Method set_Formatting addr 0x2640054 size 0x68 virtual false final false
+inline void set_Formatting(::Newtonsoft::Json::Formatting  value) ;
+
+/// @brief Method get_DateFormatHandling addr 0x26400bc size 0x50 virtual false final false
+inline ::Newtonsoft::Json::DateFormatHandling get_DateFormatHandling() ;
+
+/// @brief Method set_DateFormatHandling addr 0x264010c size 0x68 virtual false final false
+inline void set_DateFormatHandling(::Newtonsoft::Json::DateFormatHandling  value) ;
+
+/// @brief Method get_DateTimeZoneHandling addr 0x2640174 size 0x54 virtual false final false
+inline ::Newtonsoft::Json::DateTimeZoneHandling get_DateTimeZoneHandling() ;
+
+/// @brief Method set_DateTimeZoneHandling addr 0x26401c8 size 0x68 virtual false final false
+inline void set_DateTimeZoneHandling(::Newtonsoft::Json::DateTimeZoneHandling  value) ;
+
+/// @brief Method get_DateParseHandling addr 0x2640230 size 0x50 virtual false final false
+inline ::Newtonsoft::Json::DateParseHandling get_DateParseHandling() ;
+
+/// @brief Method set_DateParseHandling addr 0x2640280 size 0x68 virtual false final false
+inline void set_DateParseHandling(::Newtonsoft::Json::DateParseHandling  value) ;
+
+/// @brief Method get_FloatFormatHandling addr 0x26402e8 size 0x50 virtual false final false
+inline ::Newtonsoft::Json::FloatFormatHandling get_FloatFormatHandling() ;
+
+/// @brief Method set_FloatFormatHandling addr 0x2640338 size 0x68 virtual false final false
+inline void set_FloatFormatHandling(::Newtonsoft::Json::FloatFormatHandling  value) ;
+
+/// @brief Method get_FloatParseHandling addr 0x26403a0 size 0x50 virtual false final false
+inline ::Newtonsoft::Json::FloatParseHandling get_FloatParseHandling() ;
+
+/// @brief Method set_FloatParseHandling addr 0x26403f0 size 0x68 virtual false final false
+inline void set_FloatParseHandling(::Newtonsoft::Json::FloatParseHandling  value) ;
+
+/// @brief Method get_StringEscapeHandling addr 0x2640458 size 0x50 virtual false final false
+inline ::Newtonsoft::Json::StringEscapeHandling get_StringEscapeHandling() ;
+
+/// @brief Method set_StringEscapeHandling addr 0x26404a8 size 0x68 virtual false final false
+inline void set_StringEscapeHandling(::Newtonsoft::Json::StringEscapeHandling  value) ;
+
+/// @brief Method get_Culture addr 0x2640510 size 0x64 virtual false final false
+inline ::System::Globalization::CultureInfo* get_Culture() ;
+
+/// @brief Method set_Culture addr 0x2640574 size 0x8 virtual false final false
+inline void set_Culture(::System::Globalization::CultureInfo*  value) ;
+
+/// @brief Method get_CheckAdditionalContent addr 0x264057c size 0x5c virtual false final false
+inline bool get_CheckAdditionalContent() ;
+
+/// @brief Method set_CheckAdditionalContent addr 0x26405d8 size 0x68 virtual false final false
+inline void set_CheckAdditionalContent(bool  value) ;
+
+static inline ::Newtonsoft::Json::JsonSerializerSettings* New_ctor() ;
+
+/// @brief Method .ctor addr 0x26406c0 size 0x1bc virtual false final false
+inline void _ctor() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "JsonSerializerSettings", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JsonSerializerSettings(JsonSerializerSettings && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "JsonSerializerSettings", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JsonSerializerSettings(JsonSerializerSettings const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ JsonSerializerSettings()  = default;
+public:
+
+
+// Fields
+
+// Static field DefaultContext
+
+// Static field DefaultCulture
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonSerializerSettings, 0x110>, "Size mismatch!");
+
+} // namespace end def Newtonsoft::Json
+NEED_NO_BOX(::Newtonsoft::Json::JsonSerializerSettings);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonSerializerSettings*, "Newtonsoft.Json", "JsonSerializerSettings");
+NEED_NO_BOX(::Newtonsoft::Json::__JsonSerializerSettings____c__DisplayClass90_0);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::__JsonSerializerSettings____c__DisplayClass90_0*, "Newtonsoft.Json", "JsonSerializerSettings/<>c__DisplayClass90_0");

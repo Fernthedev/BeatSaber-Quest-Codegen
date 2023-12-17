@@ -1,0 +1,90 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+CORDL_MODULE_EXPORT(WTauNafPreCompInfo)
+namespace Org::BouncyCastle::Math::EC {
+class AbstractF2mPoint;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class PreCompInfo;
+}
+// Forward declare root types
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class WTauNafPreCompInfo;
+}
+// Write type traits
+MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo);
+// Type: Org.BouncyCastle.Math.EC.Multiplier::WTauNafPreCompInfo
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(1549))
+// CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::WTauNafPreCompInfo*
+class CORDL_TYPE WTauNafPreCompInfo : public ::System::Object {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x18};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x18 - sizeof(::System::Object)]{};
+
+/// @brief Field m_preComp offset 0x10
+ __declspec(property(get=__get_m_preComp, put=__set_m_preComp)) ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*,::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*>  m_preComp;
+
+ __declspec(property(get=get_PreComp, put=set_PreComp)) ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*,::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*>  PreComp;
+
+/// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
+constexpr operator  ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*() noexcept;
+
+constexpr void __set_m_preComp(::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*,::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*>  value) ;
+
+constexpr ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*,::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*>& __get_m_preComp() ;
+
+constexpr ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*,::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*> const& __get_m_preComp() const;
+
+/// @brief Method get_PreComp addr 0x103ade8 size 0x8 virtual true final false
+inline ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*,::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*> get_PreComp() ;
+
+/// @brief Method set_PreComp addr 0x103adf0 size 0x8 virtual true final false
+inline void set_PreComp(::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*,::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*>  value) ;
+
+static inline ::Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo* New_ctor() ;
+
+/// @brief Method .ctor addr 0x103ade0 size 0x8 virtual false final false
+inline void _ctor() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "WTauNafPreCompInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+WTauNafPreCompInfo(WTauNafPreCompInfo && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "WTauNafPreCompInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+WTauNafPreCompInfo(WTauNafPreCompInfo const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ WTauNafPreCompInfo()  = default;
+public:
+
+
+// Fields
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo, 0x18>, "Size mismatch!");
+
+} // namespace end def Org::BouncyCastle::Math::EC::Multiplier
+NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "WTauNafPreCompInfo");

@@ -1,0 +1,96 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+CORDL_MODULE_EXPORT(NoteCutScoreSpawner)
+namespace GlobalNamespace {
+class FlyingScoreSpawner;
+}
+namespace GlobalNamespace {
+class IScoreController;
+}
+namespace GlobalNamespace {
+class ScoringElement;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+class NoteCutScoreSpawner;
+}
+// Write type traits
+MARK_REF_PTR_T(::GlobalNamespace::NoteCutScoreSpawner);
+// Type: ::NoteCutScoreSpawner
+namespace GlobalNamespace {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4894))
+// CS Name: ::NoteCutScoreSpawner*
+class CORDL_TYPE NoteCutScoreSpawner : public ::UnityEngine::MonoBehaviour {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x28};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x28 - sizeof(::UnityEngine::MonoBehaviour)]{};
+
+/// @brief Field _flyingScoreSpawner offset 0x18
+ __declspec(property(get=__get__flyingScoreSpawner, put=__set__flyingScoreSpawner)) ::GlobalNamespace::FlyingScoreSpawner*  _flyingScoreSpawner;
+
+/// @brief Field _scoreController offset 0x20
+ __declspec(property(get=__get__scoreController, put=__set__scoreController)) ::GlobalNamespace::IScoreController*  _scoreController;
+
+constexpr void __set__flyingScoreSpawner(::GlobalNamespace::FlyingScoreSpawner*  value) ;
+
+constexpr ::GlobalNamespace::FlyingScoreSpawner* __get__flyingScoreSpawner() ;
+
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FlyingScoreSpawner*> __get__flyingScoreSpawner() const;
+
+constexpr void __set__scoreController(::GlobalNamespace::IScoreController*  value) ;
+
+constexpr ::GlobalNamespace::IScoreController* __get__scoreController() ;
+
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> __get__scoreController() const;
+
+/// @brief Method Start addr 0x23a36a4 size 0xf0 virtual false final false
+inline void Start() ;
+
+/// @brief Method OnDestroy addr 0x23a3794 size 0x108 virtual false final false
+inline void OnDestroy() ;
+
+/// @brief Method HandleScoringForNoteStarted addr 0x23a389c size 0xac virtual false final false
+inline void HandleScoringForNoteStarted(::GlobalNamespace::ScoringElement*  scoringElement) ;
+
+static inline ::GlobalNamespace::NoteCutScoreSpawner* New_ctor() ;
+
+/// @brief Method .ctor addr 0x23a3948 size 0x8 virtual false final false
+inline void _ctor() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "NoteCutScoreSpawner", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NoteCutScoreSpawner(NoteCutScoreSpawner && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "NoteCutScoreSpawner", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NoteCutScoreSpawner(NoteCutScoreSpawner const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ NoteCutScoreSpawner()  = default;
+public:
+
+
+// Fields
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteCutScoreSpawner, 0x28>, "Size mismatch!");
+
+} // namespace end def GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::NoteCutScoreSpawner);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteCutScoreSpawner*, "", "NoteCutScoreSpawner");

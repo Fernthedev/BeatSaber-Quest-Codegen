@@ -1,0 +1,116 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__ScriptableObject_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+CORDL_MODULE_EXPORT(HEU_AssetSerializedMetaData)
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace HoudiniEngineUnity {
+class CurveNodeData;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace HoudiniEngineUnity {
+template<typename T>
+class IEquivable_1;
+}
+// Forward declare root types
+namespace HoudiniEngineUnity {
+class HEU_AssetSerializedMetaData;
+}
+// Write type traits
+MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetSerializedMetaData);
+// Type: HoudiniEngineUnity::HEU_AssetSerializedMetaData
+namespace HoudiniEngineUnity {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9617))
+// CS Name: ::HoudiniEngineUnity::HEU_AssetSerializedMetaData*
+class CORDL_TYPE HEU_AssetSerializedMetaData : public ::UnityEngine::ScriptableObject {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x28};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x28 - sizeof(::UnityEngine::ScriptableObject)]{};
+
+/// @brief Field _softDeleted offset 0x18
+ __declspec(property(get=__get__softDeleted, put=__set__softDeleted)) bool  _softDeleted;
+
+/// @brief Field _savedCurveNodeData offset 0x20
+ __declspec(property(get=__get__savedCurveNodeData, put=__set__savedCurveNodeData)) ::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>*  _savedCurveNodeData;
+
+ __declspec(property(get=get_SoftDeleted, put=set_SoftDeleted)) bool  SoftDeleted;
+
+ __declspec(property(get=get_SavedCurveNodeData)) ::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>*  SavedCurveNodeData;
+
+/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>"
+constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>*() noexcept;
+
+constexpr void __set__softDeleted(bool  value) ;
+
+constexpr bool& __get__softDeleted() ;
+
+constexpr bool const& __get__softDeleted() const;
+
+constexpr void __set__savedCurveNodeData(::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>*  value) ;
+
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* __get__savedCurveNodeData() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>*> __get__savedCurveNodeData() const;
+
+/// @brief Method get_SoftDeleted addr 0x2150918 size 0x8 virtual false final false
+inline bool get_SoftDeleted() ;
+
+/// @brief Method set_SoftDeleted addr 0x2150920 size 0xc virtual false final false
+inline void set_SoftDeleted(bool  value) ;
+
+/// @brief Method get_SavedCurveNodeData addr 0x215092c size 0x8 virtual false final false
+inline ::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* get_SavedCurveNodeData() ;
+
+/// @brief Method IsEquivalentTo addr 0x2150934 size 0xbc virtual true final true
+inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AssetSerializedMetaData*  other) ;
+
+static inline ::HoudiniEngineUnity::HEU_AssetSerializedMetaData* New_ctor() ;
+
+/// @brief Method .ctor addr 0x21509f0 size 0x7c virtual false final false
+inline void _ctor() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "HEU_AssetSerializedMetaData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HEU_AssetSerializedMetaData(HEU_AssetSerializedMetaData && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "HEU_AssetSerializedMetaData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HEU_AssetSerializedMetaData(HEU_AssetSerializedMetaData const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ HEU_AssetSerializedMetaData()  = default;
+public:
+
+
+// Fields
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_AssetSerializedMetaData, 0x28>, "Size mismatch!");
+
+} // namespace end def HoudiniEngineUnity
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_AssetSerializedMetaData);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_AssetSerializedMetaData*, "HoudiniEngineUnity", "HEU_AssetSerializedMetaData");

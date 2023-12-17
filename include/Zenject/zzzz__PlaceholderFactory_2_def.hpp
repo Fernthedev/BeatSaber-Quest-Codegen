@@ -1,0 +1,458 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__PlaceholderFactoryBase_1_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(PlaceholderFactory_2)
+namespace Zenject {
+template<typename TParam1,typename TValue>
+class __PlaceholderFactory_2___get_ParamTypes_d__2;
+}
+namespace Zenject {
+template<typename TParam1,typename TValue>
+class IFactory_2;
+}
+namespace System {
+class Type;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System {
+class Object;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class IFactory;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+// Forward declare root types
+namespace Zenject {
+template<typename TParam1,typename TValue>
+class PlaceholderFactory_2;
+}
+namespace Zenject {
+template<typename TParam1,typename TValue>
+class __PlaceholderFactory_2___get_ParamTypes_d__2;
+}
+namespace Zenject {
+template<::cordl_internals::is_or_is_backed_by<int32_t> TParam1,::il2cpp_utils::il2cpp_reference_type TValue>
+class PlaceholderFactory_2<TParam1,TValue>;
+}
+namespace Zenject {
+template<::il2cpp_utils::il2cpp_reference_type TParam1,::il2cpp_utils::il2cpp_reference_type TValue>
+class PlaceholderFactory_2<TParam1,TValue>;
+}
+namespace Zenject {
+template<::il2cpp_utils::il2cpp_reference_type TParam1,::il2cpp_utils::il2cpp_reference_type TValue>
+class __PlaceholderFactory_2___get_ParamTypes_d__2<TParam1,TValue>;
+}
+namespace Zenject {
+template<::cordl_internals::is_or_is_backed_by<int32_t> TParam1,::il2cpp_utils::il2cpp_reference_type TValue>
+class __PlaceholderFactory_2___get_ParamTypes_d__2<TParam1,TValue>;
+}
+// Write type traits
+MARK_GEN_REF_PTR_T(::Zenject::PlaceholderFactory_2);
+MARK_GEN_REF_PTR_T(::Zenject::__PlaceholderFactory_2___get_ParamTypes_d__2);
+// Type: ::<get_ParamTypes>d__2
+// Type: Zenject::PlaceholderFactory`2
+// Type: ::<get_ParamTypes>d__2
+namespace Zenject {
+// cpp template
+template<::cordl_internals::is_or_is_backed_by<int32_t> TParam1,::il2cpp_utils::il2cpp_reference_type TValue>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11004))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11004), inst: 1614 })
+// CS Name: ::PlaceholderFactory`2::<get_ParamTypes>d__2<TParam1,TValue>*
+class CORDL_TYPE __PlaceholderFactory_2___get_ParamTypes_d__2<TParam1,TValue> : public ::System::Object {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x28};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x28 - sizeof(::System::Object)]{};
+
+/// @brief Field <>1__state offset 0x10
+ __declspec(property(get=__get___1__state, put=__set___1__state)) int32_t  __1__state;
+
+/// @brief Field <>2__current offset 0x18
+ __declspec(property(get=__get___2__current, put=__set___2__current)) ::System::Type*  __2__current;
+
+/// @brief Field <>l__initialThreadId offset 0x20
+ __declspec(property(get=__get___l__initialThreadId, put=__set___l__initialThreadId)) int32_t  __l__initialThreadId;
+
+ __declspec(property(get=System_Collections_Generic_IEnumerator_System_Type__get_Current)) ::System::Type*  System_Collections_Generic_IEnumerator_System_Type__Current;
+
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
+
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
+constexpr operator  ::System::Collections::Generic::IEnumerable_1<::System::Type*>*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Type*>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::System::Type*>*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
+
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
+
+constexpr void __set___1__state(int32_t  value) ;
+
+constexpr int32_t& __get___1__state() ;
+
+constexpr int32_t const& __get___1__state() const;
+
+constexpr void __set___2__current(::System::Type*  value) ;
+
+constexpr ::System::Type* __get___2__current() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Type*> __get___2__current() const;
+
+constexpr void __set___l__initialThreadId(int32_t  value) ;
+
+constexpr int32_t& __get___l__initialThreadId() ;
+
+constexpr int32_t const& __get___l__initialThreadId() const;
+
+static inline ::Zenject::__PlaceholderFactory_2___get_ParamTypes_d__2<TParam1,TValue>* New_ctor(int32_t  __1__state) ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+inline void _ctor(int32_t  __1__state) ;
+
+/// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+inline void System_IDisposable_Dispose() ;
+
+/// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+inline bool MoveNext() ;
+
+/// @brief Method System.Collections.Generic.IEnumerator<System.Type>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+inline ::System::Type* System_Collections_Generic_IEnumerator_System_Type__get_Current() ;
+
+/// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+inline void System_Collections_IEnumerator_Reset() ;
+
+/// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
+
+/// @brief Method System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+inline ::System::Collections::Generic::IEnumerator_1<::System::Type*>* System_Collections_Generic_IEnumerable_System_Type__GetEnumerator() ;
+
+/// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() ;
+
+/// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*,::Array<::System::Object*>*>  P_0) ;
+
+/// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "__PlaceholderFactory_2___get_ParamTypes_d__2", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__PlaceholderFactory_2___get_ParamTypes_d__2(__PlaceholderFactory_2___get_ParamTypes_d__2 && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "__PlaceholderFactory_2___get_ParamTypes_d__2", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__PlaceholderFactory_2___get_ParamTypes_d__2(__PlaceholderFactory_2___get_ParamTypes_d__2 const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ __PlaceholderFactory_2___get_ParamTypes_d__2()  = default;
+public:
+
+
+// Fields
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def Zenject
+// Type: ::<get_ParamTypes>d__2
+namespace Zenject {
+// cpp template
+template<::il2cpp_utils::il2cpp_reference_type TParam1,::il2cpp_utils::il2cpp_reference_type TValue>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11004)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11004), inst: 81 })
+// CS Name: ::PlaceholderFactory`2::<get_ParamTypes>d__2<TParam1,TValue>*
+class CORDL_TYPE __PlaceholderFactory_2___get_ParamTypes_d__2<TParam1,TValue> : public ::System::Object {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x28};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x28 - sizeof(::System::Object)]{};
+
+/// @brief Field <>1__state offset 0x10
+ __declspec(property(get=__get___1__state, put=__set___1__state)) int32_t  __1__state;
+
+/// @brief Field <>2__current offset 0x18
+ __declspec(property(get=__get___2__current, put=__set___2__current)) ::System::Type*  __2__current;
+
+/// @brief Field <>l__initialThreadId offset 0x20
+ __declspec(property(get=__get___l__initialThreadId, put=__set___l__initialThreadId)) int32_t  __l__initialThreadId;
+
+ __declspec(property(get=System_Collections_Generic_IEnumerator_System_Type__get_Current)) ::System::Type*  System_Collections_Generic_IEnumerator_System_Type__Current;
+
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
+
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
+constexpr operator  ::System::Collections::Generic::IEnumerable_1<::System::Type*>*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Type*>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::System::Type*>*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
+
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
+
+constexpr void __set___1__state(int32_t  value) ;
+
+constexpr int32_t& __get___1__state() ;
+
+constexpr int32_t const& __get___1__state() const;
+
+constexpr void __set___2__current(::System::Type*  value) ;
+
+constexpr ::System::Type* __get___2__current() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Type*> __get___2__current() const;
+
+constexpr void __set___l__initialThreadId(int32_t  value) ;
+
+constexpr int32_t& __get___l__initialThreadId() ;
+
+constexpr int32_t const& __get___l__initialThreadId() const;
+
+static inline ::Zenject::__PlaceholderFactory_2___get_ParamTypes_d__2<TParam1,TValue>* New_ctor(int32_t  __1__state) ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+inline void _ctor(int32_t  __1__state) ;
+
+/// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+inline void System_IDisposable_Dispose() ;
+
+/// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+inline bool MoveNext() ;
+
+/// @brief Method System.Collections.Generic.IEnumerator<System.Type>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+inline ::System::Type* System_Collections_Generic_IEnumerator_System_Type__get_Current() ;
+
+/// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+inline void System_Collections_IEnumerator_Reset() ;
+
+/// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
+
+/// @brief Method System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+inline ::System::Collections::Generic::IEnumerator_1<::System::Type*>* System_Collections_Generic_IEnumerable_System_Type__GetEnumerator() ;
+
+/// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() ;
+
+/// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*,::Array<::System::Object*>*>  P_0) ;
+
+/// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "__PlaceholderFactory_2___get_ParamTypes_d__2", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__PlaceholderFactory_2___get_ParamTypes_d__2(__PlaceholderFactory_2___get_ParamTypes_d__2 && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "__PlaceholderFactory_2___get_ParamTypes_d__2", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__PlaceholderFactory_2___get_ParamTypes_d__2(__PlaceholderFactory_2___get_ParamTypes_d__2 const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ __PlaceholderFactory_2___get_ParamTypes_d__2()  = default;
+public:
+
+
+// Fields
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def Zenject
+// Type: Zenject::PlaceholderFactory`2
+namespace Zenject {
+// cpp template
+template<::cordl_internals::is_or_is_backed_by<int32_t> TParam1,::il2cpp_utils::il2cpp_reference_type TValue>
+// Is value type: false
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 4822 }), TypeDefinitionIndex(TypeDefinitionIndex(11026)), TypeDefinitionIndex(TypeDefinitionIndex(11005))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 1614 })
+// CS Name: ::Zenject::PlaceholderFactory`2<TParam1,TValue>*
+class CORDL_TYPE PlaceholderFactory_2<TParam1,TValue> : public ::Zenject::PlaceholderFactoryBase_1<TValue> {
+public:
+// Declarations
+using _get_ParamTypes_d__2 = ::Zenject::__PlaceholderFactory_2___get_ParamTypes_d__2<TParam1, TValue>;
+
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x20};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x20 - sizeof(::Zenject::PlaceholderFactoryBase_1<TValue>)]{};
+
+ __declspec(property(get=get_ParamTypes)) ::System::Collections::Generic::IEnumerable_1<::System::Type*>*  ParamTypes;
+
+/// @brief Convert operator to "::Zenject::IFactory_2<TParam1,TValue>"
+constexpr operator  ::Zenject::IFactory_2<TParam1,TValue>*() noexcept;
+
+/// @brief Convert operator to "::Zenject::IFactory"
+constexpr operator  ::Zenject::IFactory*() noexcept;
+
+/// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
+inline TValue Create(TParam1  param) ;
+
+/// @brief Method get_ParamTypes addr 0x0 size 0xffffffffffffffff virtual true final true
+inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_ParamTypes() ;
+
+static inline ::Zenject::PlaceholderFactory_2<TParam1,TValue>* New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+inline void _ctor() ;
+
+/// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*,::Array<::System::Object*>*>  P_0) ;
+
+/// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactory_2", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PlaceholderFactory_2(PlaceholderFactory_2 && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactory_2", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PlaceholderFactory_2(PlaceholderFactory_2 const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ PlaceholderFactory_2()  = default;
+public:
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def Zenject
+// Type: Zenject::PlaceholderFactory`2
+namespace Zenject {
+// cpp template
+template<::il2cpp_utils::il2cpp_reference_type TParam1,::il2cpp_utils::il2cpp_reference_type TValue>
+// Is value type: false
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 4822 }), TypeDefinitionIndex(TypeDefinitionIndex(11005)), TypeDefinitionIndex(TypeDefinitionIndex(11026))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 81 })
+// CS Name: ::Zenject::PlaceholderFactory`2<TParam1,TValue>*
+class CORDL_TYPE PlaceholderFactory_2<TParam1,TValue> : public ::Zenject::PlaceholderFactoryBase_1<TValue> {
+public:
+// Declarations
+using _get_ParamTypes_d__2 = ::Zenject::__PlaceholderFactory_2___get_ParamTypes_d__2<TParam1, TValue>;
+
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x20};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x20 - sizeof(::Zenject::PlaceholderFactoryBase_1<TValue>)]{};
+
+ __declspec(property(get=get_ParamTypes)) ::System::Collections::Generic::IEnumerable_1<::System::Type*>*  ParamTypes;
+
+/// @brief Convert operator to "::Zenject::IFactory_2<TParam1,TValue>"
+constexpr operator  ::Zenject::IFactory_2<TParam1,TValue>*() noexcept;
+
+/// @brief Convert operator to "::Zenject::IFactory"
+constexpr operator  ::Zenject::IFactory*() noexcept;
+
+/// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
+inline TValue Create(TParam1  param) ;
+
+/// @brief Method get_ParamTypes addr 0x0 size 0xffffffffffffffff virtual true final true
+inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_ParamTypes() ;
+
+static inline ::Zenject::PlaceholderFactory_2<TParam1,TValue>* New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+inline void _ctor() ;
+
+/// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*,::Array<::System::Object*>*>  P_0) ;
+
+/// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactory_2", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PlaceholderFactory_2(PlaceholderFactory_2 && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactory_2", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PlaceholderFactory_2(PlaceholderFactory_2 const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ PlaceholderFactory_2()  = default;
+public:
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def Zenject
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::PlaceholderFactory_2, "Zenject", "PlaceholderFactory`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::__PlaceholderFactory_2___get_ParamTypes_d__2, "Zenject", "PlaceholderFactory`2/<get_ParamTypes>d__2");

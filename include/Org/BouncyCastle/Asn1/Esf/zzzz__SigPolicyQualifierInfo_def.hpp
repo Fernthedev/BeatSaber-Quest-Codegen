@@ -1,0 +1,117 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+CORDL_MODULE_EXPORT(SigPolicyQualifierInfo)
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+// Forward declare root types
+namespace Org::BouncyCastle::Asn1::Esf {
+class SigPolicyQualifierInfo;
+}
+// Write type traits
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo);
+// Type: Org.BouncyCastle.Asn1.Esf::SigPolicyQualifierInfo
+namespace Org::BouncyCastle::Asn1::Esf {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(159))
+// CS Name: ::Org.BouncyCastle.Asn1.Esf::SigPolicyQualifierInfo*
+class CORDL_TYPE SigPolicyQualifierInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x20};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x20 - sizeof(::Org::BouncyCastle::Asn1::Asn1Encodable)]{};
+
+/// @brief Field sigPolicyQualifierId offset 0x10
+ __declspec(property(get=__get_sigPolicyQualifierId, put=__set_sigPolicyQualifierId)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  sigPolicyQualifierId;
+
+/// @brief Field sigQualifier offset 0x18
+ __declspec(property(get=__get_sigQualifier, put=__set_sigQualifier)) ::Org::BouncyCastle::Asn1::Asn1Object*  sigQualifier;
+
+ __declspec(property(get=get_SigPolicyQualifierId)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  SigPolicyQualifierId;
+
+ __declspec(property(get=get_SigQualifier)) ::Org::BouncyCastle::Asn1::Asn1Object*  SigQualifier;
+
+constexpr void __set_sigPolicyQualifierId(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value) ;
+
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* __get_sigPolicyQualifierId() ;
+
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> __get_sigPolicyQualifierId() const;
+
+constexpr void __set_sigQualifier(::Org::BouncyCastle::Asn1::Asn1Object*  value) ;
+
+constexpr ::Org::BouncyCastle::Asn1::Asn1Object* __get_sigQualifier() ;
+
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> __get_sigQualifier() const;
+
+/// @brief Method GetInstance addr 0xe98154 size 0x188 virtual false final false
+static inline ::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo* GetInstance(::System::Object*  obj) ;
+
+static inline ::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
+
+/// @brief Method .ctor addr 0xe99474 size 0x208 virtual false final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
+
+static inline ::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  sigPolicyQualifierId, ::Org::BouncyCastle::Asn1::Asn1Encodable*  sigQualifier) ;
+
+/// @brief Method .ctor addr 0xe9967c size 0x48 virtual false final false
+inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  sigPolicyQualifierId, ::Org::BouncyCastle::Asn1::Asn1Encodable*  sigQualifier) ;
+
+/// @brief Method get_SigPolicyQualifierId addr 0xe996c4 size 0x8 virtual false final false
+inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_SigPolicyQualifierId() ;
+
+/// @brief Method get_SigQualifier addr 0xe996cc size 0x8 virtual false final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* get_SigQualifier() ;
+
+/// @brief Method ToAsn1Object addr 0xe996d4 size 0xf0 virtual true final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "SigPolicyQualifierInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SigPolicyQualifierInfo(SigPolicyQualifierInfo && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "SigPolicyQualifierInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SigPolicyQualifierInfo(SigPolicyQualifierInfo const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ SigPolicyQualifierInfo()  = default;
+public:
+
+
+// Fields
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo, 0x20>, "Size mismatch!");
+
+} // namespace end def Org::BouncyCastle::Asn1::Esf
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*, "Org.BouncyCastle.Asn1.Esf", "SigPolicyQualifierInfo");

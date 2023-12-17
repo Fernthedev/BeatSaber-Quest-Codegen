@@ -1,0 +1,97 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Runtime/ConstrainedExecution/zzzz__CriticalFinalizerObject_def.hpp"
+CORDL_MODULE_EXPORT(Gen2GcCallback)
+namespace System {
+class Object;
+}
+namespace System::Runtime::InteropServices {
+struct GCHandle;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+// Forward declare root types
+namespace System {
+class Gen2GcCallback;
+}
+// Write type traits
+MARK_REF_PTR_T(::System::Gen2GcCallback);
+// Type: System::Gen2GcCallback
+namespace System {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3354))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2384))
+// CS Name: ::System::Gen2GcCallback*
+class CORDL_TYPE Gen2GcCallback : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x20};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x20 - sizeof(::System::Runtime::ConstrainedExecution::CriticalFinalizerObject)]{};
+
+/// @brief Field _callback offset 0x10
+ __declspec(property(get=__get__callback, put=__set__callback)) ::System::Func_2<::System::Object*,bool>*  _callback;
+
+/// @brief Field _weakTargetObj offset 0x18
+ __declspec(property(get=__get__weakTargetObj, put=__set__weakTargetObj)) ::System::Runtime::InteropServices::GCHandle  _weakTargetObj;
+
+constexpr void __set__callback(::System::Func_2<::System::Object*,bool>*  value) ;
+
+constexpr ::System::Func_2<::System::Object*,bool>* __get__callback() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*,bool>*> __get__callback() const;
+
+constexpr void __set__weakTargetObj(::System::Runtime::InteropServices::GCHandle  value) ;
+
+constexpr ::System::Runtime::InteropServices::GCHandle& __get__weakTargetObj() ;
+
+constexpr ::System::Runtime::InteropServices::GCHandle const& __get__weakTargetObj() const;
+
+static inline ::System::Gen2GcCallback* New_ctor() ;
+
+/// @brief Method .ctor addr 0x2597368 size 0x8 virtual false final false
+inline void _ctor() ;
+
+/// @brief Method Register addr 0x2597370 size 0x80 virtual false final false
+static inline void Register(::System::Func_2<::System::Object*,bool>*  callback, ::System::Object*  targetObj) ;
+
+/// @brief Method Setup addr 0x25973f0 size 0x28 virtual false final false
+inline void Setup(::System::Func_2<::System::Object*,bool>*  callback, ::System::Object*  targetObj) ;
+
+/// @brief Method Finalize addr 0x2597418 size 0x1ac virtual true final false
+inline void Finalize() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "Gen2GcCallback", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Gen2GcCallback(Gen2GcCallback && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "Gen2GcCallback", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Gen2GcCallback(Gen2GcCallback const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ Gen2GcCallback()  = default;
+public:
+
+
+// Fields
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::System::Gen2GcCallback, 0x20>, "Size mismatch!");
+
+} // namespace end def System
+NEED_NO_BOX(::System::Gen2GcCallback);
+DEFINE_IL2CPP_ARG_TYPE(::System::Gen2GcCallback*, "System", "Gen2GcCallback");

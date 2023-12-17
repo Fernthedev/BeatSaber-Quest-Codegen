@@ -1,0 +1,88 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Net/NetworkInformation/zzzz__UnixNetworkInterface_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(MacOsNetworkInterface)
+namespace System::Net::NetworkInformation {
+class IPInterfaceProperties;
+}
+namespace System::Net::NetworkInformation {
+struct OperationalStatus;
+}
+// Forward declare root types
+namespace System::Net::NetworkInformation {
+class MacOsNetworkInterface;
+}
+// Write type traits
+MARK_REF_PTR_T(::System::Net::NetworkInformation::MacOsNetworkInterface);
+// Type: System.Net.NetworkInformation::MacOsNetworkInterface
+namespace System::Net::NetworkInformation {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9292))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9280))
+// CS Name: ::System.Net.NetworkInformation::MacOsNetworkInterface*
+class CORDL_TYPE MacOsNetworkInterface : public ::System::Net::NetworkInformation::UnixNetworkInterface {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x38};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x38 - sizeof(::System::Net::NetworkInformation::UnixNetworkInterface)]{};
+
+/// @brief Field _ifa_flags offset 0x34
+ __declspec(property(get=__get__ifa_flags, put=__set__ifa_flags)) uint32_t  _ifa_flags;
+
+ __declspec(property(get=get_OperationalStatus)) ::System::Net::NetworkInformation::OperationalStatus  OperationalStatus;
+
+constexpr void __set__ifa_flags(uint32_t  value) ;
+
+constexpr uint32_t& __get__ifa_flags() ;
+
+constexpr uint32_t const& __get__ifa_flags() const;
+
+static inline ::System::Net::NetworkInformation::MacOsNetworkInterface* New_ctor(::StringW  name, uint32_t  ifa_flags) ;
+
+/// @brief Method .ctor addr 0x29f0198 size 0x24 virtual false final false
+inline void _ctor(::StringW  name, uint32_t  ifa_flags) ;
+
+/// @brief Method GetIPProperties addr 0x29f01bc size 0x74 virtual true final false
+inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties() ;
+
+/// @brief Method get_OperationalStatus addr 0x29f0230 size 0x14 virtual true final false
+inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "MacOsNetworkInterface", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MacOsNetworkInterface(MacOsNetworkInterface && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "MacOsNetworkInterface", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MacOsNetworkInterface(MacOsNetworkInterface const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ MacOsNetworkInterface()  = default;
+public:
+
+
+// Fields
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::MacOsNetworkInterface, 0x38>, "Size mismatch!");
+
+} // namespace end def System::Net::NetworkInformation
+NEED_NO_BOX(::System::Net::NetworkInformation::MacOsNetworkInterface);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::MacOsNetworkInterface*, "System.Net.NetworkInformation", "MacOsNetworkInterface");

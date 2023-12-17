@@ -1,0 +1,67 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+CORDL_MODULE_EXPORT(IAnnotatedBeatmapLevelCollection)
+namespace UnityEngine {
+class Sprite;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelCollection;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+class IAnnotatedBeatmapLevelCollection;
+}
+// Write type traits
+MARK_REF_PTR_T(::GlobalNamespace::IAnnotatedBeatmapLevelCollection);
+// Type: ::IAnnotatedBeatmapLevelCollection
+namespace GlobalNamespace {
+// Is value type: false
+// Dependencies: {}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4419))
+// CS Name: ::IAnnotatedBeatmapLevelCollection*
+class CORDL_TYPE IAnnotatedBeatmapLevelCollection {
+public:
+// Declarations
+ __declspec(property(get=get_collectionName)) ::StringW  collectionName;
+
+ __declspec(property(get=get_coverImage)) ::UnityEngine::Sprite*  coverImage;
+
+ __declspec(property(get=get_smallCoverImage)) ::UnityEngine::Sprite*  smallCoverImage;
+
+ __declspec(property(get=get_beatmapLevelCollection)) ::GlobalNamespace::IBeatmapLevelCollection*  beatmapLevelCollection;
+
+/// @brief Method get_collectionName addr 0x0 size 0xffffffffffffffff virtual true final false
+inline ::StringW get_collectionName() ;
+
+/// @brief Method get_coverImage addr 0x0 size 0xffffffffffffffff virtual true final false
+inline ::UnityEngine::Sprite* get_coverImage() ;
+
+/// @brief Method get_smallCoverImage addr 0x0 size 0xffffffffffffffff virtual true final false
+inline ::UnityEngine::Sprite* get_smallCoverImage() ;
+
+/// @brief Method get_beatmapLevelCollection addr 0x0 size 0xffffffffffffffff virtual true final false
+inline ::GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "IAnnotatedBeatmapLevelCollection", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IAnnotatedBeatmapLevelCollection(IAnnotatedBeatmapLevelCollection && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "IAnnotatedBeatmapLevelCollection", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IAnnotatedBeatmapLevelCollection(IAnnotatedBeatmapLevelCollection const& ) = delete;
+
+
+// Properties
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::IAnnotatedBeatmapLevelCollection);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, "", "IAnnotatedBeatmapLevelCollection");

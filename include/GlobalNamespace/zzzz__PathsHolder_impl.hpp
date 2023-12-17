@@ -1,0 +1,134 @@
+#pragma once
+#include "System/zzzz__Object_impl.hpp"
+#include "GlobalNamespace/zzzz__PathsHolder_def.hpp"
+#include "GlobalNamespace/zzzz__VertexPath_def.hpp"
+#include "GlobalNamespace/zzzz__BezierPath_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::PathsHolder.get_bezierPath
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BezierPath* (::GlobalNamespace::PathsHolder::*)()>(&::GlobalNamespace::PathsHolder::get_bezierPath)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x230be58;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
+                            "get_bezierPath",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PathsHolder.get_vertexPath
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::VertexPath* (::GlobalNamespace::PathsHolder::*)()>(&::GlobalNamespace::PathsHolder::get_vertexPath)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x230be60;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
+                            "get_vertexPath",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PathsHolder._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PathsHolder::*)(int32_t, bool)>(&::GlobalNamespace::PathsHolder::_ctor)> {
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x230be68;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PathsHolder.UpdateVertexPathByBezierPath
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PathsHolder::*)()>(&::GlobalNamespace::PathsHolder::UpdateVertexPathByBezierPath)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x230c4dc;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
+                            "UpdateVertexPathByBezierPath",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+constexpr void GlobalNamespace::PathsHolder::__set__bezierPath(::GlobalNamespace::BezierPath*  value)  {
+::cordl_internals::setInstanceField<::GlobalNamespace::BezierPath*, 0x10>(this, std::forward<::GlobalNamespace::BezierPath*>(value));
+}
+constexpr ::GlobalNamespace::BezierPath* GlobalNamespace::PathsHolder::__get__bezierPath()  {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::BezierPath*, 0x10>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BezierPath*> GlobalNamespace::PathsHolder::__get__bezierPath() const {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::BezierPath*, 0x10>(this);
+}
+constexpr void GlobalNamespace::PathsHolder::__set__vertexPath(::GlobalNamespace::VertexPath*  value)  {
+::cordl_internals::setInstanceField<::GlobalNamespace::VertexPath*, 0x18>(this, std::forward<::GlobalNamespace::VertexPath*>(value));
+}
+constexpr ::GlobalNamespace::VertexPath* GlobalNamespace::PathsHolder::__get__vertexPath()  {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::VertexPath*, 0x18>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VertexPath*> GlobalNamespace::PathsHolder::__get__vertexPath() const {
+return ::cordl_internals::getInstanceField<::GlobalNamespace::VertexPath*, 0x18>(this);
+}
+inline ::GlobalNamespace::BezierPath* GlobalNamespace::PathsHolder::get_bezierPath()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
+                            "get_bezierPath",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BezierPath*, false>(*this, ___internal_method);
+}
+inline ::GlobalNamespace::VertexPath* GlobalNamespace::PathsHolder::get_vertexPath()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
+                            "get_vertexPath",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::VertexPath*, false>(*this, ___internal_method);
+}
+/// @param updateVertexPath: bool (default: true)
+inline ::GlobalNamespace::PathsHolder* GlobalNamespace::PathsHolder::New_ctor(int32_t  numberOfFixedVertexPathSegments, bool  updateVertexPath)  {
+return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::PathsHolder*>(numberOfFixedVertexPathSegments, updateVertexPath));
+}
+/// @param updateVertexPath: bool (default: true)
+inline void GlobalNamespace::PathsHolder::_ctor(int32_t  numberOfFixedVertexPathSegments, bool  updateVertexPath)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, numberOfFixedVertexPathSegments, updateVertexPath);
+}
+inline void GlobalNamespace::PathsHolder::UpdateVertexPathByBezierPath()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
+                            "UpdateVertexPathByBezierPath",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

@@ -1,0 +1,58 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(IServerBeatmapProvider)
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace GlobalNamespace {
+class BeatmapIdentifierNetSerializable;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+class IServerBeatmapProvider;
+}
+// Write type traits
+MARK_REF_PTR_T(::GlobalNamespace::IServerBeatmapProvider);
+// Type: ::IServerBeatmapProvider
+namespace GlobalNamespace {
+// Is value type: false
+// Dependencies: {}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12813))
+// CS Name: ::IServerBeatmapProvider*
+class CORDL_TYPE IServerBeatmapProvider {
+public:
+// Declarations
+/// @brief Method VerifyBeatmapForSelectionMask addr 0x0 size 0xffffffffffffffff virtual true final false
+inline bool VerifyBeatmapForSelectionMask(::GlobalNamespace::BeatmapIdentifierNetSerializable*  beatmapId, ::GlobalNamespace::BeatmapLevelSelectionMask  selectionMask) ;
+
+/// @brief Method SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks addr 0x0 size 0xffffffffffffffff virtual true final false
+inline ::GlobalNamespace::BeatmapIdentifierNetSerializable* SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(int32_t  playerCount, ::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::BeatmapIdentifierNetSerializable*>*  beatmapsSuggestedByPlayers, ::GlobalNamespace::BeatmapLevelSelectionMask  selectionMask, ::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::SongPackMask>*  playerOwnedSongPacks) ;
+
+// Ctor Parameters [CppParam { name: "", ty: "IServerBeatmapProvider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IServerBeatmapProvider(IServerBeatmapProvider && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "IServerBeatmapProvider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IServerBeatmapProvider(IServerBeatmapProvider const& ) = delete;
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::IServerBeatmapProvider);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IServerBeatmapProvider*, "", "IServerBeatmapProvider");

@@ -1,0 +1,129 @@
+#pragma once
+#include "System/zzzz__Object_impl.hpp"
+#include "TMPro/zzzz__TMP_ObjectPool_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr void TMPro::TMP_ObjectPool_1<T>::__set_m_Stack(::System::Collections::Generic::Stack_1<T>*  value)  {
+::cordl_internals::setInstanceField<::System::Collections::Generic::Stack_1<T>*, 0x10>(this, std::forward<::System::Collections::Generic::Stack_1<T>*>(value));
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr ::System::Collections::Generic::Stack_1<T>* TMPro::TMP_ObjectPool_1<T>::__get_m_Stack()  {
+return ::cordl_internals::getInstanceField<::System::Collections::Generic::Stack_1<T>*, 0x10>(this);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<T>*> TMPro::TMP_ObjectPool_1<T>::__get_m_Stack() const {
+return ::cordl_internals::getInstanceField<::System::Collections::Generic::Stack_1<T>*, 0x10>(this);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr void TMPro::TMP_ObjectPool_1<T>::__set_m_ActionOnGet(::UnityEngine::Events::UnityAction_1<T>*  value)  {
+::cordl_internals::setInstanceField<::UnityEngine::Events::UnityAction_1<T>*, 0x18>(this, std::forward<::UnityEngine::Events::UnityAction_1<T>*>(value));
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr ::UnityEngine::Events::UnityAction_1<T>* TMPro::TMP_ObjectPool_1<T>::__get_m_ActionOnGet()  {
+return ::cordl_internals::getInstanceField<::UnityEngine::Events::UnityAction_1<T>*, 0x18>(this);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction_1<T>*> TMPro::TMP_ObjectPool_1<T>::__get_m_ActionOnGet() const {
+return ::cordl_internals::getInstanceField<::UnityEngine::Events::UnityAction_1<T>*, 0x18>(this);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr void TMPro::TMP_ObjectPool_1<T>::__set_m_ActionOnRelease(::UnityEngine::Events::UnityAction_1<T>*  value)  {
+::cordl_internals::setInstanceField<::UnityEngine::Events::UnityAction_1<T>*, 0x20>(this, std::forward<::UnityEngine::Events::UnityAction_1<T>*>(value));
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr ::UnityEngine::Events::UnityAction_1<T>* TMPro::TMP_ObjectPool_1<T>::__get_m_ActionOnRelease()  {
+return ::cordl_internals::getInstanceField<::UnityEngine::Events::UnityAction_1<T>*, 0x20>(this);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction_1<T>*> TMPro::TMP_ObjectPool_1<T>::__get_m_ActionOnRelease() const {
+return ::cordl_internals::getInstanceField<::UnityEngine::Events::UnityAction_1<T>*, 0x20>(this);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr void TMPro::TMP_ObjectPool_1<T>::__set__countAll_k__BackingField(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x28>(this, std::forward<int32_t>(value));
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr int32_t& TMPro::TMP_ObjectPool_1<T>::__get__countAll_k__BackingField()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x28>(this);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr int32_t const& TMPro::TMP_ObjectPool_1<T>::__get__countAll_k__BackingField() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x28>(this);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+inline int32_t TMPro::TMP_ObjectPool_1<T>::get_countAll()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ObjectPool_1<T>*>::get(),
+                            "get_countAll",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(*this, ___internal_method);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+inline void TMPro::TMP_ObjectPool_1<T>::set_countAll(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ObjectPool_1<T>*>::get(),
+                            "set_countAll",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+inline int32_t TMPro::TMP_ObjectPool_1<T>::get_countActive()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ObjectPool_1<T>*>::get(),
+                            "get_countActive",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(*this, ___internal_method);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+inline int32_t TMPro::TMP_ObjectPool_1<T>::get_countInactive()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ObjectPool_1<T>*>::get(),
+                            "get_countInactive",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(*this, ___internal_method);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+inline ::TMPro::TMP_ObjectPool_1<T>* TMPro::TMP_ObjectPool_1<T>::New_ctor(::UnityEngine::Events::UnityAction_1<T>*  actionOnGet, ::UnityEngine::Events::UnityAction_1<T>*  actionOnRelease)  {
+return THROW_UNLESS(::il2cpp_utils::New<::TMPro::TMP_ObjectPool_1<T>*>(actionOnGet, actionOnRelease));
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+inline void TMPro::TMP_ObjectPool_1<T>::_ctor(::UnityEngine::Events::UnityAction_1<T>*  actionOnGet, ::UnityEngine::Events::UnityAction_1<T>*  actionOnRelease)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ObjectPool_1<T>*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<T>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<T>*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, actionOnGet, actionOnRelease);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+inline T TMPro::TMP_ObjectPool_1<T>::Get()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ObjectPool_1<T>*>::get(),
+                            "Get",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<T, false>(*this, ___internal_method);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+inline void TMPro::TMP_ObjectPool_1<T>::Release(T  element)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ObjectPool_1<T>*>::get(),
+                            "Release",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, element);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

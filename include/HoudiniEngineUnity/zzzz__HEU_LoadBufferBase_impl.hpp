@@ -1,0 +1,106 @@
+#pragma once
+#include "System/zzzz__Object_impl.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferBase_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutput_def.hpp"
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_LoadBufferBase.InitializeBuffer
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_LoadBufferBase::*)(int32_t, ::StringW, bool, bool)>(&::HoudiniEngineUnity::HEU_LoadBufferBase::InitializeBuffer)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x21abbe8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_LoadBufferBase*>::get(),
+                            "InitializeBuffer",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_LoadBufferBase._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_LoadBufferBase::*)()>(&::HoudiniEngineUnity::HEU_LoadBufferBase::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x21abc04;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_LoadBufferBase*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+constexpr void HoudiniEngineUnity::HEU_LoadBufferBase::__set__id(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x10>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& HoudiniEngineUnity::HEU_LoadBufferBase::__get__id()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x10>(this);
+}
+constexpr int32_t const& HoudiniEngineUnity::HEU_LoadBufferBase::__get__id() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x10>(this);
+}
+constexpr void HoudiniEngineUnity::HEU_LoadBufferBase::__set__name(::StringW  value)  {
+::cordl_internals::setInstanceField<::StringW, 0x18>(this, std::forward<::StringW>(value));
+}
+constexpr ::StringW& HoudiniEngineUnity::HEU_LoadBufferBase::__get__name()  {
+return ::cordl_internals::getInstanceField<::StringW, 0x18>(this);
+}
+constexpr ::StringW const& HoudiniEngineUnity::HEU_LoadBufferBase::__get__name() const {
+return ::cordl_internals::getInstanceField<::StringW, 0x18>(this);
+}
+constexpr void HoudiniEngineUnity::HEU_LoadBufferBase::__set__bInstanced(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x20>(this, std::forward<bool>(value));
+}
+constexpr bool& HoudiniEngineUnity::HEU_LoadBufferBase::__get__bInstanced()  {
+return ::cordl_internals::getInstanceField<bool, 0x20>(this);
+}
+constexpr bool const& HoudiniEngineUnity::HEU_LoadBufferBase::__get__bInstanced() const {
+return ::cordl_internals::getInstanceField<bool, 0x20>(this);
+}
+constexpr void HoudiniEngineUnity::HEU_LoadBufferBase::__set__bInstancer(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x21>(this, std::forward<bool>(value));
+}
+constexpr bool& HoudiniEngineUnity::HEU_LoadBufferBase::__get__bInstancer()  {
+return ::cordl_internals::getInstanceField<bool, 0x21>(this);
+}
+constexpr bool const& HoudiniEngineUnity::HEU_LoadBufferBase::__get__bInstancer() const {
+return ::cordl_internals::getInstanceField<bool, 0x21>(this);
+}
+constexpr void HoudiniEngineUnity::HEU_LoadBufferBase::__set__generatedOutput(::HoudiniEngineUnity::HEU_GeneratedOutput*  value)  {
+::cordl_internals::setInstanceField<::HoudiniEngineUnity::HEU_GeneratedOutput*, 0x28>(this, std::forward<::HoudiniEngineUnity::HEU_GeneratedOutput*>(value));
+}
+constexpr ::HoudiniEngineUnity::HEU_GeneratedOutput* HoudiniEngineUnity::HEU_LoadBufferBase::__get__generatedOutput()  {
+return ::cordl_internals::getInstanceField<::HoudiniEngineUnity::HEU_GeneratedOutput*, 0x28>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_GeneratedOutput*> HoudiniEngineUnity::HEU_LoadBufferBase::__get__generatedOutput() const {
+return ::cordl_internals::getInstanceField<::HoudiniEngineUnity::HEU_GeneratedOutput*, 0x28>(this);
+}
+inline void HoudiniEngineUnity::HEU_LoadBufferBase::InitializeBuffer(int32_t  id, ::StringW  name, bool  bInstanced, bool  bInstancer)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_LoadBufferBase*>::get(),
+                            "InitializeBuffer",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, id, name, bInstanced, bInstancer);
+}
+inline ::HoudiniEngineUnity::HEU_LoadBufferBase* HoudiniEngineUnity::HEU_LoadBufferBase::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::New<::HoudiniEngineUnity::HEU_LoadBufferBase*>());
+}
+inline void HoudiniEngineUnity::HEU_LoadBufferBase::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_LoadBufferBase*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

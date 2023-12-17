@@ -1,0 +1,78 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__EnumEqualityComparer_1_def.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(SByteEnumEqualityComparer_1)
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+// Forward declare root types
+namespace System::Collections::Generic {
+template<typename T>
+class SByteEnumEqualityComparer_1;
+}
+// Write type traits
+MARK_GEN_REF_PTR_T(::System::Collections::Generic::SByteEnumEqualityComparer_1);
+// Type: System.Collections.Generic::SByteEnumEqualityComparer`1
+namespace System::Collections::Generic {
+// cpp template
+template<typename T>
+// Is value type: false
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3874), inst: 1672 }), TypeDefinitionIndex(TypeDefinitionIndex(3874))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3875))
+// CS Name: ::System.Collections.Generic::SByteEnumEqualityComparer`1<T>*
+class CORDL_TYPE SByteEnumEqualityComparer_1 : public ::System::Collections::Generic::EnumEqualityComparer_1<T> {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __IL2CPP_REFERENCE_TYPE_SIZE{0x10};
+
+/// @brief The size this ref type adds onto its base type, may evaluate to 0
+ uint8_t  __fields[0x10 - sizeof(::System::Collections::Generic::EnumEqualityComparer_1<T>)]{};
+
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr operator  ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+static inline ::System::Collections::Generic::SByteEnumEqualityComparer_1<T>* New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+inline void _ctor() ;
+
+static inline ::System::Collections::Generic::SByteEnumEqualityComparer_1<T>* New_ctor(::System::Runtime::Serialization::SerializationInfo*  information, ::System::Runtime::Serialization::StreamingContext  context) ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  information, ::System::Runtime::Serialization::StreamingContext  context) ;
+
+/// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+inline int32_t GetHashCode(T  obj) ;
+
+// Ctor Parameters [CppParam { name: "", ty: "SByteEnumEqualityComparer_1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SByteEnumEqualityComparer_1(SByteEnumEqualityComparer_1 && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "SByteEnumEqualityComparer_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SByteEnumEqualityComparer_1(SByteEnumEqualityComparer_1 const& ) = delete;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+ SByteEnumEqualityComparer_1()  = default;
+public:
+
+
+// Methods
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def System::Collections::Generic
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::SByteEnumEqualityComparer_1, "System.Collections.Generic", "SByteEnumEqualityComparer`1");

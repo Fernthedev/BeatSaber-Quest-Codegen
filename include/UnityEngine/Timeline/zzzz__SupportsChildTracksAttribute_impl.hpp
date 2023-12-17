@@ -1,0 +1,57 @@
+#pragma once
+#include "System/zzzz__Attribute_impl.hpp"
+#include "UnityEngine/Timeline/zzzz__SupportsChildTracksAttribute_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Timeline::SupportsChildTracksAttribute._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::SupportsChildTracksAttribute::*)(::System::Type*, int32_t)>(&::UnityEngine::Timeline::SupportsChildTracksAttribute::_ctor)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x2c6e728;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::SupportsChildTracksAttribute*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+constexpr void UnityEngine::Timeline::SupportsChildTracksAttribute::__set_childType(::System::Type*  value)  {
+::cordl_internals::setInstanceField<::System::Type*, 0x10>(this, std::forward<::System::Type*>(value));
+}
+constexpr ::System::Type* UnityEngine::Timeline::SupportsChildTracksAttribute::__get_childType()  {
+return ::cordl_internals::getInstanceField<::System::Type*, 0x10>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Type*> UnityEngine::Timeline::SupportsChildTracksAttribute::__get_childType() const {
+return ::cordl_internals::getInstanceField<::System::Type*, 0x10>(this);
+}
+constexpr void UnityEngine::Timeline::SupportsChildTracksAttribute::__set_levels(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x18>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& UnityEngine::Timeline::SupportsChildTracksAttribute::__get_levels()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x18>(this);
+}
+constexpr int32_t const& UnityEngine::Timeline::SupportsChildTracksAttribute::__get_levels() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x18>(this);
+}
+/// @param childType: ::System::Type* (default: csnull)
+/// @param levels: int32_t (default: static_cast<int32_t>(0x7fffffff))
+inline ::UnityEngine::Timeline::SupportsChildTracksAttribute* UnityEngine::Timeline::SupportsChildTracksAttribute::New_ctor(::System::Type*  childType, int32_t  levels)  {
+return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::Timeline::SupportsChildTracksAttribute*>(childType, levels));
+}
+/// @param childType: ::System::Type* (default: csnull)
+/// @param levels: int32_t (default: static_cast<int32_t>(0x7fffffff))
+inline void UnityEngine::Timeline::SupportsChildTracksAttribute::_ctor(::System::Type*  childType, int32_t  levels)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::SupportsChildTracksAttribute*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, childType, levels);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

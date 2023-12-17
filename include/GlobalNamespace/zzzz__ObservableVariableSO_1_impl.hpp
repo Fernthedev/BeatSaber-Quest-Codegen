@@ -1,0 +1,1316 @@
+#pragma once
+#include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
+#include "GlobalNamespace/zzzz__ObservableVariableSO_1_def.hpp"
+#include "UnityEngine/zzzz__Vector2Int_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__IValue_1_def.hpp"
+#include "GlobalNamespace/zzzz__IObservableChange_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>.add_didChangeEvent
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::*)(::System::Action*)>(&::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::add_didChangeEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>*>::get(),
+                            "add_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>.remove_didChangeEvent
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::*)(::System::Action*)>(&::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::remove_didChangeEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>*>::get(),
+                            "remove_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>.set_value
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::*)(::UnityEngine::Vector2Int)>(&::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::set_value)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>*>::get(),
+                            "set_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2Int>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>.get_value
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2Int (::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::*)()>(&::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::get_value)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>*>::get(),
+                            "get_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>.op_Implicit___UnityEngine__Vector2Int
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2Int (*)(::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>*)>(&::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::op_Implicit___UnityEngine__Vector2Int)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>*>::get(),
+                            "op_Implicit",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::*)()>(&::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::_ctor)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to "::GlobalNamespace::IValue_1<::UnityEngine::Vector2Int>"
+constexpr  GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::operator ::GlobalNamespace::IValue_1<::UnityEngine::Vector2Int>*() noexcept {
+return static_cast<::GlobalNamespace::IValue_1<::UnityEngine::Vector2Int>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::GlobalNamespace::IObservableChange"
+constexpr  GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::operator ::GlobalNamespace::IObservableChange*() noexcept {
+return static_cast<::GlobalNamespace::IObservableChange*>(static_cast<void*>(this));
+}
+constexpr void GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::__set_didChangeEvent(::System::Action*  value)  {
+::cordl_internals::setInstanceField<::System::Action*, 0x18>(this, std::forward<::System::Action*>(value));
+}
+constexpr ::System::Action* GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::__get_didChangeEvent()  {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x18>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::__get_didChangeEvent() const {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x18>(this);
+}
+constexpr void GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::__set__value(::UnityEngine::Vector2Int  value)  {
+::cordl_internals::setInstanceField<::UnityEngine::Vector2Int, 0x20>(this, std::forward<::UnityEngine::Vector2Int>(value));
+}
+constexpr ::UnityEngine::Vector2Int& GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::__get__value()  {
+return ::cordl_internals::getInstanceField<::UnityEngine::Vector2Int, 0x20>(this);
+}
+constexpr ::UnityEngine::Vector2Int const& GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::__get__value() const {
+return ::cordl_internals::getInstanceField<::UnityEngine::Vector2Int, 0x20>(this);
+}
+inline void GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::add_didChangeEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>*>::get(),
+                            "add_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline void GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::remove_didChangeEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>*>::get(),
+                            "remove_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline void GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::set_value(::UnityEngine::Vector2Int  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>*>::get(),
+                            "set_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2Int>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline ::UnityEngine::Vector2Int GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::get_value()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>*>::get(),
+                            "get_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2Int, false>(*this, ___internal_method);
+}
+inline ::UnityEngine::Vector2Int GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::op_Implicit___UnityEngine__Vector2Int(::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>*  obj)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>*>::get(),
+                            "op_Implicit",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2Int, false>(nullptr, ___internal_method, obj);
+}
+inline ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>* GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>*>());
+}
+inline void GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int>*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<double_t>.add_didChangeEvent
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<double_t>::*)(::System::Action*)>(&::GlobalNamespace::ObservableVariableSO_1<double_t>::add_didChangeEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<double_t>*>::get(),
+                            "add_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<double_t>.remove_didChangeEvent
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<double_t>::*)(::System::Action*)>(&::GlobalNamespace::ObservableVariableSO_1<double_t>::remove_didChangeEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<double_t>*>::get(),
+                            "remove_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<double_t>.set_value
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<double_t>::*)(double_t)>(&::GlobalNamespace::ObservableVariableSO_1<double_t>::set_value)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<double_t>*>::get(),
+                            "set_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<double_t>.get_value
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::GlobalNamespace::ObservableVariableSO_1<double_t>::*)()>(&::GlobalNamespace::ObservableVariableSO_1<double_t>::get_value)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<double_t>*>::get(),
+                            "get_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<double_t>.op_Implicit_double_t
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::GlobalNamespace::ObservableVariableSO_1<double_t>*)>(&::GlobalNamespace::ObservableVariableSO_1<double_t>::op_Implicit_double_t)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<double_t>*>::get(),
+                            "op_Implicit",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObservableVariableSO_1<double_t>*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<double_t>._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<double_t>::*)()>(&::GlobalNamespace::ObservableVariableSO_1<double_t>::_ctor)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<double_t>*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to "::GlobalNamespace::IValue_1<double_t>"
+constexpr  GlobalNamespace::ObservableVariableSO_1<double_t>::operator ::GlobalNamespace::IValue_1<double_t>*() noexcept {
+return static_cast<::GlobalNamespace::IValue_1<double_t>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::GlobalNamespace::IObservableChange"
+constexpr  GlobalNamespace::ObservableVariableSO_1<double_t>::operator ::GlobalNamespace::IObservableChange*() noexcept {
+return static_cast<::GlobalNamespace::IObservableChange*>(static_cast<void*>(this));
+}
+constexpr void GlobalNamespace::ObservableVariableSO_1<double_t>::__set_didChangeEvent(::System::Action*  value)  {
+::cordl_internals::setInstanceField<::System::Action*, 0x18>(this, std::forward<::System::Action*>(value));
+}
+constexpr ::System::Action* GlobalNamespace::ObservableVariableSO_1<double_t>::__get_didChangeEvent()  {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x18>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> GlobalNamespace::ObservableVariableSO_1<double_t>::__get_didChangeEvent() const {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x18>(this);
+}
+constexpr void GlobalNamespace::ObservableVariableSO_1<double_t>::__set__value(double_t  value)  {
+::cordl_internals::setInstanceField<double_t, 0x20>(this, std::forward<double_t>(value));
+}
+constexpr double_t& GlobalNamespace::ObservableVariableSO_1<double_t>::__get__value()  {
+return ::cordl_internals::getInstanceField<double_t, 0x20>(this);
+}
+constexpr double_t const& GlobalNamespace::ObservableVariableSO_1<double_t>::__get__value() const {
+return ::cordl_internals::getInstanceField<double_t, 0x20>(this);
+}
+inline void GlobalNamespace::ObservableVariableSO_1<double_t>::add_didChangeEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<double_t>*>::get(),
+                            "add_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline void GlobalNamespace::ObservableVariableSO_1<double_t>::remove_didChangeEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<double_t>*>::get(),
+                            "remove_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline void GlobalNamespace::ObservableVariableSO_1<double_t>::set_value(double_t  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<double_t>*>::get(),
+                            "set_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline double_t GlobalNamespace::ObservableVariableSO_1<double_t>::get_value()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<double_t>*>::get(),
+                            "get_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<double_t, false>(*this, ___internal_method);
+}
+inline double_t GlobalNamespace::ObservableVariableSO_1<double_t>::op_Implicit_double_t(::GlobalNamespace::ObservableVariableSO_1<double_t>*  obj)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<double_t>*>::get(),
+                            "op_Implicit",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObservableVariableSO_1<double_t>*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<double_t, false>(nullptr, ___internal_method, obj);
+}
+inline ::GlobalNamespace::ObservableVariableSO_1<double_t>* GlobalNamespace::ObservableVariableSO_1<double_t>::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::ObservableVariableSO_1<double_t>*>());
+}
+inline void GlobalNamespace::ObservableVariableSO_1<double_t>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<double_t>*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+/// @brief Convert operator to "::GlobalNamespace::IValue_1<T>"
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+constexpr  GlobalNamespace::ObservableVariableSO_1<T>::operator ::GlobalNamespace::IValue_1<T>*() noexcept {
+return static_cast<::GlobalNamespace::IValue_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::GlobalNamespace::IObservableChange"
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+constexpr  GlobalNamespace::ObservableVariableSO_1<T>::operator ::GlobalNamespace::IObservableChange*() noexcept {
+return static_cast<::GlobalNamespace::IObservableChange*>(static_cast<void*>(this));
+}
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+constexpr void GlobalNamespace::ObservableVariableSO_1<T>::__set_didChangeEvent(::System::Action*  value)  {
+::cordl_internals::setInstanceField<::System::Action*, 0x18>(this, std::forward<::System::Action*>(value));
+}
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+constexpr ::System::Action* GlobalNamespace::ObservableVariableSO_1<T>::__get_didChangeEvent()  {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x18>(this);
+}
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> GlobalNamespace::ObservableVariableSO_1<T>::__get_didChangeEvent() const {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x18>(this);
+}
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+constexpr void GlobalNamespace::ObservableVariableSO_1<T>::__set__value(T  value)  {
+::cordl_internals::setInstanceField<T, 0x20>(this, std::forward<T>(value));
+}
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+constexpr T& GlobalNamespace::ObservableVariableSO_1<T>::__get__value()  {
+return ::cordl_internals::getInstanceField<T, 0x20>(this);
+}
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+constexpr T const& GlobalNamespace::ObservableVariableSO_1<T>::__get__value() const {
+return ::cordl_internals::getInstanceField<T, 0x20>(this);
+}
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+inline void GlobalNamespace::ObservableVariableSO_1<T>::add_didChangeEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<T>*>::get(),
+                            "add_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+inline void GlobalNamespace::ObservableVariableSO_1<T>::remove_didChangeEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<T>*>::get(),
+                            "remove_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+inline void GlobalNamespace::ObservableVariableSO_1<T>::set_value(T  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<T>*>::get(),
+                            "set_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+inline T GlobalNamespace::ObservableVariableSO_1<T>::get_value()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<T>*>::get(),
+                            "get_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<T, false>(*this, ___internal_method);
+}
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+inline T GlobalNamespace::ObservableVariableSO_1<T>::op_Implicit_T(::GlobalNamespace::ObservableVariableSO_1<T>*  obj)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<T>*>::get(),
+                            "op_Implicit",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObservableVariableSO_1<T>*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, obj);
+}
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+inline ::GlobalNamespace::ObservableVariableSO_1<T>* GlobalNamespace::ObservableVariableSO_1<T>::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::ObservableVariableSO_1<T>*>());
+}
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+inline void GlobalNamespace::ObservableVariableSO_1<T>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<T>*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>.add_didChangeEvent
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::*)(::System::Action*)>(&::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::add_didChangeEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>*>::get(),
+                            "add_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>.remove_didChangeEvent
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::*)(::System::Action*)>(&::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::remove_didChangeEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>*>::get(),
+                            "remove_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>.set_value
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::*)(::UnityEngine::Vector3)>(&::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::set_value)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>*>::get(),
+                            "set_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>.get_value
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::*)()>(&::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::get_value)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>*>::get(),
+                            "get_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>.op_Implicit___UnityEngine__Vector3
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>*)>(&::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::op_Implicit___UnityEngine__Vector3)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>*>::get(),
+                            "op_Implicit",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::*)()>(&::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::_ctor)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to "::GlobalNamespace::IValue_1<::UnityEngine::Vector3>"
+constexpr  GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::operator ::GlobalNamespace::IValue_1<::UnityEngine::Vector3>*() noexcept {
+return static_cast<::GlobalNamespace::IValue_1<::UnityEngine::Vector3>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::GlobalNamespace::IObservableChange"
+constexpr  GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::operator ::GlobalNamespace::IObservableChange*() noexcept {
+return static_cast<::GlobalNamespace::IObservableChange*>(static_cast<void*>(this));
+}
+constexpr void GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::__set_didChangeEvent(::System::Action*  value)  {
+::cordl_internals::setInstanceField<::System::Action*, 0x18>(this, std::forward<::System::Action*>(value));
+}
+constexpr ::System::Action* GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::__get_didChangeEvent()  {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x18>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::__get_didChangeEvent() const {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x18>(this);
+}
+constexpr void GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::__set__value(::UnityEngine::Vector3  value)  {
+::cordl_internals::setInstanceField<::UnityEngine::Vector3, 0x20>(this, std::forward<::UnityEngine::Vector3>(value));
+}
+constexpr ::UnityEngine::Vector3& GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::__get__value()  {
+return ::cordl_internals::getInstanceField<::UnityEngine::Vector3, 0x20>(this);
+}
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::__get__value() const {
+return ::cordl_internals::getInstanceField<::UnityEngine::Vector3, 0x20>(this);
+}
+inline void GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::add_didChangeEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>*>::get(),
+                            "add_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline void GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::remove_didChangeEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>*>::get(),
+                            "remove_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline void GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::set_value(::UnityEngine::Vector3  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>*>::get(),
+                            "set_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline ::UnityEngine::Vector3 GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::get_value()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>*>::get(),
+                            "get_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(*this, ___internal_method);
+}
+inline ::UnityEngine::Vector3 GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::op_Implicit___UnityEngine__Vector3(::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>*  obj)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>*>::get(),
+                            "op_Implicit",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(nullptr, ___internal_method, obj);
+}
+inline ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>* GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>*>());
+}
+inline void GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector3>*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<float_t>.add_didChangeEvent
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<float_t>::*)(::System::Action*)>(&::GlobalNamespace::ObservableVariableSO_1<float_t>::add_didChangeEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<float_t>*>::get(),
+                            "add_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<float_t>.remove_didChangeEvent
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<float_t>::*)(::System::Action*)>(&::GlobalNamespace::ObservableVariableSO_1<float_t>::remove_didChangeEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<float_t>*>::get(),
+                            "remove_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<float_t>.set_value
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<float_t>::*)(float_t)>(&::GlobalNamespace::ObservableVariableSO_1<float_t>::set_value)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<float_t>*>::get(),
+                            "set_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<float_t>.get_value
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::ObservableVariableSO_1<float_t>::*)()>(&::GlobalNamespace::ObservableVariableSO_1<float_t>::get_value)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<float_t>*>::get(),
+                            "get_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<float_t>.op_Implicit_float_t
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::GlobalNamespace::ObservableVariableSO_1<float_t>*)>(&::GlobalNamespace::ObservableVariableSO_1<float_t>::op_Implicit_float_t)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<float_t>*>::get(),
+                            "op_Implicit",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObservableVariableSO_1<float_t>*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<float_t>._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<float_t>::*)()>(&::GlobalNamespace::ObservableVariableSO_1<float_t>::_ctor)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<float_t>*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to "::GlobalNamespace::IValue_1<float_t>"
+constexpr  GlobalNamespace::ObservableVariableSO_1<float_t>::operator ::GlobalNamespace::IValue_1<float_t>*() noexcept {
+return static_cast<::GlobalNamespace::IValue_1<float_t>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::GlobalNamespace::IObservableChange"
+constexpr  GlobalNamespace::ObservableVariableSO_1<float_t>::operator ::GlobalNamespace::IObservableChange*() noexcept {
+return static_cast<::GlobalNamespace::IObservableChange*>(static_cast<void*>(this));
+}
+constexpr void GlobalNamespace::ObservableVariableSO_1<float_t>::__set_didChangeEvent(::System::Action*  value)  {
+::cordl_internals::setInstanceField<::System::Action*, 0x18>(this, std::forward<::System::Action*>(value));
+}
+constexpr ::System::Action* GlobalNamespace::ObservableVariableSO_1<float_t>::__get_didChangeEvent()  {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x18>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> GlobalNamespace::ObservableVariableSO_1<float_t>::__get_didChangeEvent() const {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x18>(this);
+}
+constexpr void GlobalNamespace::ObservableVariableSO_1<float_t>::__set__value(float_t  value)  {
+::cordl_internals::setInstanceField<float_t, 0x20>(this, std::forward<float_t>(value));
+}
+constexpr float_t& GlobalNamespace::ObservableVariableSO_1<float_t>::__get__value()  {
+return ::cordl_internals::getInstanceField<float_t, 0x20>(this);
+}
+constexpr float_t const& GlobalNamespace::ObservableVariableSO_1<float_t>::__get__value() const {
+return ::cordl_internals::getInstanceField<float_t, 0x20>(this);
+}
+inline void GlobalNamespace::ObservableVariableSO_1<float_t>::add_didChangeEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<float_t>*>::get(),
+                            "add_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline void GlobalNamespace::ObservableVariableSO_1<float_t>::remove_didChangeEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<float_t>*>::get(),
+                            "remove_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline void GlobalNamespace::ObservableVariableSO_1<float_t>::set_value(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<float_t>*>::get(),
+                            "set_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline float_t GlobalNamespace::ObservableVariableSO_1<float_t>::get_value()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<float_t>*>::get(),
+                            "get_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<float_t, false>(*this, ___internal_method);
+}
+inline float_t GlobalNamespace::ObservableVariableSO_1<float_t>::op_Implicit_float_t(::GlobalNamespace::ObservableVariableSO_1<float_t>*  obj)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<float_t>*>::get(),
+                            "op_Implicit",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObservableVariableSO_1<float_t>*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, obj);
+}
+inline ::GlobalNamespace::ObservableVariableSO_1<float_t>* GlobalNamespace::ObservableVariableSO_1<float_t>::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::ObservableVariableSO_1<float_t>*>());
+}
+inline void GlobalNamespace::ObservableVariableSO_1<float_t>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<float_t>*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<bool>.add_didChangeEvent
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<bool>::*)(::System::Action*)>(&::GlobalNamespace::ObservableVariableSO_1<bool>::add_didChangeEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<bool>*>::get(),
+                            "add_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<bool>.remove_didChangeEvent
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<bool>::*)(::System::Action*)>(&::GlobalNamespace::ObservableVariableSO_1<bool>::remove_didChangeEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<bool>*>::get(),
+                            "remove_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<bool>.set_value
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<bool>::*)(bool)>(&::GlobalNamespace::ObservableVariableSO_1<bool>::set_value)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<bool>*>::get(),
+                            "set_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<bool>.get_value
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ObservableVariableSO_1<bool>::*)()>(&::GlobalNamespace::ObservableVariableSO_1<bool>::get_value)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<bool>*>::get(),
+                            "get_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<bool>.op_Implicit_bool
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::ObservableVariableSO_1<bool>*)>(&::GlobalNamespace::ObservableVariableSO_1<bool>::op_Implicit_bool)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<bool>*>::get(),
+                            "op_Implicit",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObservableVariableSO_1<bool>*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<bool>._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<bool>::*)()>(&::GlobalNamespace::ObservableVariableSO_1<bool>::_ctor)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<bool>*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to "::GlobalNamespace::IValue_1<bool>"
+constexpr  GlobalNamespace::ObservableVariableSO_1<bool>::operator ::GlobalNamespace::IValue_1<bool>*() noexcept {
+return static_cast<::GlobalNamespace::IValue_1<bool>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::GlobalNamespace::IObservableChange"
+constexpr  GlobalNamespace::ObservableVariableSO_1<bool>::operator ::GlobalNamespace::IObservableChange*() noexcept {
+return static_cast<::GlobalNamespace::IObservableChange*>(static_cast<void*>(this));
+}
+constexpr void GlobalNamespace::ObservableVariableSO_1<bool>::__set_didChangeEvent(::System::Action*  value)  {
+::cordl_internals::setInstanceField<::System::Action*, 0x18>(this, std::forward<::System::Action*>(value));
+}
+constexpr ::System::Action* GlobalNamespace::ObservableVariableSO_1<bool>::__get_didChangeEvent()  {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x18>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> GlobalNamespace::ObservableVariableSO_1<bool>::__get_didChangeEvent() const {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x18>(this);
+}
+constexpr void GlobalNamespace::ObservableVariableSO_1<bool>::__set__value(bool  value)  {
+::cordl_internals::setInstanceField<bool, 0x20>(this, std::forward<bool>(value));
+}
+constexpr bool& GlobalNamespace::ObservableVariableSO_1<bool>::__get__value()  {
+return ::cordl_internals::getInstanceField<bool, 0x20>(this);
+}
+constexpr bool const& GlobalNamespace::ObservableVariableSO_1<bool>::__get__value() const {
+return ::cordl_internals::getInstanceField<bool, 0x20>(this);
+}
+inline void GlobalNamespace::ObservableVariableSO_1<bool>::add_didChangeEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<bool>*>::get(),
+                            "add_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline void GlobalNamespace::ObservableVariableSO_1<bool>::remove_didChangeEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<bool>*>::get(),
+                            "remove_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline void GlobalNamespace::ObservableVariableSO_1<bool>::set_value(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<bool>*>::get(),
+                            "set_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline bool GlobalNamespace::ObservableVariableSO_1<bool>::get_value()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<bool>*>::get(),
+                            "get_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(*this, ___internal_method);
+}
+inline bool GlobalNamespace::ObservableVariableSO_1<bool>::op_Implicit_bool(::GlobalNamespace::ObservableVariableSO_1<bool>*  obj)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<bool>*>::get(),
+                            "op_Implicit",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObservableVariableSO_1<bool>*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, obj);
+}
+inline ::GlobalNamespace::ObservableVariableSO_1<bool>* GlobalNamespace::ObservableVariableSO_1<bool>::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::ObservableVariableSO_1<bool>*>());
+}
+inline void GlobalNamespace::ObservableVariableSO_1<bool>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<bool>*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<int32_t>.add_didChangeEvent
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<int32_t>::*)(::System::Action*)>(&::GlobalNamespace::ObservableVariableSO_1<int32_t>::add_didChangeEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<int32_t>*>::get(),
+                            "add_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<int32_t>.remove_didChangeEvent
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<int32_t>::*)(::System::Action*)>(&::GlobalNamespace::ObservableVariableSO_1<int32_t>::remove_didChangeEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<int32_t>*>::get(),
+                            "remove_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<int32_t>.set_value
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<int32_t>::*)(int32_t)>(&::GlobalNamespace::ObservableVariableSO_1<int32_t>::set_value)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<int32_t>*>::get(),
+                            "set_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<int32_t>.get_value
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ObservableVariableSO_1<int32_t>::*)()>(&::GlobalNamespace::ObservableVariableSO_1<int32_t>::get_value)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<int32_t>*>::get(),
+                            "get_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<int32_t>.op_Implicit_int32_t
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::GlobalNamespace::ObservableVariableSO_1<int32_t>*)>(&::GlobalNamespace::ObservableVariableSO_1<int32_t>::op_Implicit_int32_t)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<int32_t>*>::get(),
+                            "op_Implicit",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObservableVariableSO_1<int32_t>*>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ObservableVariableSO_1<int32_t>._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObservableVariableSO_1<int32_t>::*)()>(&::GlobalNamespace::ObservableVariableSO_1<int32_t>::_ctor)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<int32_t>*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to "::GlobalNamespace::IValue_1<int32_t>"
+constexpr  GlobalNamespace::ObservableVariableSO_1<int32_t>::operator ::GlobalNamespace::IValue_1<int32_t>*() noexcept {
+return static_cast<::GlobalNamespace::IValue_1<int32_t>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::GlobalNamespace::IObservableChange"
+constexpr  GlobalNamespace::ObservableVariableSO_1<int32_t>::operator ::GlobalNamespace::IObservableChange*() noexcept {
+return static_cast<::GlobalNamespace::IObservableChange*>(static_cast<void*>(this));
+}
+constexpr void GlobalNamespace::ObservableVariableSO_1<int32_t>::__set_didChangeEvent(::System::Action*  value)  {
+::cordl_internals::setInstanceField<::System::Action*, 0x18>(this, std::forward<::System::Action*>(value));
+}
+constexpr ::System::Action* GlobalNamespace::ObservableVariableSO_1<int32_t>::__get_didChangeEvent()  {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x18>(this);
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> GlobalNamespace::ObservableVariableSO_1<int32_t>::__get_didChangeEvent() const {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x18>(this);
+}
+constexpr void GlobalNamespace::ObservableVariableSO_1<int32_t>::__set__value(int32_t  value)  {
+::cordl_internals::setInstanceField<int32_t, 0x20>(this, std::forward<int32_t>(value));
+}
+constexpr int32_t& GlobalNamespace::ObservableVariableSO_1<int32_t>::__get__value()  {
+return ::cordl_internals::getInstanceField<int32_t, 0x20>(this);
+}
+constexpr int32_t const& GlobalNamespace::ObservableVariableSO_1<int32_t>::__get__value() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x20>(this);
+}
+inline void GlobalNamespace::ObservableVariableSO_1<int32_t>::add_didChangeEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<int32_t>*>::get(),
+                            "add_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline void GlobalNamespace::ObservableVariableSO_1<int32_t>::remove_didChangeEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<int32_t>*>::get(),
+                            "remove_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline void GlobalNamespace::ObservableVariableSO_1<int32_t>::set_value(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<int32_t>*>::get(),
+                            "set_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+inline int32_t GlobalNamespace::ObservableVariableSO_1<int32_t>::get_value()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<int32_t>*>::get(),
+                            "get_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(*this, ___internal_method);
+}
+inline int32_t GlobalNamespace::ObservableVariableSO_1<int32_t>::op_Implicit_int32_t(::GlobalNamespace::ObservableVariableSO_1<int32_t>*  obj)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<int32_t>*>::get(),
+                            "op_Implicit",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObservableVariableSO_1<int32_t>*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, obj);
+}
+inline ::GlobalNamespace::ObservableVariableSO_1<int32_t>* GlobalNamespace::ObservableVariableSO_1<int32_t>::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::ObservableVariableSO_1<int32_t>*>());
+}
+inline void GlobalNamespace::ObservableVariableSO_1<int32_t>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<int32_t>*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+/// @brief Convert operator to "::GlobalNamespace::IValue_1<T>"
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr  GlobalNamespace::ObservableVariableSO_1<T>::operator ::GlobalNamespace::IValue_1<T>*() noexcept {
+return static_cast<::GlobalNamespace::IValue_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::GlobalNamespace::IObservableChange"
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr  GlobalNamespace::ObservableVariableSO_1<T>::operator ::GlobalNamespace::IObservableChange*() noexcept {
+return static_cast<::GlobalNamespace::IObservableChange*>(static_cast<void*>(this));
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr void GlobalNamespace::ObservableVariableSO_1<T>::__set_didChangeEvent(::System::Action*  value)  {
+::cordl_internals::setInstanceField<::System::Action*, 0x18>(this, std::forward<::System::Action*>(value));
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr ::System::Action* GlobalNamespace::ObservableVariableSO_1<T>::__get_didChangeEvent()  {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x18>(this);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> GlobalNamespace::ObservableVariableSO_1<T>::__get_didChangeEvent() const {
+return ::cordl_internals::getInstanceField<::System::Action*, 0x18>(this);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr void GlobalNamespace::ObservableVariableSO_1<T>::__set__value(T  value)  {
+::cordl_internals::setInstanceField<T, 0x20>(this, std::forward<T>(value));
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr T& GlobalNamespace::ObservableVariableSO_1<T>::__get__value()  {
+return ::cordl_internals::getInstanceField<T, 0x20>(this);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+constexpr T const& GlobalNamespace::ObservableVariableSO_1<T>::__get__value() const {
+return ::cordl_internals::getInstanceField<T, 0x20>(this);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+inline void GlobalNamespace::ObservableVariableSO_1<T>::add_didChangeEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<T>*>::get(),
+                            "add_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+inline void GlobalNamespace::ObservableVariableSO_1<T>::remove_didChangeEvent(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<T>*>::get(),
+                            "remove_didChangeEvent",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+inline void GlobalNamespace::ObservableVariableSO_1<T>::set_value(T  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<T>*>::get(),
+                            "set_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method, value);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+inline T GlobalNamespace::ObservableVariableSO_1<T>::get_value()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<T>*>::get(),
+                            "get_value",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<T, false>(*this, ___internal_method);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+inline T GlobalNamespace::ObservableVariableSO_1<T>::op_Implicit_T(::GlobalNamespace::ObservableVariableSO_1<T>*  obj)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<T>*>::get(),
+                            "op_Implicit",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObservableVariableSO_1<T>*>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, obj);
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+inline ::GlobalNamespace::ObservableVariableSO_1<T>* GlobalNamespace::ObservableVariableSO_1<T>::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::ObservableVariableSO_1<T>*>());
+}
+template<::il2cpp_utils::il2cpp_reference_type T>
+inline void GlobalNamespace::ObservableVariableSO_1<T>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObservableVariableSO_1<T>*>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(*this, ___internal_method);
+}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif
