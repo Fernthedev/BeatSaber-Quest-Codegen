@@ -9,9 +9,9 @@
     "additionalData": {
       "headersOnly": true,
       "compileOptions": {
-        "cppFeatures": [
-          "-fdeclspec"
-        ]
+        "includePaths": ["include"],
+        "cppFeatures": ["-fdeclspec"],
+        "cppFlags": ["-DNEED_UNSAFE_CSHARP", "-DUNITY_2021"]
       }
     }
   },
@@ -31,7 +31,9 @@
   ],
   "workspace": {
     "scripts": {
-      "build": ["deno run --allow-read --allow-write --allow-run ./scripts/deno/compile_pch.ts"]
+      "build": [
+        "deno run --allow-read --allow-write --allow-run ./scripts/deno/compile_pch.ts"
+      ]
     }
   }
 }

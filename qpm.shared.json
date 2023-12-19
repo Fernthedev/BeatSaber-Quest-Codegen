@@ -11,8 +11,15 @@
       "additionalData": {
         "headersOnly": true,
         "compileOptions": {
+          "includePaths": [
+            "include"
+          ],
           "cppFeatures": [
             "-fdeclspec"
+          ],
+          "cppFlags": [
+            "-DNEED_UNSAFE_CSHARP",
+            "-DUNITY_2021"
           ]
         }
       }
