@@ -10,8 +10,8 @@
       "headersOnly": true,
       "compileOptions": {
         "includePaths": ["include"],
-        "cppFeatures": ["-fdeclspec"],
-        "cppFlags": ["-DNEED_UNSAFE_CSHARP", "-DUNITY_2021"]
+        "cppFeatures": [],
+        "cppFlags": ["-DNEED_UNSAFE_CSHARP", "-fdeclspec", "-DUNITY_2021"]
       }
     }
   },
